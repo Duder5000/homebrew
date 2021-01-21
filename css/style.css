@@ -46,6 +46,24 @@ li{
 	border: 0;
 }
 
+p.book{
+	display: inline;
+	font-style: italic;
+	font-size: 0.9em;
+}
+
+.sofw{
+	color: #ec2127;
+}
+
+.eots{
+	color: #3d91e9;
+}
+
+.odvaskar{
+	color: #248e77;
+}
+
 footer{
 	margin-top: 1em;
 	font-family: sans-serif;
