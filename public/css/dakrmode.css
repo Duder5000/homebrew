@@ -2,11 +2,15 @@ body{
 	font-family: sans-serif;
 	font-size: 1em;
 	margin-left: 0.5em;
+
+	background-color: #111111;
+    color: #eeeeee;
 }
 
 a{
-	text-decoration: none;
+	text-decoration-style: dotted;
 	font-style: italic;
+	color: grey;
 }
 
 a:hover{
@@ -48,7 +52,7 @@ li{
 
 p.book{
 	display: inline;
-	font-style: italic;
+	/*font-style: italic;*/
 	font-size: 0.9em;
 }
 
