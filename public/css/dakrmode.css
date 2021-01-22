@@ -82,4 +82,12 @@ footer{
 	padding: 0;
 	margin: 0;
 	border: 0;
+	display: inline;
+}
+
+li.footer-list{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	border: 0;
 }
