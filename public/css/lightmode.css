@@ -60,6 +60,10 @@ p.book{
 	color: #3d91e9;
 }
 
+.dot{
+	color: #FF8C00;
+}
+
 .odvaskar{
 	color: #248e77;
 }
@@ -71,6 +75,20 @@ footer{
 }
 
 .footer-text{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+.footer-text{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	display: inline;
+}
+
+li.footer-list{
+	list-style-type: none;
 	padding: 0;
 	margin: 0;
 	border: 0;
