@@ -99,6 +99,10 @@ p.sidebar{
 	border: 0;
 }
 
+.img-card{
+	padding: 1em;
+}
+
 /*To Delete*/
 li.spell{
 	color: #99AAB5;
