@@ -93,6 +93,12 @@ p.sidebar{
 	border: 0;
 }
 
+.short-desc{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
 /*To Delete*/
 li.spell{
 	color: #99AAB5;
