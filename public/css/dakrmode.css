@@ -171,8 +171,8 @@ h3.monster-actions{
 	/*font-weight: bold;*/
 }
 
-b.dnd-book{
-	font-style: italic;
+a.dnd-book{
 	font-size: 0.75em;
-	color: red;
+	text-decoration: none;
+	/*color: red;*/
 }
