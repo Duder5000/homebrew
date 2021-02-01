@@ -103,31 +103,35 @@ p.sidebar{
 	padding: 1em;
 }
 
-/*To Delete*/
-li.spell{
-	color: #99AAB5;
-	font-size: 0.75em;
-	padding-left: 1.5em;
-	padding-top: 0;
-	margin-top: 0;
-	border-top: 0;
+.spell-cat{
+	display: inline;
+	font-weight: bold;
 }
 
-footer{
-	margin-top: 1em;
-	font-family: sans-serif;
-	font-size: 0.9em;
-}
-
-.footer-text{
-	padding: 0;
-	margin: 0;
-	border: 0;
+.spell-ans{
 	display: inline;
 }
 
-li.footer-list{
-	list-style-type: none;
+.spell-icon{
+	height: 0.9em;
+}
+
+.spell-desc{
+	margin-top: 0.5em;
+  	margin-left: 0.5em;
+}
+
+table.spell-desc{
+  	border-collapse: collapse;
+  	width: 100%;
+}
+
+td{
+  	text-align: left;
+}
+
+p.dndb{
+	float: right;
 	padding: 0;
 	margin: 0;
 	border: 0;
