@@ -126,19 +126,53 @@ table.spell-desc{
   	width: 100%;
 }
 
-td{
-  	text-align: left;
+.td-center{
+  	text-align: center;
 }
 
-p.dndb{
-	float: right;
-	padding: 0;
-	margin: 0;
-	border: 0;
+h3.class-spells{
+	font-size: 1.15em;
+	font-weight: bold;
 }
 
-#spells{
-	padding: 0;
-	margin: 0;
-	border: 0;
+td.class-spells{
+	font-style: italic;
+}
+
+.h-inline{
+	display: inline;
+}
+
+.download{
+	display: inline;
+	font-size: 1.25em;
+}
+
+.monster-p1{
+	padding-bottom: 0;
+	margin-bottom: 0;
+	border-bottom: 0;
+	padding-top: 0;
+	margin-top: 0;
+	border-top: 0;
+}
+
+.monster-p2{
+	padding-bottom: 0.15em;
+	margin-bottom: 0.15em;
+	border-bottom: 0.15em;
+	padding-top: 0.15em;
+	margin-top: 0.15em;
+	border-top: 0.15em;
+}
+
+h3.monster-actions{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+b.dnd-book{
+	font-style: italic;
+	font-size: 0.75em;
+	color: red;
 }
