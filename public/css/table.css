@@ -1,0 +1,21 @@
+table{
+	font-family: sans-serif;
+	border-collapse: collapse;
+	width: 90%;
+}
+
+p.top, p.info{
+	display: inline;
+}
+
+p.top{
+	font-weight: bold;
+}
+
+.text-img{
+	height: 0.9em;
+}
+
+#spell-body{
+	width: 90%;
+}
