@@ -1,0 +1,3 @@
+https://www.dndbeyond.com/content/1-0-1405-0/skins/waterdeep
+
+/images/icons/damage_types/cold.svg
