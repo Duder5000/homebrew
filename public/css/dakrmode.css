@@ -26,6 +26,13 @@ h1{
 	margin-bottom: 0.5em;
 }
 
+a.home-link{
+	color: #FFF;
+	font-style: normal;;
+	text-decoration: none;
+	font-weight: bold;
+}
+
 h2{
 	padding: 0;
 	margin-top: 0.5em;
