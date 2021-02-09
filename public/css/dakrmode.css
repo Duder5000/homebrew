@@ -189,7 +189,7 @@ em.m{
 }
 
 .strike-through{
-	text-decoration: line-through;
+	/*text-decoration: line-through;*/
 	font-weight: normal;
 	font-style: normal;
 }
