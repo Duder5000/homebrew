@@ -33,6 +33,13 @@ a.home-link{
 	font-weight: bold;
 }
 
+a.side-link{
+	color: #FFFFFF;
+	font-style: normal;;
+	text-decoration: none;
+	text-align: center;
+}
+
 h2{
 	padding: 0;
 	margin-top: 0.5em;
