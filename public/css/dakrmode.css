@@ -206,3 +206,12 @@ p.prereq{
 	margin-top: 0;
 	border-top: 0;
 }
+
+
+ul.sublist{
+	list-style: none;
+	padding: 0;
+	padding-left: 0.5em;
+	margin: 0;
+	border: 0;
+}
