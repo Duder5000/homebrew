@@ -219,3 +219,19 @@ ul.sublist{
 	margin: 0;
 	border: 0;
 }
+
+ul.list-opts{
+	list-style: none;
+	padding: 0;
+	padding-left: 0.5em;
+	margin: 0;
+	margin-top: -0.75em;
+	margin-bottom: 0.25em;
+	border: 0;
+}
+
+li.list-opts{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
