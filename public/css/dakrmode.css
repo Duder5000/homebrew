@@ -63,7 +63,13 @@ li{
 
 p.book{
 	display: inline;
-	font-size: 0.9em;
+	font-size: 0.85em;
+}
+
+p.spell-level{
+	display: inline;
+	font-size: 0.85em;
+	color: #99AAB5;
 }
 
 .sofw{
@@ -82,12 +88,12 @@ p.book{
 	color: #BF5FFF;
 }
 
-.draft{
-	color: #00D100;
-}
-
 .odvaskar{
 	color: #248E77;
+}
+
+.draft-color{
+	color: #00D100;
 }
 
 li.sidebar{
@@ -129,6 +135,13 @@ p.sidebar{
 
 .spell-icon{
 	height: 0.9em;
+}
+
+.link-icon{
+	height: 1em;
+}
+.link-icon:hover{
+	height: 1.5em;
 }
 
 .spell-desc{
@@ -197,7 +210,7 @@ em.m{
 }
 
 .strike-through{
-	/*text-decoration: line-through;*/
+	text-decoration: line-through;
 	font-weight: normal;
 	font-style: normal;
 }
