@@ -7,6 +7,6 @@ Hunter
 Beast Master
 	Speak with Animals
 	Find Steed 
-	Slow
+	Slow / Conjure Aniamls
 	Polymorph
 	Awaken	
