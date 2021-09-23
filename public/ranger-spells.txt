@@ -1,0 +1,12 @@
+Hunter
+	Hunter's Mark
+	Pass without Trace
+	Haste
+	Death Ward
+	Steel Wind Strike
+Beast Master
+	Speak with Animals
+	Find Steed 
+	Slow
+	Polymorph
+	Awaken	
