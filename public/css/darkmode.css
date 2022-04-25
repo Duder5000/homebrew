@@ -93,6 +93,12 @@ p.spell-level{
 }
 
 .sofw{
+	/*To Delete!*/
+	color: #FFFFFF;
+	font-weight: bolder;
+}
+
+.solk{
 	color: #EC2127;
 }
 
