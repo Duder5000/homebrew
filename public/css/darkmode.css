@@ -305,3 +305,9 @@ li.list-opts2{
 .inline-h{
 	display: inline;
 }
+
+.footer-link{
+	font-size: 0.75em;
+	text-decoration: none;
+	color: #2C2F33;
+}
