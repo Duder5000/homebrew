@@ -1,0 +1,24 @@
+Daggerspell Shaper
+https://dndtools.net/classes/daggerspell-shaper/
+
+2nd Level - Daggercast: 
+	Daggerspell Shapers seamlessly blend the use of their twin daggers with powerful spellcasting abilities. 
+	Any dagger counts as a Druidic Focus for you and you can prefrom somatic even when holding a dagger in each hand. 
+	<?>Additionally, a Daggerspell Shaper can deliver a touch spell as part of a melee dagger attack (not with a thrown dagger).
+
+2nd Level - Dagger Expert: 
+	You gain the either the Dueling or Two-Weapon Fighting Style
+
+
+6th Level - Dagger Claws: 
+	Starting at 6th level when you Wild Shape, you can adds any magical properties of daggers that you are holding in each hand into the natural attacks of your new form. The magic of a single dagger affects only the natural attacks made with the corresponding limb in the shaper's animal form, not all her attacks. 	
+
+6th Level - Fast Wild Shape:
+	You gain the ability to use Wild Shape on your turn as a bonus action, rather than as an action.
+
+10th Level - Enhanced Wild Shape: 
+	You can preserve the physical enhancements granted by your equipment even when in wild shape. 
+	Whenever you uses wild shape, you retains the ability to use the features of any magic item.	
+
+14th Level - Daggerspell Flurry: 
+	
