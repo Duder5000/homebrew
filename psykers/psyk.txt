@@ -1,0 +1,20 @@
+**Psychic Abilities (Page 18)**
+
+https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#VariantSpellPoints
+
+*Focus <Concentration>*
+	As a bonus action, you give yourself advantage on your next Psychic Manifestation roll on the current turn. ou can use this bonus action only if you haven’t moved during this turn, and after you use the bonus action, your speed is 0 until the end of the current turn.
+
+*Psychic Bolts*
+
+*Nullification*
+	Psychic abilities can be nullified - thwarted by the mental energies of another.  An enemy psyker may attempt to nullify the power if they are directly affected by that psyonic ability. This is a Reaction (basicly psyonic counterspell).
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1) Choose a psyk ability to manifestation
+2a) Con roll to see if you can focus enough to manifestation the ability
+	b) DC based on psyk manifestation level <spell level>
+3) Attack roll or target saving thrown based on Int
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
