@@ -2,14 +2,6 @@
 
 https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#VariantSpellPoints
 
-*Focus <Concentration>*
-	As a bonus action, you give yourself advantage on your next Psychic Manifestation roll on the current turn. ou can use this bonus action only if you haven’t moved during this turn, and after you use the bonus action, your speed is 0 until the end of the current turn.
-
-*Psychic Bolts*
-
-*Nullification*
-	Psychic abilities can be nullified - thwarted by the mental energies of another.  An enemy psyker may attempt to nullify the power if they are directly affected by that psyonic ability. This is a Reaction (basicly psyonic counterspell).
-
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1) Choose a psyk ability to manifestation
@@ -19,27 +11,44 @@ https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#VariantSpellPoint
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-*Spellcasting*
-	An event in your past, or in the life of a parent or ancestor, left an indelible mark on you, infusing you with arcane magic. This font of magic, whatever its origin, fuels your spells. See Spells Rules for the general rules of spellcasting and the Spells Listing for the sorcerer spell list.
+*Psy-Points*
+	The Psyker table shows how many Psy-Points you have to manifests your psyonic abilities. 
+	To manifests one of these psyonic abilities, you must expend an amount of Psy-Points stated in the manifestation's description or higher. 
+	You regain all expended Psy-Points when you finish a long rest.
 
-*Cantrips*
-	At 1st level, you know four cantrips of your choice from the sorcerer spell list. You learn additional sorcerer cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Sorcerer table.
+*Manifestations Known of 1st Level and Higher*
+	You know two 1st-level Manifestation of your choice from the Manifestations list.
+	The Manifestations Known column of the Psyker table shows when you learn more Manifestations of your choice. 
+	Additionally, when you gain a level in this class, you can choose one of the Manifestations you know and replace it with another Manifestations.
 
-*Spell Slots*
-	The Sorcerer table shows how many spell slots you have to cast your sorcerer spells of 1st level and higher. To cast one of these sorcerer spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.
-	For example, if you know the 1st-level spell burning hands and have a 1st-level and a 2nd-level spell slot available, you can cast burning hands using either slot.
+*Psy-Casting*
+	Constitution and Inteligence are both used to manifest psyonic ability.
+	
+	When attempting to manifest a psyonic ability, you must first Focus your mind and body to ensure that you don't harm yourself when attempting to manifest a psyonic ability. 
+	Before unleashing your psyonic power, make a Constitution check against the focus DC of the chosen psyonic ability. On a success it manifestats as described in its description. On a fail, your Action is wasted, but no Psy-Points are used. Alternatively, you can choose to still manifestat the psyonic ability (and spend the Psy-Points), at the cost of gaining 1 point of Psy-Exhaustion.
 
-*Spells Known of 1st Level and Higher*
-	You know two 1st-level spells of your choice from the sorcerer spell list.
-	The Spells Known column of the Sorcerer table shows when you learn more sorcerer spells of your choice. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.
-	Additionally, when you gain a level in this class, you can choose one of the sorcerer spells you know and replace it with another spell from the sorcerer spell list, which also must be of a level for which you have spell slots.
-
-*Spellcasting Ability*
-	Charisma is your spellcasting ability for your sorcerer spells, since the power of your magic relies on your ability to project your will into the world. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one.
-	Spell save DC = 8 + your proficiency bonus + your Charisma modifier
-	Spell attack modifier = your proficiency bonus + your Charisma modifier
-
-*Spellcasting Focus*
-	You can use an arcane focus (see the Adventuring Gear section) as a spellcasting focus for your sorcerer spells.
+	*Psy-Exhaustion*
+		Psy-Exhaustion adds to your normal exhaustion, but also reduces your Inteligence by 1 for every point of Psy-Exhaustion you have. 
+		However, 1 point of Psy-Exhaustion is removed for every hour you don't attempt to manifest any psyonic abilities.
+ 
+	You use your Inteligence whenever a Manifestation refers to your Psy-Casting Ability. In addition, you use your Inteligence modifier when setting the saving throw DC for a Manifestation when making an attack roll with one.
+	
+	Psy-Cast save DC = 8 + your proficiency bonus + your Inteligence modifier
+	Psy-Cast attack modifier = your proficiency bonus + your Inteligence modifier
 	
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+*Concentration <Find a new name>*
+	As a bonus action, you give yourself advantage on your next Psychic Manifestation roll on the current turn. ou can use this bonus action only if you haven’t moved during this turn, and after you use the bonus action, your speed is 0 until the end of the current turn.
+
+*Nullification*
+	Psychic abilities can be nullified - thwarted by the mental energies of another.
+	When an other psyker attemps to manifest a psyonic ability, you can use your Reaction to attempt to discrupt their Focus roll. 
+	You spend a number of Psy-Points of your choosing, if you spend more Psy-Points on your Nullification attempt then the number spend by the other Psyker, their Manifestation fails to manifest and their Psy-Points are wasted.
+	If you spent less Psy-Points than the opposing Psyker, you make an Inteligence check equal to 10 + the diffrence in the points
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Subclass - Biomancy**
+
+**
