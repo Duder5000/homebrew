@@ -319,3 +319,7 @@ li.list-opts2{
 	text-decoration: none;
 	color: #2C2F33;
 }
+
+p.commentary{
+	font-size: 0.8em;
+}
