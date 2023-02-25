@@ -1,0 +1,7 @@
+youtu.be/J66UkLJHzCY
+https://gamedev.stackexchange.com/questions/118534/how-to-access-a-variable-from-another-script-in-unity-c
+https://docs.unity3d.com/Manual/InstantiatingPrefabs.html
+https://forum.unity.com/threads/how-to-find-the-nearest-object.360952/
+https://answers.unity.com/questions/556888/how-to-get-variables-from-other-scripts-on-trigger.html
+https://stackoverflow.com/questions/38642587/making-a-gradient-and-change-colors-based-on-that-gradient-in-unity3d-c-sharp
+https://youtu.be/G1AQxNAQV8g
