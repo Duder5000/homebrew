@@ -133,11 +133,16 @@
           <div class="w3-container">
             <h2 id="j5">Journal 5</h2>
             <p>
-              Placeholder 
+              I started to implemnet the new tower (magnet/slowing & collector), inistaion setup for the tower upgrades, the first pass on the following/tracking enemy, along with alot of bug fixing </br>
+              The collector tower easy to implement the collecting of the dropped componets, the problem I ran into was being able to take the compoents value stored in the tower & give it to the player. I did not solve this for this week & as such will follow-up on it in the flowing week(s).</br>
+              The magnet tower is modifed basic tower (pebble pounder / sniper towers), that just shoot a diffrent projectile. The problem I ran into was getting that projectile created properly. After talking to the TA, I added an enum for the projectile, along with an overriden Create function to handle the alterative version of the projectile. </br>
+              I coded in the function of the tower upgrades & created the arrays the defined what the upgrade paths would be, but I ran into a similar problem as with the collector tower, not being able to interface with the tower as the player to tell it to do an upgrade. Similarly to the collector tower I've left this for the  flowing week(s). </br>
+              I implemented the enemy pathing from the <a href="https://www.youtube.com/watch?v=jvtFUfJ6CP8&t=146s">2D PATHFINDING - Enemy AI in Unity</a> tutorial for our following/tracking enemy. I have yet to implement the effects of the enemy when it reaches the player and Jeremy is handling spawning this enemy. </br>
+              The rest of the weeks was working on errors, bugs, and reading/watching Unity tutorials.
             </p>
-            <p class="commentary">
+<!--             <p class="commentary">
               Placeholder
-            </p>
+            </p> -->
             <p>
               <em>2023-03-22</em>
             </p>
@@ -148,11 +153,14 @@
           <div class="w3-container">
             <h2 id="j6">Journal 6</h2>
             <p>
-              Placeholder 
+              These weeks were focused on fixing the bugs & partially implemented features from the last few weeks. </br>
+              I met with the TA to talk about my problems with the collector tower & the tower upgrades. It ended up being a simple fix by using <code>.GetComponent</code> on the GameObject I had stored. He also let me know this is an expensive bit of code, but see as we are near the end of this course I opted to use it rather than needing to re-write alot of code.</br>
+              I contuined to work on the following/tracking enemy, making it slow down the player for a short time when the collied, which can be reduced if the player goes into light.</br>
+              The rest of my time was spent solving errors & trying to fix bugs.
             </p>
-            <p class="commentary">
+<!--             <p class="commentary">
               Placeholder
-            </p>
+            </p> -->
             <p>
               <em>2023-04-05</em>
             </p>
