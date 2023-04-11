@@ -6,3 +6,4 @@ https://answers.unity.com/questions/556888/how-to-get-variables-from-other-scrip
 https://stackoverflow.com/questions/38642587/making-a-gradient-and-change-colors-based-on-that-gradient-in-unity3d-c-sharp
 https://youtu.be/G1AQxNAQV8g
 https://docs.unity3d.com/ScriptReference/Renderer-sortingOrder.html
+https://youtu.be/jvtFUfJ6CP8
