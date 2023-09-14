@@ -1,0 +1,47 @@
+**Blood Degeneration - Noble Vampiric Powers (page 205)**
+	*Increase bonuses from founder's gear as blood degen increases*
+
+1]	All of your melee attacks deal an extra 1d6 blood damage on a hit.
+
+2]	The DC of your Charm effects (spells or features) increases by 2.
+
+3]	You learn one Eldritch Invocation option of your choice from the warlock class. Your spellcasting ability for the invocation is Intelligence, Wisdom, or Charisma. If the invocation has a prerequisite of any kind (expect for a level prerequisite, if it is level 9 or lower), you can choose that invocation only if you’re a warlock who meets the prerequisite. 
+
+4]	You can use a Legendary Resistance once per day.
+
+5]	You have advantage on Dexterity (Stealth) checks, and automatical becomes invisible in a magical way while in darkness.
+
+6]	You regain 5 hit points at the start of each of your turns if you have at least 1 hit point and aren’t in sunlight.
+
+7]	One  ability scores of your choice increases by 2.
+
+8]	You gain immunity to blood damage. You gain immunity to curses, diseases, & being poisoned. <Cap 5 blood degen>
+
+9] 	You gain resistance cold, lightning, necrotic, poison, & thunder to damage.
+
+10]	You gain immunity to bludgeoning, piercing, & slashing damage from nonmagical attacks that aren’t silvered. 
+
+11]	You can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check. Additonally, once per Short Rest, as a bonus action you can invoce the power of the spider, to form a robe of magical spider silk around you. For the next 10 minutes you AC becomes 20. 
+
+12]	Demoralize. You can demoralize the creatures around you by simply talking to them. Once per Short Rest, as a bonus action, you can persuades hostile creatures within 15 feet of you that can hear and understand you that they are inferior to you. The creatures have disadvantage on their attack rolls and saving throws until the end of your next turn.
+
+13]	Frightful Presence. Once per Short Rest, as a a bonus action you can force each creature of your choice that is within 30 feet of you and is aware of you must succeed on a  Wisdom saving throw (DC = 8 + PB + Charisma) or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to your Frightful Presence for the next 24 hours.
+
+14]	Child of the Night. Once per Short Rest, as a a bonus action you can call 1d4 swarms of bats or rats, provided that the sun isn’t up. While outdoors, you can call 1d4 wolves instead. The called creatures act as allies to you and obeying your spoken commands, they act immediately after your turn. The beasts remain for 1 hour or until you dismiss them as a bonus action.
+
+15]	Extraordinary Alacrity. Once per Short Rest, as a free action, you can increase you speed until the start of your next turn. Your new speed is equal to ten times your base speed (not including spell effects, etc).
+
+16]	Excruciating Screech. Once per Short Rest, as a bonus action you can shout out a piercing cry dealing an amount of thunder damage equal to the difference between your hit point maximum and current hit points. The damage is divided equally by all creatures within 30 feet of you.
+
+17]	When you or a creature within 60 feet of you takes damage, you can use your reaction to grant resistance to the creature against the damage. You can use this feature a number of times equal to your PB. You regain any expended uses when you finish a long rest.
+
+18]	You can cover your body with swirling blood that regenerates at high speeds. As a reaction, you can assume blood form if you are subjected to harm. While in blood form, you gain the following benefits.
+	- While assuming blood form, you can choose a number of hit points, up to double your PB, and convert those hit points to temporary hit points. Your hit point maximum is reduced by that amount, but you gain the same amount of temporary hit points at the start of each of your turns. Your hit point maximum returns to normal when you revert to your normal form.
+	- You have resistance to necrotic & poison damage.
+	- Swirling blood lifts you into the air. You can a fly speed eqaul to half your move speed.
+	- You remain in this form for 1 minute. It ends early if you are incapacitated, if you die, or if you dismiss it as a bonus action.
+	- You can use this feature a number of times equal to your proficiency bonus. You regain any expended uses when you finish a long rest.
+
+19]	You gain the Wild Shape feature as if you were a 8th level druid. Unlike a druid’s transformation, your transformation is painful and unsightly; your blood tears and mends your muscles, shattering and welding your bones as it changes your physiology. This allows you to transform into monstrosities as well as beasts.
+
+20] Once per Long Rest, as an action you can create Blood Clots (HotD p.270). For each Blood Clot you create you take 1d4 damage as you form them from your blood. The Blood Clot act as allies to you and obeying your spoken commands, they act immediately after your turn. They remain for 10 minutes. If your HP is reduced to 0 from this, your body transfroms into a rabid Sanguine Elemental.

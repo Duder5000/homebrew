@@ -1,0 +1,35 @@
+***Blood Collector Tools  (750 KF)**
+With *blood collector tools* in your hands you can drain the blood remaining blood from a dead creature into an attach blodo container. The process takes 1 minute for every 10 HP of blood extracted. At the start of the blood collection process roll a *blood collector tools* check with your Dexterity or Wisdom. If you meet the DC for the creature type you can extract an amount of blood from a corpes equal to half the HP the creature had in life. If you fail by 2 or less, you can extract a quarter of the HP the creature had in life. If you fail by 5 or less, you gain an amount of HP equal to 1 roll of the creatures hit die. If you fail by more all the blood is wasted.
+- Aberration Blood: DC 15
+- Beast Blood: DC 9
+- Celestial Blood: DC 20
+- Construct Blood: DC 10
+- Dragon Blood: DC 18
+- Elemental Blood: DC 11
+- Fey Blood: DC 11
+- Fiend Blood: DC 15
+- Giant Blood: DC 20
+- Humanoid Blood: DC 11
+- Ooze Blood: DC 13
+- Plant Blood: DC 13
+- Undead Blood: DC 13
+
+**Blood Pick (750 KF)**  <!-- Think like an ice pick -->
+*Weapon (dagger), Common*
+A *blood cartridge* can be attacked attached to the pomel of the pick. 
+When you hit a creature with blood with the pick, you can use your bonus action to active the mechanisum to extract blood from the creature filling the *blood cartridge*.
+	While an attached *blood cartridge* is full, you can alternativly use your bonus action to ~~attempt~~ to inject the blood into the target.
+As a bonus action you can remove a filled *blood cartridge* or attach a new one (e.g. you can remove a full cartridge on 1 turn, then attach an empty one on the next turn).
+While an attached *blood cartridge* is full, the pick deals an additonal 1d6 blood damage on a hit.
+
+**Vampiric Syringe  (15 KF per 5)** <!-- p.175 -->
+*Weapon (crossbow ammunition, syringe pistol/rifle ammunition), rare*
+You can load your crossbow or syringe pistol/rifle with magically enhanced syringes. The vampiric syringe has two sharp tips instead of a needle that resemble the fang of a vampire.  
+On a hit, the target takes 2d6 blood damage. Also, the target’s hit point maximum is reduced by an amount equal to half of the blood damage dealt. 
+After reducing the target's HP maximum, the *blood cartridge* attached to the syringe is filled with the target's blood. The syringe can be recovered after combat & the cartridge can be harvested from it, however this is a destructive process for the syringe.
+
+**Empty Container Cost**
+Vial (1 HP) = 2 KT
+Capsule & Cartridge (2 HP) = 4 KT
+Canister (5 HP) = 6 KT
+Purse (10 HP) = 1 KF
