@@ -1,0 +1,15 @@
+~~~Thanetiel~~~
+**Celestial Protection Against Taint:** You can choose not to suffer an additional blood degeneration when you finish a long rst for 5 consecutive days. However, when you do so, the first time you finish a long rest after the fifth day, you suffer 6 blood degenerations.
+**Merciless Endurance:** You have resistance to necrotic damage. However, when you regain hit points from any source, you regain 1 less hit point for each 5 hit points you regain.
+**Stare of the Angel:** You can use your action to stareinto a creature’s eyes. The creature must succeed on a Wisdom saving throw (DC 8 + PB + Cha) or be stunned until the end of its next turn. When you use this feature, you are blinded until the start of your next turn, whether or not the target succeeds or fails on the saving throw.
+
+~~~Razawd~~~
+**Benefits of Blood:** If you regain hit points by drinking blood, and if the regained hit points make your current hit points more than or equal to your hit point maximum, the excess healing becomes up to 10 temporary hit points for 8 hours. However, you can’t gain temporary hit points from other sources.
+**Blood Choke:** You can cast the blood choke (p. 258) spell. You may freely cast this spell using this feature twice, and you regain all expended uses after finishing  a short or long rest. However, all of your bodily liquids are replaced by blood (for example, you cry blood, you spit blood, you urinate blood).
+**Consume to Regenerate:** You regain 1 hit point at the end of each of your turns if your hit points are higher than 0 but less than half of your hit point maximum. However, you need to consume two days’ worth of rations each day to satiate your hunger.
+**Wingless Gargoyle:** You gain blindsight up to 30 feet and advantage on Charisma (Intimidation) checks. However, you become a mixture of a wingless gargoyle and your original self. You can’t hide your altered appearance without magic.
+
+~~~Other~~~
+**Blood of the Magi:** You are always able to use the effect of the detect magic spell, requiring no concentration. You gain one blood degeneration. *You can gain this benefit only if you've drunk the blood of a sorcerer before.*
+**Blood of the Rebellious:** When you talk to someone else, you can automatically determine whether or not that person is an enemy of Kanrath’s vampires. You gain one bloo degeneration. *You can gain this benefit only if you’ve drunk the blood of an anarchist who’s defied Kanrath's vampiric rulers before.*
+**Blood of the Vampire:** When you deal necrotic or poison damage, you can choose to deal blood damage instead. You gain one blood degeneration. *You can bain the benefits only if you've drunk the blood of a vampire before.*
