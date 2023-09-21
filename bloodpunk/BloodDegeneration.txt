@@ -3,7 +3,7 @@
 
 1]	All of your melee attacks deal an extra 1d6 blood damage on a hit.
 
-2]	The DC of your Charm effects (spells or features) increases by 2.
+2]	The DC of your Charm effects (spells or features) increases by 3.
 
 3]	You learn one Eldritch Invocation option of your choice from the warlock class. Your spellcasting ability for the invocation is Intelligence, Wisdom, or Charisma. If the invocation has a prerequisite of any kind (expect for a level prerequisite, if it is level 9 or lower), you can choose that invocation only if you’re a warlock who meets the prerequisite. 
 
@@ -13,13 +13,13 @@
 
 6]	You regain 5 hit points at the start of each of your turns if you have at least 1 hit point and aren’t in sunlight.
 
-7]	One  ability scores of your choice increases by 2.
+7] You gain resistance cold, lightning, necrotic, poison, & thunder to damage.
 
 8]	You gain immunity to blood damage. You gain immunity to curses, diseases, & being poisoned. <Cap 5 blood degen>
 
-9] 	You gain resistance cold, lightning, necrotic, poison, & thunder to damage.
+9]	You gain immunity to bludgeoning, piercing, & slashing damage from nonmagical attacks that aren’t silvered. <Pro's noble vamp>
 
-10]	You gain immunity to bludgeoning, piercing, & slashing damage from nonmagical attacks that aren’t silvered. 
+10]	One  ability scores of your choice increases by 2.
 
 11]	You can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check. Additonally, once per Short Rest, as a bonus action you can invoce the power of the spider, to form a robe of magical spider silk around you. For the next 10 minutes you AC becomes 20. 
 
@@ -31,7 +31,7 @@
 
 15]	Extraordinary Alacrity. Once per Short Rest, as a free action, you can increase you speed until the start of your next turn. Your new speed is equal to ten times your base speed (not including spell effects, etc).
 
-16]	Excruciating Screech. Once per Short Rest, as a bonus action you can shout out a piercing cry dealing an amount of thunder damage equal to the difference between your hit point maximum and current hit points. The damage is divided equally by all creatures within 30 feet of you.
+16]	Excruciating Screech. Once per Short Rest, as a bonus action you can shout out a piercing cry dealing an amount of thunder damage equal to the difference between your hit point maximum and current hit points. The damage is divided equally by all hostile creatures within 30 feet of you.
 
 17]	When you or a creature within 60 feet of you takes damage, you can use your reaction to grant resistance to the creature against the damage. You can use this feature a number of times equal to your PB. You regain any expended uses when you finish a long rest.
 
