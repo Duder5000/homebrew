@@ -9,6 +9,8 @@ As a bonus action you can invoke the power of Ledany's heart, automatically relo
 
 **Winged Heart:** You can use a bonus action to manifest bloody bat-like wings from your back. These wings last for 1 minute. For the duration, you gain a flying speed equal to your walking speed and can hover. Once you use this, you can’t do so again until you finish a Short Rest.
 
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Melee Heart, Range Heart, Mage Heart, Rage Heart, Winged Heart
 
-**Bloody Escape:** You can cast *Misty Step* as a reation. Once you use this, you can’t do so again until you finish a Short Rest.
+**Bloody Escape:** You can cast *Misty Step* as a reation (ignoring any damage that would of came to you from the triggering damage or other harm). Once you use this, you can’t do so again until you finish a Long Rest.

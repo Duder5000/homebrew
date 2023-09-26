@@ -9,7 +9,7 @@
 
 4]	You can use a Legendary Resistance once per day.
 
-5]	You have advantage on Dexterity (Stealth) checks, and automatical becomes invisible in a magical way while in darkness.
+5]	You have advantage on Dexterity (Stealth) checks, and automatically becomes invisible in a magical way while in darkness.
 
 6]	You regain 5 hit points at the start of each of your turns if you have at least 1 hit point and aren’t in sunlight.
 
@@ -27,7 +27,7 @@
 
 13]	Frightful Presence. Once per Short Rest, as a a bonus action you can force each creature of your choice that is within 30 feet of you and is aware of you must succeed on a  Wisdom saving throw (DC = 8 + PB + Charisma) or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to your Frightful Presence for the next 24 hours.
 
-14]	Child of the Night. Once per Short Rest, as a a bonus action you can call 1d4 swarms of bats or rats, provided that the sun isn’t up. While outdoors, you can call 1d4 wolves instead. The called creatures act as allies to you and obeying your spoken commands, they act immediately after your turn. The beasts remain for 1 hour or until you dismiss them as a bonus action.
+14]	Child of the Night. Once per Short Rest, as a a bonus action you can call 1d4 swarms of bats or rats (they have temp HP = to your level), provided that the sun isn’t up. While outdoors, you can call 1d4 wolves (they have temp HP = to your level) instead. The called creatures act as allies to you and obeying your spoken commands, they act immediately after your turn. The beasts remain for 1 hour or until you dismiss them as a bonus action.
 
 15]	Extraordinary Alacrity. Once per Short Rest, as a free action, you can increase you speed until the start of your next turn. Your new speed is equal to ten times your base speed (not including spell effects, etc).
 
