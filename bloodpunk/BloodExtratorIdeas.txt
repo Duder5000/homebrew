@@ -1,5 +1,5 @@
-***Blood Collector Tools  (750 KF)**
-With *blood collector tools* in your hands you can drain the blood remaining blood from a dead creature into an attach blodo container. The process takes 1 minute for every 10 HP of blood extracted. At the start of the blood collection process roll a *blood collector tools* check with your Dexterity or Wisdom. If you meet the DC for the creature type you can extract an amount of blood from a corpes equal to half the HP the creature had in life. If you fail by 2 or less, you can extract a quarter of the HP the creature had in life. If you fail by 5 or less, you gain an amount of HP equal to 1 roll of the creatures hit die. If you fail by more all the blood is wasted.
+**Blood Collector Tools  (750 KF)**
+With *blood collector tools* in your hands you can drain the blood remaining blood from a dead creature into an attach blood container. The process takes 1 minute for every 10 HP of blood extracted. At the start of the blood collection process roll a *blood collector tools* check with your Dexterity or Wisdom. If you meet the DC for the creature type you can extract an amount of blood from a corpes equal to half the HP the creature had in life. If you fail by 2 or less, you can extract a quarter of the HP the creature had in life. If you fail by 5 or less, you gain an amount of HP equal to 1 roll of the creatures hit die. If you fail by more all the blood is wasted.
 - Aberration Blood: DC 15
 - Beast Blood: DC 9
 - Celestial Blood: DC 20

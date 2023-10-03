@@ -19,9 +19,9 @@
 
 9]	You gain immunity to bludgeoning, piercing, & slashing damage from nonmagical attacks that aren’t silvered. <Pro's noble vamp>
 
-10]	One  ability scores of your choice increases by 2.
+10]	You can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check. Additonally, once per Short Rest, as a bonus action you can invoce the power of the spider, to form a robe of magical spider silk around you. For the next 10 minutes you AC becomes 20. 
 
-11]	You can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check. Additonally, once per Short Rest, as a bonus action you can invoce the power of the spider, to form a robe of magical spider silk around you. For the next 10 minutes you AC becomes 20. 
+11]	One ability scores of your choice increases by 2.
 
 12]	Demoralize. You can demoralize the creatures around you by simply talking to them. Once per Short Rest, as a bonus action, you can persuades hostile creatures within 15 feet of you that can hear and understand you that they are inferior to you. The creatures have disadvantage on their attack rolls and saving throws until the end of your next turn.
 

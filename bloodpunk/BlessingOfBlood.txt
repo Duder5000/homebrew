@@ -1,26 +1,23 @@
-~~~Thanetiel~~~
 **Celestial Protection:** You can choose not to suffer an additional blood degeneration when you finish a long rest for 5 consecutive days. 
-**Merciless Endurance:** You have resistance to necrotic damage. 
+**Merciless Endurance:** You have resistance to necrotic & poison damage. 
 **Stare of the Angel:** You can use your action to stare into a creature’s eyes. The creature must succeed on a Wisdom saving throw (DC 8 + PB + Cha) or be stunned until the start of your next turn. You can do this once per short rest. You can use this feature more once, but when you use this feature, you are blinded until the start of your next turn, if the target succeeds or fails on the saving throw.
 
-~~~Razawd~~~
-**Benefits of Blood:** If you regain hit points by drinking blood, and if the regained hit points make your current hit points more than or equal to your hit point maximum, the excess healing becomes up to 10 temporary hit points for 8 hours.
-**Blood Choke:** You can cast the blood choke (p. 258) spell. You may freely cast this spell using this feature twice, and you regain all expended uses after finishing  a short or long rest. However, all of your bodily liquids are replaced by blood (for example, you cry blood, you spit blood, you urinate blood).
+**Benefits of Blood:** If you regain hit points by drinking blood, you also gain 10 temporary hit points for 8 hours.
+**Blood Choke:** You can cast the blood choke (p. 258) spell. You may freely cast this spell using this feature twice, and you regain all expended uses after finishing a short or long rest. However, all of your bodily liquids are replaced by blood (for example, you cry blood, you spit blood, you urinate blood).
 **Consume to Regenerate:** You regain PB/2 hit point at the end of each of your turns if your hit points are higher than 0 but less than half of your hit point maximum. 
 **Gargoyle:** You gain blindsight up to 30 feet and a fly speed eqaul to your walk speed. However, you become a mixture of a gargoyle and your original self. You can’t hide your altered appearance without magic.
 
-~~~Other~~~
-**Blood of the Magi:** You are always able to use the effect of the detect magic spell, requiring no concentration. *You can gain this benefit only if you've drunk the blood of a sorcerer before.*
-**Blood of the Rebellious:** When you talk to someone else, you can automatically determine whether or not that person is an enemy of Kanrath’s vampires. *You can gain this benefit only if you’ve drunk the blood of an anarchist.*
-**Blood of the Vampire:** When you deal necrotic or poison damage, you can choose to deal blood damage instead. *You can bain the benefits only if you've drunk the blood of a vampire before.* [Good if you can apply Hemophilia]
-**Contagion:** You vomits blood on a 15-foot cone. Each creature in the area must succeed on a Constitution saving throw, or become hemophiliac (p.63) for 1 minute. You can do this PB per long rest. *You can bain the benefits only if you've drunk the blood of an undead before.*
+**Blood of the Magi:** You are always under the effect of the detect magic spell, requiring no concentration.
+**Blood of the Rebellious:** When you talk to someone else, you can automatically determine whether or not that person is an enemy of Kanrath’s vampires. If they are, all of you attacks deal an addtional 1d10 Blood damage.
+**Blood of the Vampire:** Whenever you deal damage with a spell, you can choose to deal Blood damage instead.
+**Contagion:** You vomits blood on a 30-foot cone. Each creature in the area must succeed on a Constitution saving throw, or become hemophiliac (p.63) for 1 minute. You can do this PB per long rest.
+~~~~~
 
-
-Didn't drink from the angel: **Celestial Protection** , **Stare of the Angel**
+Didn't drink from the angel: **Celestial Protection**, **Stare of the Angel**
 Did drink from the angel: **Gargoyle**
 
 Drunk the blood offered by the Divine: **Consume to Regenerate**
-:**Blood Choke**
+Rejected the blood from the Divine: **Blood Choke**
 
 Drunk the blood of a sorcerer before: **Blood of the Magi:**
 Drunk the blood of an anarchist before: **Blood of the Rebellious**
