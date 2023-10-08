@@ -1,0 +1,10 @@
+Once per day as a Bonus Action you can activate the Founder's Mark
+When you do so you gain the following for 10 minutes:
+- Your movement speed is doubled. 
+- You know the exact location of all creatures with natural blood, within 60ft of you.
+- All of your ability scores increase by 2 upto a maxium of 22.
+- While your mark is activated, you can cast Rotten Heart (p.157) at will (using Int, Wis, or Cha as your spell casting modifier).
+- You gain a regeneration effect, you regain 5 hit points at the start of each of your turns if you have at least 1 hit point and aren’t in sunlight. 
+ - If you take radiant damage, damage from holy water, or damage from a gold weapon, this trait doesn’t function at the start of your next turn.
+- If a gold weapon hits you, it is always a critical. 
+Once you use your Founder's Mark, you cannot do so again until you complete a long rest.

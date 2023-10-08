@@ -1,5 +1,6 @@
+10 Degen: Founder's Items improve to +2 & gain vulnerability to gold damage 
+
 **Blood Degeneration - Noble Vampiric Powers (page 205)**
-	*Increase bonuses from founder's gear as blood degen increases*
 
 1]	All of your melee attacks deal an extra 1d6 blood damage on a hit.
 
