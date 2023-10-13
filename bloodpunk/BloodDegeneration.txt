@@ -16,9 +16,9 @@
 
 7] You gain resistance cold, lightning, necrotic, poison, & thunder to damage.
 
-8]	You gain immunity to blood damage. You gain immunity to curses, diseases, & being poisoned. <Cap 5 blood degen>
+8]	You gain immunity to blood damage. You gain immunity to curses, diseases, & being poisoned. 
 
-9]	You gain immunity to bludgeoning, piercing, & slashing damage from nonmagical attacks that aren’t silvered. <Pro's noble vamp>
+9]	You gain immunity to bludgeoning, piercing, & slashing damage from nonmagical attacks that aren’t silvered.
 
 10]	You can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check. Additonally, once per Short Rest, as a bonus action you can invoce the power of the spider, to form a robe of magical spider silk around you. For the next 10 minutes you AC becomes 20. 
 

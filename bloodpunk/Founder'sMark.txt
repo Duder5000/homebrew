@@ -1,3 +1,4 @@
+**Founder's Mark**
 Once per day as a Bonus Action you can activate the Founder's Mark
 When you do so you gain the following for 10 minutes:
 - Your movement speed is doubled. 
@@ -8,3 +9,5 @@ When you do so you gain the following for 10 minutes:
  - If you take radiant damage, damage from holy water, or damage from a gold weapon, this trait doesn’t function at the start of your next turn.
 - If a gold weapon hits you, it is always a critical. 
 Once you use your Founder's Mark, you cannot do so again until you complete a long rest.
+
+*You can decide where on the body the mark is, it looks kind of like a ruby inlay, is a shape similar to an ouroboros.*
