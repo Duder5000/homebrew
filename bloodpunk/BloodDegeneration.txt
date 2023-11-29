@@ -1,6 +1,6 @@
-10 Degen: Founder's Items improve to +2
-15 Degen: Vulnerability to radiant & gold damage 
-20 Degen: Founder's Items improve to +3
+**10 Degen:** Founder's Items improve to +2
+**15 Degen:** Vulnerability to radiant & gold damage 
+**20 Degen:** Founder's Items improve to +3
 
 **Blood Degeneration - Noble Vampiric Powers (page 205)**
 
@@ -28,13 +28,13 @@
 
 12]	Demoralize. You can demoralize the creatures around you by simply talking to them. Once per Short Rest, as a bonus action, you can persuades hostile creatures within 15 feet of you that can hear and understand you that they are inferior to you. The creatures have disadvantage on their attack rolls and saving throws until the end of your next turn.
 
-13]	Frightful Presence. Once per Short Rest, as a a bonus action you can force each creature of your choice that is within 30 feet of you and is aware of you must succeed on a  Wisdom saving throw (DC = 8 + PB + Charisma) or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to your Frightful Presence for the next 24 hours.
+**13]	Frightful Presence:** Once per Short Rest, as a a bonus action you can force each creature of your choice that is within 30 feet of you and is aware of you must succeed on a  Wisdom saving throw (DC = 8 + PB + Charisma) or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to your Frightful Presence for the next 24 hours.
 
-14]	Child of the Night. Once per Short Rest, as a a bonus action you can call 1d4 swarms of bats or rats (they have temp HP = to your level), provided that the sun isn’t up. While outdoors, you can call 1d4 wolves (they have temp HP = to your level) instead. The called creatures act as allies to you and obeying your spoken commands, they act immediately after your turn. The beasts remain for 1 hour or until you dismiss them as a bonus action.
+**14]	Child of the Night:** Once per Short Rest, as a a bonus action you can call 1d4 swarms of bats or rats (they have temp HP = to your level), provided that the sun isn’t up. While outdoors, you can call 1d4 wolves (they have temp HP = to your level) instead. The called creatures act as allies to you and obeying your spoken commands, they act immediately after your turn. The beasts remain for 1 hour or until you dismiss them as a bonus action.
 
-15]	Extraordinary Alacrity. Once per Short Rest, as a free action, you can increase you speed until the start of your next turn. Your new speed is equal to ten times your base speed (not including spell effects, etc).
+**15] Extraordinary Alacrity:** Once per Short Rest, as a free action, you can increase you speed until the start of your next turn. Your new speed is equal to ten times your base speed (not including spell effects, etc).
 
-16]	Excruciating Screech. Once per Short Rest, as a bonus action you can shout out a piercing cry dealing an amount of thunder damage equal to the difference between your hit point maximum and current hit points. The damage is divided equally by all hostile creatures within 30 feet of you.
+**16]	Excruciating Screech:** Once per Short Rest, as a bonus action you can shout out a piercing cry dealing an amount of thunder damage equal to the difference between your hit point maximum and current hit points. The damage is divided equally by all hostile creatures within 30 feet of you.
 
 17]	When you or a creature within 60 feet of you takes damage, you can use your reaction to grant resistance to the creature against the damage. You can use this feature a number of times equal to your PB. You regain any expended uses when you finish a long rest.
 
@@ -45,6 +45,6 @@
 	- You remain in this form for 1 minute. It ends early if you are incapacitated, if you die, or if you dismiss it as a bonus action.
 	- You can use this feature a number of times equal to your proficiency bonus. You regain any expended uses when you finish a long rest.
 
-19]	You gain the Wild Shape feature as if you were a 8th level druid. Unlike a druid’s transformation, your transformation is painful and unsightly; your blood tears and mends your muscles, shattering and welding your bones as it changes your physiology. This allows you to transform into monstrosities as well as beasts.
+19]	You gain the Wild Shape feature as if you were a 8th level druid. Unlike a druid’s transformation, your transformation is painful and unsightly; your blood tears and mends your muscles, shattering and welding your bones as it changes your physiology. This allows you to transform into monstrosities as well as beasts. You can Wild Spape in this way twice per Long Rest.
 
 20] Once per Long Rest, as an action you can create Blood Clots (HotD p.270). For each Blood Clot you create you take 1d4 damage as you form them from your blood. The Blood Clot act as allies to you and obeying your spoken commands, they act immediately after your turn. They remain for 10 minutes. If your HP is reduced to 0 from this, your body transfroms into a rabid Sanguine Elemental.

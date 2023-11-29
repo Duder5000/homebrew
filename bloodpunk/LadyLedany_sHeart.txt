@@ -1,16 +1,18 @@
-**Melee Heart:** As a bonus action you can invoke the power of Ledany's heart, for the next minute your Strength or Dexterity increases by 1 & on following turns if you take the attack action on your turn you can make an additional attack with your bonus action. Once you use this, you can’t do so again until you finish a Short Rest.
+~~Melee Heart~~, Range Heart, ~~Mage Heart~~, ~~Rage Heart~~, Winged Heart
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Melee Heart:** As a bonus action you can invoke the power of Ledany's heart, for the next minute your Strength or Dexterity increases by 2 & on following turns if you take the attack action on your turn you can make an additional attack with your bonus action. Once you use this, you can’t do so again until you finish a Short Rest.
 
 **Range Heart:** 1 free reload (no resources, no action) of +1 ammo
 As a bonus action you can invoke the power of Ledany's heart, automatically reloading a ranged weapon you are wielding (without using any resources) with +1 ammunition. Once you use this, you can’t do so again until you finish a Short Rest.
 
-~~**Mage Heart:** As a bonus action you can invoke the power of Ledany's heart, to regain one expended spell slot of 5th level or lower. Once you use this, you can’t do so again until you finish a Short Rest.~~
+**Mage Heart:** As a bonus action you can invoke the power of Ledany's heart, to regain one expended spell slot of 5th level or lower. Once you use this, you can’t do so again until you finish a Short Rest.
 
 **Rage Heart:** When you rage you can choose to invoke the power of Ledany's heart to temporarily empower your allies, choose a number of allies up to your PB within 30 feet of you, they can use their reaction to move up to half their speed and make a weapon attack or cast a cantrip, or to move up to their speed. This move does not count against an ally’s movement in a turn. Once you use this, you can’t do so again until you finish a Short Rest.
 
 **Winged Heart:** You can use a bonus action to manifest bloody bat-like wings from your back. These wings last for 1 minute. For the duration, you gain a flying speed equal to your walking speed and can hover. Once you use this, you can’t do so again until you finish a Short Rest.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Melee Heart, Range Heart, Mage Heart, Rage Heart, Winged Heart
 
 **Bloody Escape:** You can cast *Misty Step* as a reation (ignoring any damage that would of came to you from the triggering damage or other harm). Once you use this, you can’t do so again until you finish a Long Rest.
