@@ -1,6 +1,6 @@
 **10 Degen:** Founder's Items improve to +2
 **15 Degen:** Vulnerability to radiant & gold damage 
-**20 Degen:** Founder's Items improve to +3
+**20 Degen:** Founder's Items improve to +3, You can now attune to one more magic item than normal
 
 **Blood Degeneration - Noble Vampiric Powers (page 205)**
 
