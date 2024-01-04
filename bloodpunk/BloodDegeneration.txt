@@ -1,6 +1,9 @@
 **10 Degen:** Founder's Items improve to +2
-**15 Degen:** Vulnerability to radiant & gold damage 
+**15 Degen:** Vulnerability to Radiant & Gold damage 
 **20 Degen:** Founder's Items improve to +3, You can now attune to one more magic item than normal
+**25 Degen:** Blood damage heals you rather for the damage it would of done, While in direct or indirect sun light you are Blinded/Defended to all senses (overriding any immunities)
+
+E:\GoogleDrive\D&D\02-HotD\Columns.txt
 
 **Blood Degeneration - Noble Vampiric Powers (page 205)**
 

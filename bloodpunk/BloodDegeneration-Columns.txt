@@ -1,0 +1,42 @@
+**Columns:**
+- ~~There are two human statues, one made of stone and the other made of blood. The stone statue is prone, and the blood statue is helping the stone statue to stand up.~~
+- There is a statue of a human running next to the statue of a horse. The human statue seems like it’s winning the race.
+- There is a hollow human statue, and in front of it, there are jarred organs. The statue has a happy and determined look on its face.
+- ~~There is a statue of a human warrior holding a sword in each hand. The swords are covered in blood.~~
+- ~~There are two human statues made of stone, one is lying on the ground, dead, and the other is standing next to the other one. The standing one is pouring its blood into the lying one’s mouth.~~
+- ~~There is a grey human statue with piercing violet eyes.~~
+- There is a statue of a human, concentrating. Around the statue, there are symbols depicting the damage types, and between the symbols and the statue, there are shields made of blood.
+- There is a human statue drinking blood, and there is a hole in the statue’s heart. The blood that the statue is drinking is seeping out from the hole.
+- ~~This column is empty~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+There are two human statues, one made of stone and the other made of blood. The stone statue is prone, and the blood statue is helping the stone statue to stand up.
+**Adaptive Blood:** When you see another creature fail a saving throw, within 60ft of you, as a reaction you can cause them to succeed instead (*no reaction required*). Once you use this feature, you must finish a short or long rest to use it again.
+
+There is a statue of a human running next to the statue of a horse. The human statue seems like it’s winning the race.
+**Hastened Metabolism:** You can excite your blood to gain the benefit of the haste spell for 1 minute. Once you use this feature, you must finish a short or long rest to use it again.
+
+There is a hollow human statue, and in front of it, there are jarred organs. The statue has a happy and determined look on its face.
+**Remove Weakness:** Your organs melt into a bloody slime that continuously flows inside your body, doing their jobs but in a different way. Any critical hit against you becomes a normal hit. Additionally, as a bonus action, you can cause your bones to melt as well; you can move through a space as narrow as 1 inch wide without squeezing, but your speed is reduced by 10ft. You can return your bones to normal with another bonus action.
+
+There is a statue of a human warrior holding a sword in each hand. The swords are covered in blood.
+**Warmonger:** When you successfully hit a creature with a melee weapon (or unarmed) attack, you can choose to envelope your weapon (or arms) in their blood. When you do so, for the next minute (concentration required), you deal an extra 2d4 Blood damage to the target whenever you hit it with a melee weapon (or unarmed) attack.
+
+There are two human statues made of stone, one is lying on the ground, dead, and the other is standing next to the other one. The standing one is pouring its blood into the lying one’s mouth.
+**Reawakening Blood:** If you feed your blood to a dead creature as an action, the creature returns to life with 1 hit point, and you take 1 damage, which can’t be reduced by any means. This feature has no effect on creatures that are dead for more than 1 minute.
+
+There is a grey human statue with piercing violet eyes.
+**Piercing Eyes:** As an action, you can empower your eyes. When you do so, you lose 1 hit die and take damage equal to a roll of it (*don't add Con mod*), then your eyes turn violet, and you gain the following:
+- 30 feet of True Sight
+- You can see in a 360-degree around you
+- You gain a 1d4 bonus to Dexterity Saving Throws.
+
+There is a statue of a human, concentrating. Around the statue, there are symbols depicting the damage types, and between the symbols and the statue, there are shields made of blood.
+**Warded Body:** As an action, you can have resistance to all damage until the end of your next turn, requiring concentration. *No limit to how many times you can do this*
+
+There is a human statue drinking blood, and there is a hole in the statue’s heart. The blood that the statue is drinking is seeping out from the hole.
+**Blood for Blood:** Your hit point maximum increases by an amount equal to three times your level when you gain this feature, and whenever you gain a level thereafter, your hit point maximum increases by an additional 3 hit points. However, you gain Blood Degeneration equal to your level when you gain this feature, and whenever you gain a level thereafter, you gain an additional Blood Degeneration.
+
+This column is empty. 
+**Unknowen Power:** You gain a feat of your choice.
