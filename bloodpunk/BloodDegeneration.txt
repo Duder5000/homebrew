@@ -1,15 +1,19 @@
 **10 Degen:** Founder's Items improve to +2
 **15 Degen:** Vulnerability to Radiant & Gold damage 
 **20 Degen:** Founder's Items improve to +3, You can now attune to one more magic item than normal
-**25 Degen:** Blood damage heals you rather for the damage it would of done, While in direct or indirect sun light you are Blinded/Defended to all senses (overriding any immunities)
+**25 Degen:** Blood damage heals you rather for the damage it would of done, While in direct or indirect sun light you are Blinded/Defended to all senses (overriding any immunities) ~ You longer gain any benefit (including healing & sustenance) from the blood of non-sentient creatures
+
+**Stablized Degen:** Keep all powers, but max go reduced by half degen amount 
 
 **Blood Degeneration - Noble Vampiric Powers (page 205)**
 
-1]	All of your melee attacks deal an extra 1d6 blood damage on a hit.
+1] **Mind Drinker:** As a Bonus Action, you can target a creature you can see within 30 feet. The target must make an Intelligence saving throw. On a failed save, the target takes 4d4 Psychic damage, and you learn the target’s surface emotions and thoughts. On  successful save, the target takes half as much damage. Your spellcasting ability for the invocation is Intelligence, Wisdom, or Charisma. You can do this PB times per Long Rest.
+~~All of your melee attacks deal an extra 1d6 blood damage on a hit.~~
 
-2]	The DC of your Charm effects (spells or features) increases by 3.
+2] **Bloody Charm:** The DC of your Charm effects (spells or features) increases by 2. Additonally, Charm effects that would normally cause the target to have advantage if you or your companions are fighting it, doesn't gain advantage. If you don't already know them you learn; *Friends*, *Charm Person*, *Command*, *Suggestion*, & *Fast Friends*. 
+You can one of these spells once per Short Rest without expending a spell slot. Your spellcasting ability for the invocation is Intelligence, Wisdom, or Charisma. 
 
-3]	You learn one Eldritch Invocation option of your choice from the warlock class. Your spellcasting ability for the invocation is Intelligence, Wisdom, or Charisma. If the invocation has a prerequisite of any kind (expect for a level prerequisite, if it is level 9 or lower), you can choose that invocation only if you’re a warlock who meets the prerequisite. 
+3] **Eldritch Blood:** You learn one Eldritch Invocation option of your choice from the warlock class. Your spellcasting ability for the invocation is Intelligence, Wisdom, or Charisma. If the invocation has a prerequisite of any kind (expect for a level prerequisite, if it is level 9 or lower), you can choose that invocation only if you’re a warlock who meets the prerequisite. 
 
 4] **Legendary Blood:** You can use a Legendary Resistance once per day.
 
@@ -47,7 +51,9 @@
 
 21] **True Angst:** When you deal damage with a spell, you can choose to maximize the damage by reducing your max HP by its min damage (and taking the damage too). The blood damage dealt solidifies into a small crimson gem on your heart. To regain you max HP, the gem must be removed during a Long Rest with a DC 17 Medicine check. On a fail, you gain a point of Exhaustion and can't attempt to remove the gem until you complete another Long Rest. A removed gem brims with other-worlding magical power, who know what it could do.
 
-22] **Blood for Blood:** Your hit point maximum increases by an amount equal to three times your level when you gain this feature, and whenever you gain a level thereafter, your hit point maximum increases by an additional 3 hit points. However, you gain Blood Degeneration equal to your level when you gain this feature, and whenever you gain a level thereafter, you gain an additional Blood Degeneration.
+22] **Blood for Blood:** Your hit point maximum increases by an amount equal to 3 times your level when you gain this feature, and whenever you gain a level thereafter, your hit point maximum increases by an additional 3 hit points. However, you gain Blood Degeneration equal to your level when you gain this feature, and whenever you gain a level thereafter, you gain an additional Blood Degeneration.
+
+22-alt] **:** 
 
 23] **Remove Weakness:** Your organs melt into a bloody slime that continuously flows inside your body, doing their jobs but in a different way. Any critical hit against you becomes a normal hit. Additionally, as a bonus action, you can cause your bones to melt as well; you can move through a space as narrow as 1 inch wide without squeezing, but your speed is reduced by 10ft. You can return your bones to normal with another bonus action.
 
