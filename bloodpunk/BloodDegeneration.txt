@@ -1,7 +1,9 @@
 **10 Degen:** Founder's Items improve to +2
 **15 Degen:** Vulnerability to Radiant & Gold damage 
 **20 Degen:** Founder's Items improve to +3, You can now attune to one more magic item than normal
-**25 Degen:** Blood damage heals you rather for the damage it would of done, While in direct or indirect sun light you are Blinded/Defended to all senses (overriding any immunities), You longer gain any benefit (including healing & sustenance) from the blood of non-sentient creatures
+**25 Degen:** Blood damage heals you rather for the damage it would of done, You becme a bloodfeeder (if you aren't already & you can't gain sustenance from anything other than blood) and you no longer gain any benefit (including healing & sustenance) from the blood of non-sentient creatures 
+**30 Degen:** You gain the **Vengful Blood** feature (*Armor of Agathus, but Blood*), While outdoors between sunrise & sunset, you are Blinded/Defended to all senses
+**35 Degen:**
 
 **Stablized Degen:** Keep all powers, but max go reduced by half degen amount 
 
