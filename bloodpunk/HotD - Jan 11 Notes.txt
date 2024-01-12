@@ -90,3 +90,7 @@
 	Blood Avenger = Holy Avenger, but with blood damage (to celestials & ) & Bane effect
 
 	Sword of the Planes, becuase he learned of the outer planes & wants to expand his 'practice' to them? 
+
+~~Blunderbuss stake rounds~~
+	Stake rounds for fighting vamps
+	-5, +10
