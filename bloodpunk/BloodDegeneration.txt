@@ -2,15 +2,15 @@
 **15 Degen:** Vulnerability to Radiant & Gold damage 
 **20 Degen:** Founder's Items improve to +3, You can now attune to one more magic item than normal
 **25 Degen:** Blood damage heals you rather for the damage it would of done, You becme a bloodfeeder (if you aren't already & you can't gain sustenance from anything other than blood) and you no longer gain any benefit (including healing & sustenance) from the blood of non-sentient creatures 
-**30 Degen:** You gain the **Vengful Blood** feature (*Armor of Agathus, but Blood*), While outdoors between sunrise & sunset, you are Blinded/Defended to all senses
+**30 Degen:** You gain the **Vengeful Vitae** feature, While outdoors between sunrise & sunset, you are Blinded/Defended to all senses
+	**Vengeful Vitae:** Vitae seeps out of your skin & creates a protective barrior around your body. You gain 15 temporary HP for the next minute. If a creature hits you with a melee attack while you have these hit points, the creature takes 15 Blood damage. You can use this feature a number of time eqaul to your PB per Long Rest.
 **35 Degen:**
 
 **Stablized Degen:** Keep all powers, but max go reduced by half degen amount 
 
 **Blood Degeneration - Noble Vampiric Powers (page 205)**
 
-1] **Mind Drinker:** As a Bonus Action, you can target a creature you can see within 30 feet. The target must make an Intelligence saving throw. On a failed save, the target takes 4d4 Psychic damage, and you learn the target’s surface emotions and thoughts. On  successful save, the target takes half as much damage. Your spellcasting ability for the invocation is Intelligence, Wisdom, or Charisma. You can do this PB times per Long Rest.
-~~All of your melee attacks deal an extra 1d6 blood damage on a hit.~~
+1] **Mind Drinker:** As a Bonus Action, you can target a creature you can see within 30 feet. The target must make an Intelligence saving throw. On a failed save, the target takes 4d4 Psychic damage, & you learn the target’s surface emotions and thoughts. Additonally on a failed save, you can choose to gain immunity to Psychic damage for the next 24 hours, however you become afflicted with Indefinite Madness for the duration. On a successful save, the target takes half as much damage. Your spellcasting ability for the invocation is Intelligence, Wisdom, or Charisma. You can do this PB times per Long Rest.
 
 2] **Bloody Charm:** The DC of your Charm effects (spells or features) increases by 2. Additonally, Charm effects that would normally cause the target to have advantage if you or your companions are fighting it, doesn't gain advantage. If you don't already know them you learn; *Friends*, *Charm Person*, *Command*, *Suggestion*, & *Fast Friends*. 
 You can one of these spells once per Short Rest without expending a spell slot. Your spellcasting ability for the invocation is Intelligence, Wisdom, or Charisma. 
@@ -23,19 +23,19 @@ You can one of these spells once per Short Rest without expending a spell slot. 
 
 6] **Blood Regeneration:** You regain 5 hit points at the start of each of your turns if you have at least 1 hit point and aren’t in sunlight.
 
-7] **True Blood:**You gain resistance Cold, Lightning, Necrotic, Poison, & Yhunder to damage.
+7] **True Blood:**You gain resistance Cold, Lightning, Necrotic, Poison, & Thunder to damage.
 
 8] **Vampire Blood:** You gain immunity to Blood damage. You gain immunity to Curses, Diseases, & being Poisoned. You gain the Blood Consumer feat.
 
-9] **Armored Blood:** You gain immunity to bludgeoning, piercing, & slashing damage from nonmagical attacks that aren’t silvered.
+9] **Armored Blood:** You gain immunity to Bludgeoning, Piercing, & Slashing damage from nonmagical attacks that aren’t silvered.
 
-10]	**The Spider's Touch:** You can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check. Additonally, once per Short Rest, as a Bonus Action you can invoce the power of The Spider, to form a robe of magical spider silk around you. For the next 10 minutes you AC increase by 2. 
+10]	**The Spider's Touch:** You can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check. Additonally, once per Short Rest, as a Bonus Action you can invoce the power of The Spider, to form a robe of magical spider silk around you. For the next 10 minutes you AC increase by 2. While in this form you can cast *Web* (your spell save DC or DC 16) at will.
 
-11]	**Strenght of Mind or Body:** One ability scores of your choice increases by 2.
+11]	**Might of Mind or Body:** One ability scores of your choice increases by 2.
 
 12]	**Demoralize:** You can demoralize the creatures around you by simply talking to them. Once per Short Rest, as a bonus action, you can persuades hostile creatures within 15 feet of you that can hear and understand you that they are inferior to you. The creatures have disadvantage on their attack rolls and saving throws until the end of your next turn.
 
-13] **Frightful Presence:** Once per Short Rest, as a a bonus action you can force each creature of your choice that is within 30 feet of you and is aware of you must succeed on a  Wisdom saving throw (DC = 8 + PB + Charisma) or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to your Frightful Presence for the next 24 hours.
+13] **Frightful Presence:** Once per Short Rest, as a Bonus Action you can force each creature of your choice that is within 30 feet of you and is aware of you must succeed on a  Wisdom saving throw (DC = 8 + PB + Charisma) or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to your Frightful Presence for the next 24 hours.
 
 14] **Soul Tattoo:** When a creature drops to 0 HP while within 30 feet of you, you can use your Reaction to trap its soul in the form of a tattoo on your skin. You touch one of your Soul Tattoos on your body. The tattoo vanishes as the trapped soul manifests as a shadowy creature that appears in an unoccupied space within 30 feet of you. The creature has the size and silhouette of its original body, but it otherwise uses the stat block of a Shadow. The Shadow obeys your mental commands (no action required) and takes its turn immediately after yours. 
 
@@ -49,17 +49,17 @@ You can one of these spells once per Short Rest without expending a spell slot. 
 
 19]	**Wild Blood:** You gain the Wild Shape feature as if you were a 8th level druid. Unlike a druid’s transformation, your transformation is painful and unsightly; your blood tears and mends your muscles, shattering and welding your bones as it changes your physiology. This allows you to transform into monstrosities as well as beasts. You can Wild Spape in this way twice per Long Rest.
 
-20] **Clots Blood:** Once per Long Rest, as an action you can create Blood Clots (HotD p.270). For each Blood Clot you create you take 1d4 damage as you form them from your blood. The Blood Clot act as allies to you and obeying your spoken commands, they act immediately after your turn. They remain for 10 minutes. If your HP is reduced to 0 from this, your body transfroms into a rabid Sanguine Elemental.
+20] **Clotted Blood:** Once per Long Rest, as an Action you can create Blood Clots (*HotD p.270*). For each Blood Clot you create you take 1d4+1 damage (can't be reduced) as you form them from your blood. The Blood Clot act as allies to you and obeying your spoken commands, they act immediately after your turn. They remain for 10 minutes. If your HP is reduced to 0 from this, your body transfroms into a rabid Sanguine Elemental.
 
 21] **True Angst:** When you deal damage with a spell, you can choose to maximize the damage by reducing your max HP by its min damage (and taking the damage too). The blood damage dealt solidifies into a small crimson gem on your heart. To regain you max HP, the gem must be removed during a Long Rest with a DC 17 Medicine check. On a fail, you gain a point of Exhaustion and can't attempt to remove the gem until you complete another Long Rest. A removed gem brims with other-worlding magical power, who know what it could do.
 
-22] **Blood for Blood:** Your hit point maximum increases by an amount equal to 3 times your level when you gain this feature, and whenever you gain a level thereafter, your hit point maximum increases by an additional 3 hit points. However, you gain Blood Degeneration equal to your level when you gain this feature, and whenever you gain a level thereafter, you gain an additional Blood Degeneration.
+22] **Blood for Blood:** Your hit point maximum increases by an amount equal to 2 times your level when you gain this feature, and whenever you gain a level thereafter, your hit point maximum increases by an additional 2 hit points. However, you gain Blood Degeneration equal to your level when you gain this feature, and whenever you gain a level thereafter, you gain an additional 1 Blood Degeneration.
 
 23] **Remove Weakness:** Your organs melt into a bloody slime that continuously flows inside your body, doing their jobs but in a different way. Any critical hit against you becomes a normal hit. Additionally, as a bonus action, you can cause your bones to melt as well; you can move through a space as narrow as 1 inch wide without squeezing, but your speed is reduced by 10ft. You can return your bones to normal with another bonus action.
 
 24] **Piercing Eyes:** As an action, you can empower your eyes. When you do so, you lose 1 hit die and take damage equal to a roll of it (*don't add Con mod*), then your eyes turn violet, and you gain the following:
 - 30 feet of True Sight
 - You can see in a 360-degree around you
-- You gain a 1d4 bonus to Dexterity Saving Throws.
+- You gain a 1d4 bonus to Dexterity Skill Checks & Dexterity Saving Throws.
 
 25] **Hastened Metabolism:** You can excite your blood to gain the benefit of the Haste spell (*this doesn't require concetration & is not a magical effect*) for 1 minute. Once you use this feature, you must finish a Short or Long Rest to use it again.

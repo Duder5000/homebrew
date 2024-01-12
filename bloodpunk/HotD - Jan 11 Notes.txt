@@ -58,8 +58,8 @@
 	You have immunity to Poison and Necrotic damage.
 	As an Action you can grant yourself immunity to Radiant damage until the start of your next turn. Despite the radiance causing no true damage, you feel its pain three fold and your skin burns & melts all the same.
 	*Refuse Death*
-		One per month you can deny the gods your eternal soul.
-		When you would normal drop to 0 HP, you can tap into your fragment of divinity & instead return to full heal, removing any conditions, & gain temp HP equal to your level as divine energies radiate from your body. 
+		As a Free Action, when you would normal drop to 0 HP, you can tap into your fragment of divinity & deny the gods your eternal soul. Instead of falling uncouncious, you return to full health & removing any negative conditions, as divine power rebuilds your body.
+		Once you use this feature, cannot use it again for 1d4 months.
 
 	You learn about how the Founder's Cohors Sanguine were normally awakened (become able to survive Cohors Sanguine ritual) and he shares with you the realization he had when he first feed on a sentient person.
 
@@ -67,10 +67,10 @@
 	Awakening normally happens when a vampire has feed on enough sentient beings to realize the truth of the Founder's curse, that it allows a vampire to consume the divine potential scattered and hidden across mortals.
 
 	**Founders Realization**
-	When the Founder drank the blood of the Sun’s Son, he tasted divinity for a split second. After the Sun ripped away his divinity and cursed him to become the first vampire, the Founder drank the blood of monster, but when he first drank the blood of a sentient person, he tasted a fraction of the same power as the divinity. He realized that there is divine potential scattered and hidden across mortal races. He took over a settlement and made it into a city. He built a hierarchy for the sole purpose of accumulating the divine potential at the top of the food chain. The vampires fed on mortals, noble vampires fed on vampires, royalty fed on nobility, and the Founder fed on royalty. With each transaction of blood, nfinitesimally small traces pf divinity were transferred to the top predator from the mortals who were at the bottom of the food chain. That’s why he refused every proposal forbidding vampires to feed on vampires. He is trying to achieve divinity because he thinks that he can do a better job than the current deities. He justifies his cruel actions by defending their necessity and he wants to make them right once he becomes a deity.
+	When the Founder drank the blood of the Sun’s Son, he tasted divinity for a split second. After the Sun ripped away his divinity and cursed him to become the first vampire, the Founder drank the blood of monsters, but when he first drank the blood of a sentient person, he tasted a fraction of the same power as the divinity. He realized that there is divine potential scattered and hidden across mortal races. He took over a settlement and made it into a city. He built a hierarchy for the sole purpose of accumulating the divine potential at the top of the food chain. The vampires fed on mortals, noble vampires fed on vampires, royalty fed on nobility, and the Founder fed on royalty. With each transaction of blood, nfinitesimally small traces pf divinity were transferred to the top predator from the mortals who were at the bottom of the food chain. That’s why he refused every proposal forbidding vampires to feed on vampires. He is trying to achieve divinity because he thinks that he can do a better job than the current deities. He justifies his cruel actions by defending their necessity and he wants to make them right once he becomes a deity.
 
 ~~Vengful Blood --> Armor of Vitae~~
-	You gain the **Vengful Blood** feature (*Armor of Agathus, but Blood*
+	You gain the **Vengful Blood** feature (*Armor of Agathus, but Blood*)
 
 ~~Drach'nyen talks to Harvey & Ethel~~
 	Drach'nyen speaks to Harvey & Ethel
