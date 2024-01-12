@@ -1,14 +1,16 @@
+**5 Degen:** ???
 **10 Degen:** Founder's Items improve to +2
-**15 Degen:** Vulnerability to Radiant & Gold damage 
-**20 Degen:** Founder's Items improve to +3, You can now attune to one more magic item than normal
-**25 Degen:** Blood damage heals you rather for the damage it would of done, You becme a bloodfeeder (if you aren't already & you can't gain sustenance from anything other than blood) and you no longer gain any benefit (including healing & sustenance) from the blood of non-sentient creatures 
-**30 Degen:** You gain the **Vengeful Vitae** feature, While outdoors between sunrise & sunset, you are Blinded/Defended to all senses
+**15 Degen:** Vulnerability to Radiant & Gold damage
+**20 Degen:** Founder's Items improve to +3; You can now attune to one more magic item than normal
+**25 Degen:** Blood damage heals you rather than harming you for the damage it would of done; You becme a Bloodfeeder (if you aren't already & you can't gain sustenance from anything other than blood) & you no longer gain any benefit (including healing & sustenance) from the blood of non-sentient creatures 
+**30 Degen:** You gain the **Vengeful Vitae** feature; While in direct or indirect sunlight, you are Blinded/Defended to all senses.
 	**Vengeful Vitae:** Vitae seeps out of your skin & creates a protective barrior around your body. You gain 15 temporary HP for the next minute. If a creature hits you with a melee attack while you have these hit points, the creature takes 15 Blood damage. You can use this feature a number of time eqaul to your PB per Long Rest.
-**35 Degen:**
+**35 Degen:** Founder's Items improve to +4; As an Action you can manifest bloody wings which give you a Fly (Hover) eqaul to your walk speed that lasts for 10 minutes (*at will*); Undead creatures with a CR of 2 or lower are incapable of threatening nor attacking you & they follow your commands; Undead creatures (*including PC vampires*) have disadvantage on attack rolls against you; You gain the **Destroy the Good** feature; Good allinged creatures within 120ft of you know your exact location; If a holy symbol of any god (*execpt for the Blood God*) is within 30ft of you, you have disatvantage on all rolls; 
+	**Destroy the Good:** Once per week as a Free Action, you can choose one creature you can see within 120ft. If the target is of good alignment, a bloody fissure opens under it. The target must succeed on a DC 20 Dexterity saving throw or fall into the fissure and be destroyed, leaving no remains. The fissure then closes, leaving no trace of its existence.
 
-**Stablized Degen:** Keep all powers, but max go reduced by half degen amount 
+**Stablized Degen:** Keep all powers, but max HP is reduced by half degen amount (rounded up)
 
-**Blood Degeneration - Noble Vampiric Powers (page 205)**
+__Blood Degeneration - Noble Vampiric Powers (*p.205*)__
 
 1] **Mind Drinker:** As a Bonus Action, you can target a creature you can see within 30 feet. The target must make an Intelligence saving throw. On a failed save, the target takes 4d4 Psychic damage, & you learn the target’s surface emotions and thoughts. Additonally on a failed save, you can choose to gain immunity to Psychic damage for the next 24 hours, however you become afflicted with Indefinite Madness for the duration. On a successful save, the target takes half as much damage. Your spellcasting ability for the invocation is Intelligence, Wisdom, or Charisma. You can do this PB times per Long Rest.
 
