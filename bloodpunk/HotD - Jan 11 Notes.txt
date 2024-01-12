@@ -94,3 +94,9 @@
 ~~Blunderbuss stake rounds~~
 	Stake rounds for fighting vamps
 	-5, +10
+
+~~The Thief's goal~~
+	Check if he has a description in his shop's section of the book
+	https://wh40k.lexicanum.com/wiki/Spear_of_Telesto
+	https://wh40k.lexicanum.com/wiki/Blade_Encarmine
+	https://wh40k.lexicanum.com/wiki/Moonsilver_Blade
