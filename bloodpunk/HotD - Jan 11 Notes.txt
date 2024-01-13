@@ -128,5 +128,6 @@ You gain resistance, a movement options, & a breath weapon based on your *chosen
 - Brass (Fire): You gain a Burrow speed equal to your walk speed. Additionally, you gain a 15ft tremorsense while burrowing.
 
 **Breath Weapon**
-When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (your spell save DC or DC 16). On a failed save, the creature takes 1d10 damage of the type associated with your *chosen metal*. On a successful save, it takes half as much damage. This damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).
+When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (your spell save DC or DC 16). On a failed save, the creature takes 4d8 damage of the type associated with your *chosen metal*. On a successful save, it takes half as much damage.
+
 You can use your Breath Weapon a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a Long Rest.
