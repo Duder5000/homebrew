@@ -28,7 +28,7 @@
 	You're on a metal surface, it extends 30 feet in each direction, beyond it there is nothing but an empty blue sky with the sun begining to peak over the horizin.
 	Just before your companions are dropped out of a portal, a large door begins to imerge from the metal surface as if being pulled up from the bottom of a lake. Once it is fully imerged, the air begins to chill.
 
-	**Sun Vault:**
+	**Sun Vault (uncommon):** You can conjure any weapon or tool of his choice, magical (common, uncommon) or nonmagical, into an empty hand. Weapons or tool conjured in this way disappear when you stops holding them. You can attune to these weapons or tools when you summon them & you are proficient with them.
 
 ~~The Founder finds out~~
 	If founder finds out about prisons, losses access to all founder powers, founder items stop working & burn to touch, damage & max hp reduction equal to blood degen.
@@ -53,29 +53,27 @@
 	No Sanguinology duplicate
 	Fight real one, but he is a sorc lich
 
-~~Cohors Sanguine Awakening (For Aerin after talk with the Founder)~~
-	"I sense conflict between you & your companies. Is there something I should now?" 
+__Cohors Sanguine Awakening (For Aerin after talk with the Founder)__
+"I sense conflict between you & your companies. Is there something I should now?" 
 
-	**Sanguine Awakening**
-	You have resistance to Radiant damage.
-	You have immunity to Poison and Necrotic damage.
-	As an Action you can grant yourself immunity to Radiant damage until the start of your next turn. Despite the radiance causing no true damage, you feel its pain three fold and your skin burns & melts all the same.
-	*Refuse Death*
-		As a Free Action, when you would normal drop to 0 HP, you can tap into your fragment of divinity & deny the gods your eternal soul. Instead of falling uncouncious, you return to full health & removing any negative conditions, as divine power rebuilds your body.
-		Once you use this feature, cannot use it again for 1d4 months.
+**Sanguine Awakening**
+You have resistance to Radiant damage.
+You have immunity to Poison and Necrotic damage.
+As an Action you can grant yourself immunity to Radiant damage until the start of your next turn. Despite the radiance causing no true damage, you feel its pain three fold and your skin burns & melts all the same.
 
-	You learn about how the Founder's Cohors Sanguine were normally awakened (become able to survive Cohors Sanguine ritual) and he shares with you the realization he had when he first feed on a sentient person.
+**Refuse Death**
+As a Free Action, when you would normal drop to 0 HP, you can tap into your fragment of divinity & deny the gods your eternal soul. Instead of falling uncouncious, you return to full health & removing any negative conditions, as divine power rebuilds your body.
+Once you use this feature, cannot use it again for 1d4 months.
 
-	**Awakening (*Founder Version*)**
-	Awakening normally happens when a vampire has feed on enough sentient beings to realize the truth of the Founder's curse, that it allows a vampire to consume the divine potential scattered and hidden across mortals.
+You learn about how the Founder's Cohors Sanguine were normally awakened (become able to survive the Cohors Sanguine ritual) and he shares with you the realization he had when he first feed on a sentient person.
 
-	**Founders Realization**
-	When the Founder drank the blood of the Sun’s Son, he tasted divinity for a split second. After the Sun ripped away his divinity and cursed him to become the first vampire, the Founder drank the blood of monsters, but when he first drank the blood of a sentient person, he tasted a fraction of the same power as the divinity. He realized that there is divine potential scattered and hidden across mortal races. He took over a settlement and made it into a city. He built a hierarchy for the sole purpose of accumulating the divine potential at the top of the food chain. The vampires fed on mortals, noble vampires fed on vampires, royalty fed on nobility, and the Founder fed on royalty. With each transaction of blood, nfinitesimally small traces pf divinity were transferred to the top predator from the mortals who were at the bottom of the food chain. That’s why he refused every proposal forbidding vampires to feed on vampires. He is trying to achieve divinity because he thinks that he can do a better job than the current deities. He justifies his cruel actions by defending their necessity and he wants to make them right once he becomes a deity.
+**Awakening (*Founder Version*)**
+Awakening normally happens when a vampire has feed on enough sentient beings to realize the truth of the Founder's curse, that it allows a vampire to consume the divine potential scattered and hidden across mortals.
 
-~~Vengful Blood --> Armor of Vitae~~
-	You gain the **Vengful Blood** feature (*Armor of Agathus, but Blood*)
+**Founders Realization**
+When the Founder drank the blood of the Sun’s Son, he tasted divinity for a split second. After the Sun ripped away his divinity and cursed him to become the first vampire, the Founder drank the blood of monsters, but when he first drank the blood of a sentient person, he tasted a fraction of the same power as the divinity. He realized that there is divine potential scattered and hidden across mortal races. He took over a settlement and made it into a city. He built a hierarchy for the sole purpose of accumulating the divine potential at the top of the food chain. The vampires fed on mortals, noble vampires fed on vampires, royalty fed on nobility, and the Founder fed on royalty. With each transaction of blood, nfinitesimally small traces pf divinity were transferred to the top predator from the mortals who were at the bottom of the food chain. That’s why he refused every proposal forbidding vampires to feed on vampires. He is trying to achieve divinity because he thinks that he can do a better job than the current deities. He justifies his cruel actions by defending their necessity and he wants to make them right once he becomes a deity.
 
-~~Drach'nyen talks to Harvey & Ethel~~
+__Drach'nyen talks to Harvey & Ethel__
 	Drach'nyen speaks to Harvey & Ethel
 	Tell them what he told Aerin
 	"I'm in the minds of all that have commited a murder"
@@ -110,3 +108,25 @@
 	https://wh40k.lexicanum.com/wiki/The_Cawl_Inferior
 	https://www.halopedia.org/Offensive_Bias
 	https://m.joyreactor.cc/post/1074664
+
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+__The Founder's offer during the final fight__
+"I sense my body, it is close. He will be with it. I do not trust most of you, but for the time being, you are all that I have. You my call upon my magical abilities, to ensure we both survive this."
+
+**Founder's Magic**
+As an Action you can call upon the magical abilities of The Founder, he can cast any Wizard or Cleric spell of 8th-level (or lower), at the cost of you gaining Blood Degeneration & having your max HP reduced by the spell's level. 
+- You must concentrate on any concentration spell The Founder casts for you.
+- If the casting time of the spell is longer than 1 Action, The Founder takes that time to cast it with no additional Actions required from you. 
+
+__Justice's Gift__
+You gain resistance, a movement options, & a breath weapon based on your *chosen metal*.
+- Gold (Fire): You gain a Swim speed equal to your walk speed.
+- Silver (Cold): Your jump distance is tripled.
+- Bronze (Lightning): You gain a Swim speed equal to your walk speed. 
+- Copper (Acid): You gain a Climb speed equal to your walk speed.
+- Brass (Fire): You gain a Burrow speed equal to your walk speed. Additionally, you gain a 15ft tremorsense while burrowing.
+
+**Breath Weapon**
+When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (your spell save DC or DC 16). On a failed save, the creature takes 1d10 damage of the type associated with your *chosen metal*. On a successful save, it takes half as much damage. This damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).
+You can use your Breath Weapon a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a Long Rest.
