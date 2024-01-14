@@ -122,13 +122,12 @@ As an Action you can call upon the magical abilities of The Founder, he can cast
 
 __Justice's Gift__
 You gain resistance, a movement options, & a breath weapon based on your *chosen metal*.
-- Gold (Fire): You gain a Swim speed equal to your walk speed.
-- Silver (Cold): Your jump distance is tripled.
-- Bronze (Lightning): You gain a Swim speed equal to your walk speed. 
-- Copper (Acid): You gain a Climb speed equal to your walk speed.
-- Brass (Fire): You gain a Burrow speed equal to your walk speed. Additionally, you gain a 15ft tremorsense while burrowing.
+- Gold (Fire): You gain a Swim speed equal to your walk speed. Additionally, you become Amphibious (you can breathe air and water).
+- Silver (Cold): Your jump distance & height are tripled. Additionally, you can cast *Feather Fall* at will.
+- Bronze (Lightning): You gain a Swim speed equal to your walk speed. Additionally, you become Amphibious (you can breathe air and water).
+- Copper (Acid): You gain a Climb speed equal to your walk speed. Additionally, your speed increase by 10ft.
+- Brass (Fire): You gain a Burrow speed equal to your walk speed. Additionally, you gain a 30ft of tremorsense while burrowing.
 
 **Breath Weapon**
 When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (your spell save DC or DC 16). On a failed save, the creature takes 4d8 damage of the type associated with your *chosen metal*. On a successful save, it takes half as much damage.
-
 You can use your Breath Weapon a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a Long Rest.
