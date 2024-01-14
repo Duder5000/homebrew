@@ -18,7 +18,7 @@
 
 **45 Degen:** If a holy symbol of any god (*execpt for the Blood God*) is within 30ft of you, you have disatvantage on all saving throws; The DC for The Founder to take over your body increases to 10
 
-**50 Degen:** You must consume your level worth of HP in vampire blood each day or you cannot complete a Long Rest; The DC for The Founder to take over your body increases to 12
+**50 Degen:** You must consume your character level worth of HP in vampire blood each day or you cannot complete a Long Rest; The DC for The Founder to take over your body increases to 12
 
 **Stablized Degen:** Keep all powers, but max HP is reduced by half degen amount (rounded up), loss degen 40 good/bad features
 
