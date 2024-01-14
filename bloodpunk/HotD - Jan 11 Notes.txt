@@ -8,27 +8,28 @@
 
 	"Tread carefully, young ones. Life courses through blood; death lies in its embrace. I am the origin, I am the conclusion."
 
-	**Harvey after:** "You interest me Chosen One. I hope you play the game well. There maybe an opening in my courts soon... for you."
+	||Direct Messages||
+	**Harvey after:** "You interest me Chosen One. I hope you play the game well. There may soon be an opening in my court... *For you?*"
 
-	**Aerin after:** "Good girl. You've ignored that pathetic so-called god's call for help. A god that needs help, is no god at all. I will be watching you with curiosity. There maybe an opening in my courts soon... for you."
+	**Aerin after:** "Good girl. You've ignored that pathetic so-called god's call for help. A god that needs help, is no god at all. I will be watching you with curiosity. There may soon be an opening in my court... *For you?*"
 
 	**Azrael after:** Have you ever wondered why you were reborn when the skies first rained blood? When the time comes to decided... think about it. Will you revive him, to return to be my reluctant Hand? Or will you let him fade away in his failure & take your place at my side?
 	[DO NOT SENT!] ||The godly power that the Founder stole, when the Sun god took it away, the Blood god hide some of it in other mortals before it could be returned.||
 
-	**Ethel:** Maulev (Alen) has had a revolation. I hope you get to speak with him about it before I do.
+	**Ethel:** Maulev (Alen) has had a revolation. I hope you get to speak with him about it... before I do.
 
-	__Except for the Sun__
-	As you watch your companions leave your sight, an endless sea of blood appears below you... you're plummet into it. 
-	As you sink, the crimson sea blinds you, the sloshing of the bloody wave deafness you, the smell of decay anosmias (lose of smell) you, and the taste of copper ageusias (lose of taste) you. 
-	It feels as if you've spent years in the blood... senseless. 
-	Then you remember the one sense *It* left to you, but only as you feel the claws of blood rip into your body & pull you to bottom of this endless sea. You know you will soon reach the bottom... the end... death. After how long you waited, is this how you go to the Sun God? 
-	All of a sudden blinding sunlight, burns the sea away & strangely returns your senses. You awake, returned to a plane where your god still has influence. The light even as dim as it is, warms your soul. You feel a connection to the Sun God that you had forgot. As you open your eyes, you see a small portal to the Sun Vault. Sunlight begins to leak from the portal and forms a blade of solid sunlight on your broken sword.
+__Except for the Sun__
+As your companions fade from view, a boundless sea of blood materializes beneath you, and you find yourself hurtling towards its depths. The scarlet abyss envelops you, blinding your vision, deafening your ears with the relentless sloshing of the bloody tide, and robbing you of your sense of smell as the stench of decay pervades. The metallic taste of copper fills your mouth, and it seems like an eternity passes as you drift senselessly through the crimson currents.
 
-	You are here alone of a few minutes before your companions arrive.
-	You're on a metal surface, it extends 30 feet in each direction, beyond it there is nothing but an empty blue sky with the sun begining to peak over the horizin.
-	Just before your companions are dropped out of a portal, a large door begins to imerge from the metal surface as if being pulled up from the bottom of a lake. Once it is fully imerged, the air begins to chill.
+Suddenly, amidst the sensory deprivation, a realization strikes you – the one sense that remains intact. Yet, before you can fully grasp the meaning, the claws of blood tear into your body, dragging you towards the abyss's unfathomable bottom. In the depths, a profound certainty settles in your soul – this is the journey to the end, the embrace of death. After how long you waited, is this how you go to the Sun God?
 
-	**Sun Vault (uncommon):** You can conjure any weapon or tool of his choice, magical (common, uncommon) or nonmagical, into an empty hand. Weapons or tool conjured in this way disappear when you stops holding them. You can attune to these weapons or tools when you summon them & you are proficient with them.
+Abruptly, blinding sunlight pierces through the sea of blood, incinerating it and restoring your senses. You awaken, finding yourself back in a realm where your god's influence holds sway. Even the subdued light warms your soul, rekindling a connection with the Sun God that had slipped from memory. As your eyes flutter open, a small portal to the Sun Vault appears, and sunlight spills forth, coalescing into a blade of solid radiance upon your shattered weapon.
+
+For a few solitary minutes, you stand alone before the arrival of your companions. The metallic surface beneath you spans 30 feet in every direction, surrounded by an expansive blue sky with the sun gradually rising on the horizon. Just before your comrades materialize through a portal, a colossal door emerges from the metal expanse, rising as if drawn from the depths of a lake. As it fully manifests, a chilling air permeates the surroundings, casting an eerie aura over the scene.
+
+	https://chat.openai.com/c/0d4f9fac-3ea6-47b7-b2d8-e8d09d4dc9b6
+
+**Sun Vault (uncommon):** As a Bonus Action, you can conjure any weapon or tool of your choice, magical (common, uncommon) or nonmagical, into an empty hand. Weapons or tool conjured in this way disappear when you stops holding them. You can attune to these weapons or tools when you summon them & you are proficient with them.
 
 ~~The Founder finds out~~
 	If founder finds out about prisons, losses access to all founder powers, founder items stop working & burn to touch, damage & max hp reduction equal to blood degen.
@@ -59,19 +60,19 @@ __Cohors Sanguine Awakening (For Aerin after talk with the Founder)__
 **Sanguine Awakening**
 You have resistance to Radiant damage.
 You have immunity to Poison and Necrotic damage.
-As an Action you can grant yourself immunity to Radiant damage until the start of your next turn. Despite the radiance causing no true damage, you feel its pain three fold and your skin burns & melts all the same.
+As an Action you can grant yourself immunity to Radiant damage until the start of your next turn. Despite the radiance causing no true damage, you feel its pain three fold & your skin burns/melts all the same.
 
 **Refuse Death**
-As a Free Action, when you would normal drop to 0 HP, you can tap into your fragment of divinity & deny the gods your eternal soul. Instead of falling uncouncious, you return to full health & removing any negative conditions, as divine power rebuilds your body.
+As a Free Action, when you would normal drop to 0 HP, you can tap into your fragment of divinity & deny the gods your eternal soul. Instead of falling uncouncious, you return to full health & remove any negative conditions, as your divine power rebuilds your body.
 Once you use this feature, cannot use it again for 1d4 months.
 
-You learn about how the Founder's Cohors Sanguine were normally awakened (become able to survive the Cohors Sanguine ritual) and he shares with you the realization he had when he first feed on a sentient person.
+*You learn about how the Founder's Cohors Sanguine were normally awakened (become able to survive the Cohors Sanguine ritual) and he shares with you the realization he had when he first feed on a sentient person.*
 
 **Awakening (*Founder Version*)**
-Awakening normally happens when a vampire has feed on enough sentient beings to realize the truth of the Founder's curse, that it allows a vampire to consume the divine potential scattered and hidden across mortals.
+Awakening normally happens when a vampire has feed on enough sentient beings to realize the truth of the Founder's curse. That it allows a vampire to consume the divine potential scattered & hidden across mortals.
 
 **Founders Realization**
-When the Founder drank the blood of the Sun’s Son, he tasted divinity for a split second. After the Sun ripped away his divinity and cursed him to become the first vampire, the Founder drank the blood of monsters, but when he first drank the blood of a sentient person, he tasted a fraction of the same power as the divinity. He realized that there is divine potential scattered and hidden across mortal races. He took over a settlement and made it into a city. He built a hierarchy for the sole purpose of accumulating the divine potential at the top of the food chain. The vampires fed on mortals, noble vampires fed on vampires, royalty fed on nobility, and the Founder fed on royalty. With each transaction of blood, nfinitesimally small traces pf divinity were transferred to the top predator from the mortals who were at the bottom of the food chain. That’s why he refused every proposal forbidding vampires to feed on vampires. He is trying to achieve divinity because he thinks that he can do a better job than the current deities. He justifies his cruel actions by defending their necessity and he wants to make them right once he becomes a deity.
+When the Founder drank the blood of the Sun God’s Son, he tasted divinity for a split second. After the Sun ripped away his divinity and cursed him to become the first vampire, the Founder drank the blood of monsters, but when he first drank the blood of a sentient person, he tasted a fraction of the same power as the divinity. He realized that there is divine potential scattered and hidden across mortal races. He took over a settlement and made it into a city. He built a hierarchy for the sole purpose of accumulating the divine potential at the top of the food chain. The vampires fed on mortals, noble vampires fed on vampires, royalty fed on nobility, and the Founder fed on royalty. With each transaction of blood, nfinitesimally small traces pf divinity were transferred to the top predator from the mortals who were at the bottom of the food chain. That’s why he refused every proposal forbidding vampires to feed on vampires. He is trying to achieve divinity because he thinks that he can do a better job than the current deities. He justifies his cruel actions by defending their necessity and he wants to make them right once he becomes a deity.
 
 __Drach'nyen talks to Harvey & Ethel__
 	Drach'nyen speaks to Harvey & Ethel
