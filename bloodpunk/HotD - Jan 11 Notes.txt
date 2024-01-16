@@ -134,3 +134,51 @@ You gain resistance, a movement options, & a breath weapon based on your *chosen
 **Breath Weapon**
 When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (your spell save DC or DC 16). On a failed save, the creature takes 4d8 damage of the type associated with your *chosen metal*. On a successful save, it takes half as much damage.
 You can use your Breath Weapon a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a Long Rest.
+
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+**Scythe**
+Type: Martial Melee Weapon
+Damage: 1d6 Bludgeoning
+Properties: Finesse, Reach (10ft), Special*
+*When attacking a creature that is 10ft away from you, you deal 3d6 Slashing damage rather than the normal damage. 
+
+~~~~~
+
+**Drach'nyen (Scythe)**
+You have a +4 bonus to attack and damage rolls made with this weapon.
+Attacks with this weapon deals an extra 2d6 Psychic damage to any target it hits. 
+Attacks with this weapon are a critial on a roll of 19 or 20
+
+While wielding Drach'nyen, you gain 2 Minor Properties:
+- 48) You have resistance against one damage type of your choice.
+- 09) You gain proficiency in one skill of your choice.
+
+While wielding Drach'nyen, you gain 2 Major Properties:
+- 13) One of your ability scores increases by 2, to a maximum of 24.
+- 47) Your walking speed increases by 10 feet.
+
+**Drach'nyen (Wand)**
+While using this wand as an Arcane Focus, 
+- You gain a +4 bonus to spell attack rolls
+- You ignore half cover when making a spell attack
+- Spell attacks are a critial on a roll of 19 or 20
+- Cantrips cast use their next damage stage
+
+While wielding Drach'nyen, you gain 2 Minor Properties:
+- 43) You have resistance against one damage type of your choice.
+- 80) You can use an action to cast one 3rd-level spell from it. After you cast the spell, roll a d6. On a roll of 1–5, you can’t cast it again until the next dawn.
+
+While wielding Drach'nyen, you gain 2 Major Properties:
+- 97) While attuned to the artifact, you can’t be blinded, deafened, petrified, or stunned.
+- 72) You can use an action to cast one 6th-level spell from it. After you cast the spell, roll a d6. On a roll of 1–5, you can’t cast it again until the next dawn.
+
+https://www.dndbeyond.com/sources/dmg/sentient-magic-items-artifacts#MajorBeneficialProperties
+
+~~~~~
+
+As a Bonus Action you can speak Drach'nyen's name aloud, summoning him to you. He takes form of any +3 weapon of your choosing.
+Attacks with Drach'nyen deals an extra 2d6 Psychic damage to any target it hits. 
+- If Drach'nyen takes the form of a melee weapon, attacks with it ignore all physical armor.
+- If Drach'nyen takes the form of a ranged weapon, its ranges are double & it scores a critical or an 18 - 20.
+- If Drach'nyen takes the form of a thrown weapon, after each attack it returns to your hand (no action required). Additionally, hit or miss, the target and each creature within 10 feet of it, of your choosing must succeed on a Dexterity saving throw or take 2d6 Psychic damage.
