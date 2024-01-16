@@ -14,7 +14,7 @@
 **35 Degen:** Founder's Items improve to +4; As a Bonus Action you can manifest bloody wings which give you a Fly (Hover) eqaul to your walk speed that lasts for 10 minutes (*at will*); Undead creatures with a CR of 2 or lower are incapable of threatening nor attacking you & they follow your commands; Undead creatures (*including PC vampires*) have disadvantage on attack rolls against you; You gain the **Destroy the Good** feature; Good allinged creatures within 120ft of you know your exact location
 	**Destroy the Good:** Once per week as a Free Action, you can choose one creature you can see within 120ft. If the target is of good alignment, a bloody fissure opens under it. The target must succeed on a DC 20 Dexterity saving throw or fall into the fissure and be destroyed, leaving no remains. The fissure then closes, leaving no trace of its existence.
 
-**40 Degen:** You gain 17 levels in the Wizard (Order of Scribes) class in addition to any other levels you have, you gain no HP from these levels, but gain all other features; Each time you complete a Long Rest roll a d20, on a roll of 8 or lower The Founder takes control over your body for the next 24 hours. You must also make this roll when you gain this feature.
+**40 Degen:** You gain 15 levels in the Wizard (Order of Scribes) class in addition to any other levels you have, you gain no HP from these levels, but gain all other features; Each time you complete a Long Rest roll a d20, on a roll of 8 or lower The Founder takes control over your body for the next 24 hours. You must also make this roll when you gain this feature.
 
 **45 Degen:** If a holy symbol of any god (*execpt for the Blood God*) is within 30ft of you, you have disatvantage on all saving throws; The DC for The Founder to take over your body increases to 10
 
@@ -67,11 +67,11 @@ You can one of these spells once per Short Rest without expending a spell slot. 
 
 21] **True Angst:** When you deal damage with a spell, you can choose to maximize the damage by reducing your max HP by its min damage (and taking the damage too). The blood damage dealt solidifies into a small crimson gem on your heart. To regain you max HP, the gem must be removed during a Long Rest with a DC 17 Medicine check. On a fail, you gain a point of Exhaustion and can't attempt to remove the gem until you complete another Long Rest. A removed gem brims with other-worlding magical power, who know what it could do.
 
-22] **Blood for Blood:** Your hit point maximum increases by an amount equal to 2 times your level when you gain this feature, and whenever you gain a level thereafter, your hit point maximum increases by an additional 2 hit points. However, you gain Blood Degeneration equal to your level when you gain this feature, and whenever you gain a level thereafter, you gain an additional 1 Blood Degeneration.
+(16 for Harvey) - 22] **Blood for Blood:** Your hit point maximum increases by an amount equal to 2 times your level when you gain this feature, and whenever you gain a level thereafter, your hit point maximum increases by an additional 2 hit points. However, you gain Blood Degeneration equal to your level when you gain this feature, and whenever you gain a level thereafter, you gain an additional 1 Blood Degeneration.
 
 23] **Remove Weakness:** Your organs melt into a bloody slime that continuously flows inside your body, doing their jobs but in a different way. Any critical hit against you becomes a normal hit. Additionally, as a bonus action, you can cause your bones to melt as well; you can move through a space as narrow as 1 inch wide without squeezing, but your speed is reduced by 10ft. You can return your bones to normal with another bonus action.
 
-24] **Piercing Eyes:** As an action, you can empower your eyes. When you do so, you lose 1 hit die and take damage equal to a roll of it (*don't add Con mod*), then your eyes turn violet, and you gain the following:
+24] **Piercing Eyes:** As an action, you can empower your eyes. When you do so, you lose 1 hit die and take damage equal to a roll of it (*don't add Con mod*), then your eyes turn violet, and you gain the following for 1 minute:
 - 30 feet of True Sight
 - You can see in a 360-degree around you
 - You gain a 1d4 bonus to Dexterity Skill Checks & Dexterity Saving Throws.
