@@ -143,7 +143,7 @@ Damage: 1d6 Bludgeoning
 Properties: Finesse, Reach (10ft), Special*
 *When attacking a creature that is 10ft away from you, you deal 3d6 Slashing damage rather than the normal damage. 
 
-~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Drach'nyen (Scythe)**
 You have a +4 bonus to attack and damage rolls made with this weapon.
@@ -174,11 +174,3 @@ While wielding Drach'nyen, you gain 2 Major Properties:
 - 72) You can use an action to cast one 6th-level spell from it. After you cast the spell, roll a d6. On a roll of 1–5, you can’t cast it again until the next dawn.
 
 https://www.dndbeyond.com/sources/dmg/sentient-magic-items-artifacts#MajorBeneficialProperties
-
-~~~~~
-
-As a Bonus Action you can speak Drach'nyen's name aloud, summoning him to you. He takes form of any +3 weapon of your choosing.
-Attacks with Drach'nyen deals an extra 2d6 Psychic damage to any target it hits. 
-- If Drach'nyen takes the form of a melee weapon, attacks with it ignore all physical armor.
-- If Drach'nyen takes the form of a ranged weapon, its ranges are double & it scores a critical or an 18 - 20.
-- If Drach'nyen takes the form of a thrown weapon, after each attack it returns to your hand (no action required). Additionally, hit or miss, the target and each creature within 10 feet of it, of your choosing must succeed on a Dexterity saving throw or take 2d6 Psychic damage.
