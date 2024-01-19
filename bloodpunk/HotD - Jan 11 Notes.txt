@@ -64,31 +64,19 @@ Awakening normally happens when a vampire has feed on enough sentient beings to 
 **Founders Realization**
 When the Founder drank the blood of the Sun God’s Son, he tasted divinity for a split second. After the Sun ripped away his divinity and cursed him to become the first vampire, the Founder drank the blood of monsters, but when he first drank the blood of a sentient person, he tasted a fraction of the same power as the divinity. He realized that there is divine potential scattered and hidden across mortal races. He took over a settlement and made it into a city. He built a hierarchy for the sole purpose of accumulating the divine potential at the top of the food chain. The vampires fed on mortals, noble vampires fed on vampires, royalty fed on nobility, and the Founder fed on royalty. With each transaction of blood, infinitesimally small traces pf divinity were transferred to the top predator from the mortals who were at the bottom of the food chain. That’s why he refused every proposal forbidding vampires to feed on vampires. He is trying to achieve divinity because he thinks that he can do a better job than the current deities. He justifies his cruel actions by defending their necessity and he wants to make them right once he becomes a deity.
 
-__Drach'nyen talks to Harvey & Ethel__
-	Drach'nyen speaks to Harvey & Ethel
-	Tell them what he told Aerin
-	"I'm in the minds of all that have commited a murder"
-
-	Make him talk as if he's the death god
-	"Soon you will do battle with 2 that have escaped my grasp far past their time"
-
-	"When the time comes, all you must do is speak my name & I will grant you the power to strike them down & to tare this plane asunder" 
-
-	"You are entering the realm of The Sanguinology. In there, he will have all of the advantages. The Founder wants you to strike down The Sanguinology, then command you to take the sorcerer's preparation for himself. Once you enter his realm you cannot leave, you lack the magical prowess. As such, you currently only have 2 options: side with The Founder or side with The Sanguinology. I come to you now to offer you a third choice. When the time comes, speak my name aloud; I will grant you the power to strike him down. Then, once he is stricken down, I will aid you in purging The Founder from your blood, bring you back to the Material Plane, & as a bonus from then on you can call upon my power whenever you need. My price is only the death of both of them."
-
 __Blunderbuss stake rounds__
 	Stake rounds for fighting vamps
 	-5, +10
 
 __The Thief's goal__
-	Check if he has a description in his shop's section of the book
-	https://wh40k.lexicanum.com/wiki/Spear_of_Telesto
+	||Check if he has a description in his shop's section of the book||
+	Encarmine = The blade that the blood god used when he walked the material plane
 	https://wh40k.lexicanum.com/wiki/Blade_Encarmine
-	https://wh40k.lexicanum.com/wiki/Moonsilver_Blade
 
 __Alan-Inferior__
 	Cawl Inferior / Offensive Bias -like AI created by Alan as his way of immortality
 		Finished with the help of the crimson technologist (or whatever this names is), completed when Alan had a meet at the tower, just before the players went to it
+	Maybe tie into the Big Red Button ending???	
 	https://wh40k.lexicanum.com/wiki/The_Cawl_Inferior
 	https://www.halopedia.org/Offensive_Bias
 	https://m.joyreactor.cc/post/1074664
@@ -105,13 +93,13 @@ As an Action you can call upon the magical abilities of The Founder, he can cast
 
 __Justice's Gift__
 You gain resistance, a movement options, & a breath weapon based on your *chosen metal*.
-- ~~Gold (Fire): You gain a Swim speed equal to your walk speed. Additionally, you become Amphibious (you can breathe air and water).~~
-- ~~Silver (Cold): Your jump distance & height are tripled. Additionally, you can cast *Feather Fall* at will.~~
-- ~~Bronze (Lightning): You gain a Swim speed equal to your walk speed. Additionally, you become Amphibious (you can breathe air and water).~~
-- Copper (Acid): You gain a Climb speed equal to your walk speed. Additionally, your speed increase by 10ft.
-- Brass (Fire): You gain a Burrow speed equal to your walk speed. Additionally, you gain a 30ft of tremorsense while burrowing.
 
-~~Gold, Silver, Bronze,~~ Copper, Brass
+~~Gold~~, ~~Silver~~, ~~Bronze~~, Copper, Brass
+- Gold (Fire): You gain a Swim speed equal to your walk speed. Additionally, you become Amphibious (you can breathe air and water).
+- Silver (Cold): Your jump distance & height are tripled. Additionally, you can cast *Feather Fall* at will.
+- Bronze (Lightning): You gain a Swim speed equal to your walk speed. Additionally, you become Amphibious (you can breathe air and water).
+- Copper (Acid): You gain a Climb speed equal to your walk speed. Additionally, your speed increase by 5ft.
+- Brass (Fire): You gain a Burrow speed equal to your walk speed. Additionally, you gain a 30ft of tremorsense while burrowing.
 
 **Breath Weapon**
 When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (your spell save DC or DC 16). On a failed save, the creature takes 4d8 damage of the type associated with your *chosen metal*. On a successful save, it takes half as much damage.
