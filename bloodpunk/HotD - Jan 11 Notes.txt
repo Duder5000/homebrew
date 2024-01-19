@@ -142,8 +142,7 @@ While wielding Drach'nyen, you gain 2 Major Properties:
 
 **Drach'nyen (Wand)**
 While using this wand as an Arcane Focus, 
-- You gain a +4 bonus to spell attack rolls
-- You ignore half cover when making a spell attack
+- You gain a +4 bonus to spell attack and damage rolls
 - Spell attacks are a critial on a roll of 19 or 20
 - Cantrips cast use their next damage stage
 
