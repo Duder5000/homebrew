@@ -66,17 +66,19 @@ When the Founder drank the blood of the Sun God’s Son, he tasted divinity for 
 
 __Blunderbuss stake rounds__
 	Stake rounds for fighting vamps
-	-5, +10
+	Turns a blunderbuss into  a *-5 / +10* weapon
 
 __The Thief's goal__
 	||Check if he has a description in his shop's section of the book||
 	Encarmine = The blade that the blood god used when he walked the material plane
+	It is in the office/desk of the crimson technologist, that's why he was at the bronze statue that opened the portal to the "big red button", so he could get to the hidden facility in the mountians
 	https://wh40k.lexicanum.com/wiki/Blade_Encarmine
 
-__Alan-Inferior__
+__Alen-Inferior__
 	Cawl Inferior / Offensive Bias -like AI created by Alan as his way of immortality
 		Finished with the help of the crimson technologist (or whatever this names is), completed when Alan had a meet at the tower, just before the players went to it
 	Maybe tie into the Big Red Button ending???	
+		The prototype of his Maulev-Bias is stored being worked in the mountian facility???
 	https://wh40k.lexicanum.com/wiki/The_Cawl_Inferior
 	https://www.halopedia.org/Offensive_Bias
 	https://m.joyreactor.cc/post/1074664
