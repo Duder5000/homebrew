@@ -8,50 +8,39 @@
 
 "Tread carefully, young ones. Life courses through blood; death lies in its embrace. I am the origin, I am the conclusion."
 
-||Direct Messages||
-**Harvey after:** "You interest me, Chosen One. I hope you play the game well. There may soon be an opening in my court... For you."
+__Direct Messages__
+**Harvey after:** "You interest me, Chosen of the Thornblood. I hope you play the game well. There may soon be an opening in my court. I hope you do not disapoint."
 
-**Aerin after:** "Good girl. You've ignored that pathetic ancient god's call for help. A god that needs help, is no god at all. I will be watching you with curiosity. There may soon be an opening in my court... For you."
+**Aerin after:** "Good girl. You've ignored that pathetic god's call for help. A god that needs help, is no god at all. I will be watching you with curiosity. There may soon be an opening in my court. I hope you do not disapoint."
 
-**Ethel:** Maulev (Alen) has had a revolation. I hope you get to speak with him about it, before I do.
+**Ethel:** Maulev (Alen) has had a revolation. I hope you get to speak with him about it... before I do.
 
-**Azrael after:** Have you ever wondered why you too were changed for his orginal sin? When the time comes to decided his fate... think about it. Will you revive him, to return to be my reluctant Hand? Or will you let him fade away in his failure & take your place at my side?
+**Azrael after:** Have you ever wondered why you too were changed for his orginal sin? When the time comes to decided his fate, think about it. Will you revive him, to return to be my reluctant Hand? Or will you let him fade away into his failure, then take your place at my side?
 	DO NOT SENT: ||The godly power that the Founder stole, when the Sun god took it away, the Blood god hide some of it in other mortals before it could be returned.||
 	Removed: ||Have you ever wondered why you were reborn when the skies first rained blood?||
 
 __Except for the Sun__
 As your companions fade from view, a boundless sea of blood materializes beneath you, and you find yourself hurtling towards its depths. The scarlet abyss envelops you, blinding your vision, deafening your ears with the relentless sloshing of the bloody tide, and robbing you of your sense of smell as the stench of decay pervades. The metallic taste of copper fills your mouth, and it seems like an eternity passes as you drift senselessly through the crimson currents.
-
 Suddenly, amidst the sensory deprivation, a realization strikes you – the one sense that remains intact. Yet, before you can fully grasp the meaning, the claws of blood tear into your body, dragging you towards the abyss' unfathomable bottom. In the depths, a profound certainty settles in your soul – this is your journey's end, the embrace of death. After how long you waited, is this how you go to the Sun God?
-
 Abruptly, blinding sunlight pierces through the sea of blood, incinerating it and restoring your senses. You awaken, finding yourself back in a realm where your god's influence holds sway. Even the subdued light warms your soul, rekindling a connection with the Sun God that had slipped from memory. As your eyes flutter open, a small portal to the Sun Vault appears, and sunlight spills forth, coalescing into a blade of solid radiance upon your shattered blade.
-
 For a few solitary minutes, you stand alone before the arrival of your companions. The metallic surface beneath you spans 30 feet in every direction, surrounded by an expansive blue sky with the sun gradually rising on the horizon. Just before your comrades materialize through the portal, a colossal door emerges from the metal expanse, rising as if drawn from the depths of a lake. As it fully manifests, a chilling air permeates the surroundings, casting an eerie aura over the scene.
 
-**Sun Vault (uncommon):** As a Bonus Action, you can conjure any weapon or tool of your choice, magical (common, uncommon) or nonmagical, into an empty hand. Weapons or tool conjured in this way disappear when you stop holding them. You can attune to these weapons or tools when you summon them & you are proficient with them.
+**Sun Vault (uncommon):** As a Bonus Action, you can conjure any weapon or tool of your choice, magical (common, uncommon) or nonmagical, into an empty hand. Weapons or tool conjured in this way disappear when you stop holding them. You can attune to these weapons or tools when you summon them & you become proficient with them, if you aren't already.
 
 	https://chat.openai.com/c/0d4f9fac-3ea6-47b7-b2d8-e8d09d4dc9b6
 
-~~The Founder finds out~~
+__The Founder finds out__
 	If founder finds out about prisons, losses access to all founder powers, founder items stop working & burn to touch, damage & max hp reduction equal to blood degen.
 	If within 500ft of body, blood flies to body reserecting a lesser version of the founder
 	If near daughter & finds out will attempt to essence transfer to her 
 
-~~4th lich~~
+__4th lich__
 	4th child becomes a vampire lich by using the prison for the founder to empower her & become her phalactery
 
-~~Hand of the Blood God~~
+__Hand of the Blood God__
 	Blood Eye (1 MS, end eye can be awaked, & later EMS) of someone becomes the Blood god's Hand
 
-~~Platnium Dragon Statue~~
-	Present an offering with three tenets of justice in your heart, to get an owl
-	Ask the players to describe what the characters believe the tenets mean. 
-
-~~Underground Forest (Justice)~~
-	Everyone with blood degen get a migraine will in the domain of Justice (skin whole)
-	Evil can't enter 
-
-~~Sanguinology Boss Fight & Beyond~~
+__Sanguinology Boss Fight & Beyond__
 	No Sanguinology duplicate
 	Fight real one, but he is a sorc lich
 
@@ -87,26 +76,17 @@ __Drach'nyen talks to Harvey & Ethel__
 
 	"You are entering the realm of The Sanguinology. In there, he will have all of the advantages. The Founder wants you to strike down The Sanguinology, then command you to take the sorcerer's preparation for himself. Once you enter his realm you cannot leave, you lack the magical prowess. As such, you currently only have 2 options: side with The Founder or side with The Sanguinology. I come to you now to offer you a third choice. When the time comes, speak my name aloud; I will grant you the power to strike him down. Then, once he is stricken down, I will aid you in purging The Founder from your blood, bring you back to the Material Plane, & as a bonus from then on you can call upon my power whenever you need. My price is only the death of both of them."
 
-~~The Theif~~
-	At the shop owner from azreal's backstory into the demiplane, got caught trying to steal something
-
-	Came to steal some sort of ancient blood magic gem or something from the Sanguinology (mace of the black crown OR teeth of dahlver-nar OR bloody end OR bloody avenger OR moonblade)
-
-	Blood Avenger = Holy Avenger, but with blood damage (to celestials & ) & Bane effect
-
-	Sword of the Planes, becuase he learned of the outer planes & wants to expand his 'practice' to them? 
-
-~~Blunderbuss stake rounds~~
+__Blunderbuss stake rounds__
 	Stake rounds for fighting vamps
 	-5, +10
 
-~~The Thief's goal~~
+__The Thief's goal__
 	Check if he has a description in his shop's section of the book
 	https://wh40k.lexicanum.com/wiki/Spear_of_Telesto
 	https://wh40k.lexicanum.com/wiki/Blade_Encarmine
 	https://wh40k.lexicanum.com/wiki/Moonsilver_Blade
 
-~~Alan-Inferior~~
+__Alan-Inferior__
 	Cawl Inferior / Offensive Bias -like AI created by Alan as his way of immortality
 		Finished with the help of the crimson technologist (or whatever this names is), completed when Alan had a meet at the tower, just before the players went to it
 	https://wh40k.lexicanum.com/wiki/The_Cawl_Inferior
@@ -130,6 +110,8 @@ You gain resistance, a movement options, & a breath weapon based on your *chosen
 - ~~Bronze (Lightning): You gain a Swim speed equal to your walk speed. Additionally, you become Amphibious (you can breathe air and water).~~
 - Copper (Acid): You gain a Climb speed equal to your walk speed. Additionally, your speed increase by 10ft.
 - Brass (Fire): You gain a Burrow speed equal to your walk speed. Additionally, you gain a 30ft of tremorsense while burrowing.
+
+~~Gold, Silver, Bronze,~~ Copper, Brass
 
 **Breath Weapon**
 When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (your spell save DC or DC 16). On a failed save, the creature takes 4d8 damage of the type associated with your *chosen metal*. On a successful save, it takes half as much damage.
@@ -174,3 +156,17 @@ While wielding Drach'nyen, you gain 2 Major Properties:
 - 72) You can use an action to cast one 6th-level spell from it. After you cast the spell, roll a d6. On a roll of 1–5, you can’t cast it again until the next dawn.
 
 https://www.dndbeyond.com/sources/dmg/sentient-magic-items-artifacts#MajorBeneficialProperties
+
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+__Founder after the boss fight__
+	Know that the Founder knows his daughter wants to seal him, he will teleport to his private demi-plane & have Aerin help him rebuild is body, then attempt to speak with the 4th Child
+
+__Big Red Button Ending__
+	Use that thing the technologist was worried about leaking as the project name for his ending 
+
+__Demi-Plane Destroyed __
+	Either dump everything / everyone into the Astral Plane or dump everything at the point where the demi-plane is anchored
+
+__For the boss fight__
+	Give all (stackable) inspiration after entering boss door 
