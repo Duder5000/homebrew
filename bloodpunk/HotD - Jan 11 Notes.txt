@@ -1,5 +1,5 @@
-~~Blood God Speaks~~
-*As you step through the portal, your vision is filled with incomprehensible magical energy. As the magic washes over you, you have the sudden feeling that this is how an extremely powerful sorcerer invites you into his home. You're lost for a moment, overwhelmed by the raw magic. You float in this magical energy for a few seconds... minutes... days... an eternity.*
+__Blood God Speaks__
+*As you step through the portal, your vision is filled with incomprehensible magical energy. As the magic washes over you, you have the sudden feeling that this is how an extremely powerful sorcerer invites you into his home. You're lost for a moment, overwhelmed by the raw magic. You float in this magical energy for a few seconds... minutes... days... weeks.*
 *Then the sorcerous power is effortlessly batted aside, as crimson light fills this in-between plane, you watch as the Sun falls from where you're floating. As he winks out of your sight, as an omni-present voice fills this bloody place.*
 
 "Two mighty contenders, shrouded in an enigma of destiny, stand at the precipice of conflict. Their paths entwined in the scarlet veil of fate, they transcend the confines of this plane. The verdict, not molded by their intentions, rests in the hands of newcomers to the unfolding drama. Yet, amid them, tricksters direct unseen maneuvers."
@@ -25,7 +25,7 @@ Suddenly, amidst the sensory deprivation, a realization strikes you – the one 
 Abruptly, blinding sunlight pierces through the sea of blood, incinerating it and restoring your senses. You awaken, finding yourself back in a realm where your god's influence holds sway. Even the subdued light warms your soul, rekindling a connection with the Sun God that had slipped from memory. As your eyes flutter open, a small portal to the Sun Vault appears, and sunlight spills forth, coalescing into a blade of solid radiance upon your shattered blade.
 For a few solitary minutes, you stand alone before the arrival of your companions. The metallic surface beneath you spans 30 feet in every direction, surrounded by an expansive blue sky with the sun gradually rising on the horizon. Just before your comrades materialize through the portal, a colossal door emerges from the metal expanse, rising as if drawn from the depths of a lake. As it fully manifests, a chilling air permeates the surroundings, casting an eerie aura over the scene.
 
-**Sun Vault (uncommon):** As a Bonus Action, you can conjure any weapon or tool of your choice, magical (common, uncommon) or nonmagical, into an empty hand. Weapons or tool conjured in this way disappear when you stop holding them. You can attune to these weapons or tools when you summon them & you become proficient with them, if you aren't already.
+**Sun Vault (uncommon):** As a Bonus Action, you can conjure any weapon or tool of your choice, magical (*common, uncommon*) or nonmagical, into an empty hand. Weapons or tool conjured in this way disappear when you stop holding them. You can attune to these weapons or tools when you summon them & you become proficient with them, if you aren't already.
 
 	https://chat.openai.com/c/0d4f9fac-3ea6-47b7-b2d8-e8d09d4dc9b6
 
@@ -109,14 +109,6 @@ You can use your Breath Weapon a number of times equal to your proficiency bonus
 
 -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
 
-**Scythe**
-Type: Martial Melee Weapon
-Damage: 1d6 Bludgeoning
-Properties: Finesse, Reach (10ft), Special*
-*When attacking a creature that is 10ft away from you, you deal 3d6 Slashing damage rather than the normal damage. 
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 **Drach'nyen (Scythe)**
 You have a +4 bonus to attack and damage rolls made with this weapon.
 Attacks with this weapon deals an extra 2d6 Psychic damage to any target it hits. 
@@ -130,6 +122,12 @@ While wielding Drach'nyen, you gain 2 Major Properties:
 - 13) One of your ability scores increases by 2, to a maximum of 24.
 - 47) Your walking speed increases by 10 feet.
 
+**Scythe**
+Type: Martial Melee Weapon
+Damage: 1d6 Bludgeoning
+Properties: Finesse, Reach (10ft), Special*
+*When attacking a creature that is 10ft away from you, you deal 3d6 Slashing damage rather than the normal damage. 
+
 **Drach'nyen (Wand)**
 While using this wand as an Arcane Focus, 
 - You gain a +4 bonus to spell attack and damage rolls
@@ -138,11 +136,11 @@ While using this wand as an Arcane Focus,
 
 While wielding Drach'nyen, you gain 2 Minor Properties:
 - 43) You have resistance against one damage type of your choice.
-- 80) You can use an action to cast one 3rd-level spell from it. After you cast the spell, roll a d6. On a roll of 1–5, you can’t cast it again until the next dawn.
+- 80) You can use an action to cast one 3rd-level spell (*choose the spell when you first gain this wand*) from it. After you cast the spell, roll a d6. On a roll of 1–5, you can’t cast it again until the next dawn.
 
 While wielding Drach'nyen, you gain 2 Major Properties:
 - 97) While attuned to the artifact, you can’t be blinded, deafened, petrified, or stunned.
-- 72) You can use an action to cast one 6th-level spell from it. After you cast the spell, roll a d6. On a roll of 1–5, you can’t cast it again until the next dawn.
+- 72) You can use an action to cast one 6th-level spell (*choose the spell when you first gain this wand*) from it. After you cast the spell, roll a d6. On a roll of 1–5, you can’t cast it again until the next dawn.
 
 https://www.dndbeyond.com/sources/dmg/sentient-magic-items-artifacts#MajorBeneficialProperties
 

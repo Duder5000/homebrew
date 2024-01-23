@@ -9,19 +9,17 @@
 **25 Degen:** Blood damage heals you rather than harming you, for the damage it would of done; You become a Bloodfeeder (*if you aren't already*), you can't gain sustenance from anything other than blood, & you can't gain any benefit (*including healing & sustenance*) from the blood of non-sentient creatures 
 
 **30 Degen:** You gain the **Vengeful Vitae** feature; You can cast the *Rotten Heart (p.157)* spell at will (*your spell save DC or DC 16*); While in direct or indirect sunlight, you are Blinded/Defended to all senses.
-	**Vengeful Vitae:** As a Bonus Action or Reaction, you can cause blood to seeps out of your skin & create a protective barrior around your body. You gain 15 temporary HP for the next 10 minutes. If a creature hits you with a melee attack while you have these hit points, the creature takes 15 Blood damage. You can use this feature a number of time eqaul to your PB per Long Rest.
+	**Vengeful Vitae:** As a Bonus Action or Reaction, you can cause blood to seeps out of your skin & create a protective barrior around your body. You gain 15 temporary HP for the next 10 minutes. If a creature hits you with a melee attack while you have these hit points, the creature takes 15 Blood damage. You can use this feature a number of time equal to your PB per Long Rest.
 
 **35 Degen:** Founder's Items improve to +4; Undead creatures with a CR of 2 or lower are incapable of threatening nor attacking you & they follow your commands; Undead creatures (*including PC vampires*) have disadvantage on attack rolls against you; You gain the **Destroy the Good** feature; Good allinged creatures within 120ft of you know your exact location.
 	**Destroy the Good:** Once per week as a Free Action, you can choose one creature you can see within 60ft. If the target is of good alignment, a bloody fissure opens under it. The target must succeed on a Dexterity saving throw (*your spell save DC or DC 20*) or fall into the fissure and be destroyed, leaving no remains. The fissure then closes, leaving no trace of its existence.
-~~As a Bonus Action you can manifest bloody wings which give you a Fly (Hover) eqaul to your walk speed that lasts for 10 minutes (*at will*);~~
 
 **40 Degen:** You gain 3 legendary actions; Each time you complete a Long Rest roll a d20, on a roll of 8 or lower The Founder takes control over your body for the next 24 hours. 
 **Legendary Actions**
 	You can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. You regain spent legendary actions at the start of your turn.
 	- **Teleport:** You magically teleports, along with any equipment you are wearing or carrying, up to 60 feet to an unoccupied space you can see.
-	- **Bloody Burst (Costs 2 Actions):** You emits magical energy. Each creature of your choice in a 10-foot radius must make a DC 20 Dexterity saving throw, taking 4d6 Blood damage plus 4d6 Force damage on a failed save, or half as much damage on a successful one.
-	- **Bloody Gaze (Costs 3 Actions):** You target one creature you can see within 30 feet. If the target can see you, the target must succeed on a DC 15 Constitution saving throw or be blinded, as their eyes begin to bleed, until magic such as the lesser restoration spell removes the blindness.
-~~You gain 15 levels in the Wizard (Order of Scribes) class in addition to any other levels you have, you gain no HP from these levels, but gain all other features;~~
+	- **Bloody Burst (Costs 2 Actions):** You emits magical energy. Each creature of your choice in a 10-foot radius must make a DC 18 Dexterity saving throw, taking 3d6 Blood damage plus 3d6 Force damage on a failed save, or half as much damage on a successful one.
+	- **Bloody Gaze (Costs 3 Actions):** You target one creature you can see within 30 feet. If the target can see you, the target must succeed on a DC 18 Constitution saving throw or be blinded, as their eyes begin to bleed, until magic such as the lesser restoration spell removes the blindness.
 
 **45 Degen:** If a holy symbol of any god (*execpt for the Blood God*) is within 30ft of you, you have disatvantage on all saving throws; The DC for The Founder to take over your body increases to 10.
 
@@ -66,9 +64,9 @@ You can one of these spells once per Short Rest without expending a spell slot. 
 
 17]	**Blood Protector:** When you or a creature within 60 feet of you takes damage, you can use your Reaction to grant resistance to the creature against the damage type(s) until the end of your next turn. You can use this feature a number of times equal to your PB. You regain any expended uses when you finish a Long Rest.
 
-18]	**Warded Body:** As an Action, you gain resistance to all damage until the end of your next turn (*no limit to how many times you can do this*).
+18]	**Wild Blood:** You gain the Wild Shape feature (*Max CR = your character level divided by 4, rounded down*) from the Druid class. Unlike a druid’s transformation, your transformation is painful and unsightly; your blood tears and mends your muscles, shattering and welding your bones as it changes your physiology. This allows you to transform into Monstrosities as well as Beasts. You can Wild Spape in this way twice per Long Rest. 
 
-19]	**Wild Blood:** You gain the Wild Shape feature (*Max CR = your character level divided by 4, rounded down*) from the Druid class. Unlike a druid’s transformation, your transformation is painful and unsightly; your blood tears and mends your muscles, shattering and welding your bones as it changes your physiology. This allows you to transform into Monstrosities as well as Beasts. You can Wild Spape in this way twice per Long Rest. 
+19]	**Warded Body:** As an Action, you gain resistance to all damage until the end of your next turn (*no limit to how many times you can do this*).
 
 20] **Clotted Blood:** Once per Long Rest, as an Action you can create Blood Clots (*HotD p.270*). For each Blood Clot you create you take 1d4+1 damage (can't be reduced) as you form them from your blood. The Blood Clot act as allies to you and obeying your spoken commands, they act immediately after your turn. They remain for 10 minutes. If your HP is reduced to 0 from this, your body transfroms into a rabid Sanguine Elemental.
 
