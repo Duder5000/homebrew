@@ -157,3 +157,8 @@ __Demi-Plane Destroyed __
 
 __For the boss fight__
 	Give all (stackable) inspiration after entering boss door 
+
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+After Aerin leave the party, the soulless-Founder offers to teleport her out. He also offers to get her sister. Either way, they teleport to his ancient lab in the Garrote mountians. Once there he'll take control of her body for about a day (if not it take 2d6 days). Once Aerin regains control of her body, the blood degen is stabalized (returned to 20 & will don't increase) & the lab is cleaned. 
+	The Founder will only agree to save her from the blood degen if is agrees to a deal, he becomes able to view the world & speak to her. Also whenever he asks, she must take a back seat for 1 hour (can be negotiated down to 6 seconds & that no harm will come to her friends/family).
