@@ -1,0 +1,29 @@
+**1-Tomoe Sharingan**
+You can activate your Sharingan as a Bonus Action and remains active for 10 minutes. You can activate your Sharingan Proficiency Bonus times per Long Rest.
+
+You gain 30 feet of Devil's Sight and **two** of the following abilities.
+- **Sharingan Adaptation:** You can make weapon attack using your Intelligence, Wisdom, or Charisma (choose 1 when you select this feature).
+- **Sharingan Agility:** For the duration of your Sharingan, your AC equals 10 + Dexterity + Intelligence, Wisdom, or Charisma (choose 1 when you select this feature).
+- **Sharingan Dodge 1:** As a Reaction you add +3 to your AC and Dexterity saving throws until the start of your next turn. You can do this PB times per activation.
+- **Copy Wheel 1:** As a Reaction, select one creature you can see casting a spell This spell is temporarily added to your know spells until you either copy another spell or take a Long Rest. Alternatively, you can also attempt to learn the spell permanently if you succeed on a DC 13 + the spell's level Intelligence, Wisdom, or Charisma (choose 1 when you select this feature) check. On a failure, you don’t learn it and cannot attempt to again until you complete a Long Rest.
+- **Genjutsu Counter 1:** You are always aware when you or anyone within 10 feet of you are effected by any Charm effect. As a Bonus Action or Reaction, you or they can immediately make an additional saving throw to end the effects.
+- **Hypnotic Eye 1:** As a Bonus Action when you cast a spell with a Intelligence, Wisdom, or Charisma saving throw, you can increase the save DC by 1.
+
+**2-Tomoe Sharingan**
+You gain the ability to Dodge or Disengage as a Bonus Action and **one** of the following abilities.
+- **Sharingan Dodge 2:** You can only take this ability if you already have *Sharingan Dodge 1*. Your Sharingan Dodge bonus becomes +5. 
+- **Aggressive Jutsu Augmentation 1:** As a Bonus action, when casting a spell, you can up cast the spell by 1 level for free. You can do this PB times per activation.
+- **Genjutsu Counter 2:** You can only take this ability if you already have *Genjutsu Counter 1*. When you are under a Charm effect at the start of your turn, you can make an additional saving throw to end its effect. Additionally, your range for help other is increased to 30 feet.
+
+**3-Tomoe Sharingan (15 Blood Degen**
+You gain a +5 bonus to your Passive Perception and **one** of the following abilities.
+- **Sharingan Dodge 3:** You can only take this ability if you already have *Sharingan Dodge 2*. As a Reaction, when you're targeted by an attack, you can cause the triggering attack to miss. Additonally, if you must make a Dexterity saving throw, you can choose to instead succeed taking no damage and suffering no effect. You can do each of these once per activation.
+- **Copy Wheel 2:** You can only take this Sharingan ability if you have *Copy Wheel 1*. When you would temporarily added to your know spells, you can instead cast that spell as part of the same Reaction targeting or centered on the original caster.
+- **Hypnotic Eye 2:**  You can only take this ability if you already have *Hypnotic Eye 1*. The bonus you can add icreases to +2.
+
+**MangekyoSharingan (Depends on the HotD ending - level 10 or 11)**
+MS has alot, so I'm not bothering with converting it less you guys go with the ending that'd unlock it.
+<https://drive.google.com/file/d/1w2lRX_in-Fth4JUANrIPH8Gz_fmWyDIz/view?usp=share_link>
+
+**N5e Clan Book**
+<https://drive.google.com/file/d/1en461Joz7lwdYPBTBCEEYhmGCqDZlpKE/view?usp=share_link>

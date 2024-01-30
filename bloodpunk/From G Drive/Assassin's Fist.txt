@@ -1,0 +1,6 @@
+**Assassin's Fist - 4th Level *(Must have Blood Degeneration of 10 or higher)***
+*1 Action, Self, S, 1 min [c]*
+Originally designed by the Founder as an assassination tool, this spell allows the caster to coalesce their blood in one hand forming a blade, this hand will be unable to hold or manipulate items for the duration of the spell.
+As an action on your next turn, you can make a melee spell attack. On a hit, the target creature takes 5d10 blood damage and the spell ends. Additionally, this spell score a critical hit on a roll of 19 or 20.
+**Overcharge:** When you cast this spell, you can choose to spend your Bonus Action & take 1d10 damage, to overcharge its effects. When you do, this spell gains the following benefits until the spell ends; +20 walk speed, 1d4 to hit, and on a critical hit, it deals 10d12 blood damage (instead of its normal critical damage).
+**At Higher Levels:** When you cast this spell using a spell slot of 5th or higher, the damage increases by 1d10, when overcharged the critical damage increases by 2d12 & the speed increases by 5, for each slot above 4th.
