@@ -1,9 +1,0 @@
-**The Undead Crystal:** While this crystal is active, the Sanguinologist has __immunity to necrotic damage and doesn’t need to breathe__. If the characters have destroyed this crystal in the desert, the crystal doesn’t appear.
-
-**The Flesh Crystal:** While this crystal is active, the Sanguinologist __regains 10 hit points at the end of each of its turns__ if it has more than 0 hit points. If the characters have destroyed this crystal in the grassland, the crystal doesn’t appear.
-
-**The Ooze Crystal:** While this crystal is active, the Sanguinologist has __blindsight up to 60 feet and any critical hit against it becomes a normal hit__. If the characters have destroyed this crystal in the tundra, the crystal doesn’t appear.
-
-**The Dragon Crystal:** While this crystal is active, the Sanguinologist __can cast any spell from all spell lists__ instead of just the sorcerer spell list. If the characters have destroyed this crystal in the taiga, the crystal doesn’t appear. 
-
-**:** While this crystal is active, the Sanguinologist has __immunity to cold damage and gains an additioanl legendary resistance__. If the characters have destroyed this crystal in the sea, the crystal doesn’t appear.
