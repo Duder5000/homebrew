@@ -331,3 +331,8 @@ li.list-opts2{
 .commentaryFontSize{
 	font-size: 0.8em;
 }
+
+.pageRef{
+	color: #EC2127;
+	font-weight: bold;
+}
