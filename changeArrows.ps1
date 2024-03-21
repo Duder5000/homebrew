@@ -1,3 +1,7 @@
+#powershell -File changeArrows.ps1 laptop
+#powershell -File changeArrows.ps1 desktop
+
+
 # Check if the script was run with a valid parameter
 if ($args.Count -ne 1 -or ($args[0] -ne 'laptop' -and $args[0] -ne 'desktop')) {
     Write-Host "Usage: script.ps1 <laptop|desktop>"
