@@ -1,3 +1,0 @@
-powershell -File changeArrows.ps1 laptop
-
-powershell -File changeArrows.ps1 desktop
