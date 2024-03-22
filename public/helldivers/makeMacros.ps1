@@ -1,3 +1,10 @@
+function buildId($num){
+    $paddedNum = "{0:D4}" -f $num
+    $myId = "47aba714-" + $paddedNum + "-4e42-921f-993337c218d9"    
+    return $myId
+}
+
+
 function ConvertToKeyCode($arrow) {
     switch ($arrow) {
         "&#x2190;" { return 30 }
@@ -87,9 +94,7 @@ function GenerateXmlDocument($arrows, $macroName, $macroGuid, $pathBase) {
 $name = "01TEST"
 $arrows = "&#x2190; &#x2192; &#x2191; &#x2193;"
 
-$id = "47aba714-0000-4e42-921f-993337c218d9"
-
-#$path = "C:\Users\Duder5000\Desktop\"
+$id = buildId 0
 $path = "C:\Users\Duder\Desktop\"
 
 GenerateXmlDocument $arrows $name $id $path
