@@ -9,6 +9,23 @@ function ConvertToKeyCode($arrow) {
     }
 }
 
+function macroLoop($myArrow) { 
+    $MacroEventSingleNode = $xmlDoc.CreateElement("MacroEvent")
+	$macroEventsNode.AppendChild($MacroEventSingleNode)
+	
+	$MacroEventType = $xmlDoc.CreateElement("Type")
+	$MacroEventType.InnerText = "1"
+	$MacroEventSingleNode.AppendChild($MacroEventType)
+	
+	$MacroEventKey = $xmlDoc.CreateElement("KeyEvent")
+	$MacroEventSingleNode.AppendChild($MacroEventKey)
+	
+	$keyCodeId = ConvertToKeyCode($myArrow)
+	$MacroEventCode = $xmlDoc.CreateElement("Makecode")
+	$MacroEventCode.InnerText = $keyCodeId
+	$MacroEventKey.AppendChild($MacroEventCode)
+}
+
 # Function to generate XML document based on arrow characters
 function GenerateXmlDocument($arrows, $filePath) {
     #$counter = 0
@@ -30,25 +47,21 @@ function GenerateXmlDocument($arrows, $filePath) {
 	$rootNode.SetAttribute("xmlns:xsd", "http://www.w3.org/2001/XMLSchema")
 	$xmlDoc.AppendChild($rootNode)
 
-	# Create some child elements
-	$macroName = "name1"
+	$macroName = "500kg"
 	$childNode1 = $xmlDoc.CreateElement("Name")
+	$macroGuid = "47aba714-6bd7-4e42-921f-993337c218d9"
+	
 	$childNode1.InnerText = $macroName
 	$rootNode.AppendChild($childNode1)
 
-	$macroGuid = "47aba714-6bd7-4e42-921f-993337c218d9"
 	$childNode2 = $xmlDoc.CreateElement("Guid")
 	$childNode2.InnerText = $macroGuid
 	$rootNode.AppendChild($childNode2)
 	
-	# Create a parent element
 	$macroEventsNode = $xmlDoc.CreateElement("MacroEvents")
 	$rootNode.AppendChild($macroEventsNode)
 
-	# Create nested child elements within the parent
-	$MacroEventSingleNode = $xmlDoc.CreateElement("Child3")
-	$MacroEventSingleNode.InnerText = "Value3"
-	$macroEventsNode.AppendChild($MacroEventSingleNode)
+	macroLoop("&#x2191;")
 
 ###############################################################################################
 
