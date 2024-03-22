@@ -9,25 +9,8 @@ function ConvertToKeyCode($arrow) {
     }
 }
 
-function keyDown($myArrow) { 
-    $MacroEventSingleNode = $xmlDoc.CreateElement("MacroEvent")
-	$macroEventsNode.AppendChild($MacroEventSingleNode)
-	
-	$MacroEventType = $xmlDoc.CreateElement("Type")
-	$MacroEventType.InnerText = "1"
-	$MacroEventSingleNode.AppendChild($MacroEventType)
-	
-	$MacroEventKey = $xmlDoc.CreateElement("KeyEvent")
-	$MacroEventSingleNode.AppendChild($MacroEventKey)
-	
-	$keyCodeId = ConvertToKeyCode($myArrow)
-	$MacroEventCode = $xmlDoc.CreateElement("Makecode")
-	$MacroEventCode.InnerText = $keyCodeId
-	$MacroEventKey.AppendChild($MacroEventCode)
-}
-
-function keyUp($myArrow) { 
-    $MacroEventSingleNode = $xmlDoc.CreateElement("MacroEvent")
+function keys($myArrow, $keyState) { 
+	$MacroEventSingleNode = $xmlDoc.CreateElement("MacroEvent")
 	$macroEventsNode.AppendChild($MacroEventSingleNode)
 	
 	$MacroEventType = $xmlDoc.CreateElement("Type")
@@ -42,12 +25,14 @@ function keyUp($myArrow) {
 	$MacroEventCode.InnerText = $keyCodeId
 	$MacroEventKey.AppendChild($MacroEventCode)
 	
-	$MacroState = $xmlDoc.CreateElement("State")
-	$MacroState.InnerText = "1"
-	$MacroEventKey.AppendChild($MacroState)
+	if($keyState -eq "u"){
+		$MacroState = $xmlDoc.CreateElement("State")
+		$MacroState.InnerText = "1"
+		$MacroEventKey.AppendChild($MacroState)
+	}
 }
 
-function GenerateXmlDocument($arrows, $filePath, $macroName, $macroGuid) {
+function GenerateXmlDocument($arrows, $macroName, $macroGuid, $pathBase) {
 	$delay = 50
     $arrowArray = $arrows -split " "
 	$folderGuid = "00000000-0000-0000-0000-000000000000"
@@ -73,14 +58,14 @@ function GenerateXmlDocument($arrows, $filePath, $macroName, $macroGuid) {
 	$macroEventsNode = $xmlDoc.CreateElement("MacroEvents")
 	$rootNode.AppendChild($macroEventsNode)
 
-	keyDown("29") #For Ctrl
+	keys "29" "d" #For Ctrl
 
 	foreach ($arrow in $arrowArray) {
-		keyDown($arrow)
-		keyUp($arrow)
+		keys $arrow "d"
+		keys $arrow "u"
 	}
 	
-	keyUp("29") #For Ctrl
+	keys "29" "u" #For Ctrl
 	
 	$macroIsFolder = $xmlDoc.CreateElement("IsFolder")
 	$macroIsFolder.InnerText = "false"
@@ -90,15 +75,15 @@ function GenerateXmlDocument($arrows, $filePath, $macroName, $macroGuid) {
 	$macroFolderGuid.InnerText = $folderGuid
 	$rootNode.AppendChild($macroFolderGuid)
 	
-	$xmlFileName = "C:\Users\Duder5000\Desktop\" +  $macroName + ".xml"
+	$xmlFileName = $pathBase +  $macroName + ".xml"
 	$xmlDoc.Save($xmlFileName)
 }
 
 #####Test Values#####
+$name = "def"
 $arrows = "&#x2191; &#x2193; &#x2192; &#x2190; &#x2191;"
-$name = "abc"
 #$id = "47aba714-6bd7-4e42-921f-993337c218d9"
 $id = "47aba714-0000-4e42-921f-993337c218d9"
+$path = "C:\Users\Duder5000\Desktop\"
 
-$filePath = "C:\Users\Duder5000\Desktop\GeneratedMacro.xml"
-GenerateXmlDocument $arrows $filePath $name $id
+GenerateXmlDocument $arrows $name $id $path
