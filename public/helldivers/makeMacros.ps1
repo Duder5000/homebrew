@@ -1,7 +1,7 @@
 function ConvertToKeyCode($arrow) {
     switch ($arrow) {
-        "&#x2191;" { return 30 }
-        "&#x2190;" { return 17 }
+        "&#x2190;" { return 30 }
+        "&#x2191;" { return 17 }
         "&#x2193;" { return 31 }
         "&#x2192;" { return 32 }
 		"29" { return 29 }
@@ -16,6 +16,10 @@ function keys($myArrow, $keyState) {
 	$MacroEventType = $xmlDoc.CreateElement("Type")
 	$MacroEventType.InnerText = "1"
 	$MacroEventSingleNode.AppendChild($MacroEventType)
+	
+	$MacroEventDelay = $xmlDoc.CreateElement("Delay")
+	$MacroEventDelay.InnerText = "50"
+	$MacroEventSingleNode.AppendChild($MacroEventDelay)
 	
 	$MacroEventKey = $xmlDoc.CreateElement("KeyEvent")
 	$MacroEventSingleNode.AppendChild($MacroEventKey)
@@ -80,10 +84,12 @@ function GenerateXmlDocument($arrows, $macroName, $macroGuid, $pathBase) {
 }
 
 #####Test Values#####
-$name = "def"
-$arrows = "&#x2191; &#x2193; &#x2192; &#x2190; &#x2191;"
-#$id = "47aba714-6bd7-4e42-921f-993337c218d9"
+$name = "01TEST"
+$arrows = "&#x2190; &#x2192; &#x2191; &#x2193;"
+
 $id = "47aba714-0000-4e42-921f-993337c218d9"
-$path = "C:\Users\Duder5000\Desktop\"
+
+#$path = "C:\Users\Duder5000\Desktop\"
+$path = "C:\Users\Duder\Desktop\"
 
 GenerateXmlDocument $arrows $name $id $path
