@@ -1,4 +1,3 @@
-# Function to convert arrow characters to corresponding key codes
 function ConvertToKeyCode($arrow) {
     switch ($arrow) {
         "&#x2191;" { return 30 }
@@ -26,22 +25,15 @@ function macroLoop($myArrow) {
 	$MacroEventKey.AppendChild($MacroEventCode)
 }
 
-# Function to generate XML document based on arrow characters
 function GenerateXmlDocument($arrows, $filePath) {
-    #$counter = 0
 	$delay = 50
     $arrowArray = $arrows -split " "
-			
-	#$filePathArray = "C:\Users\Duder5000\Desktop\testArray.txt"
-	#Set-Content -Path $filePathArray -Value $arrowArray	
 	
 	$xmlDoc = New-Object System.Xml.XmlDocument
 	
-	# Add XML declaration
 	$xmlDeclaration = $xmlDoc.CreateXmlDeclaration("1.0", "utf-8", $null)
 	$xmlDoc.AppendChild($xmlDeclaration)
 
-	# Create the root element with namespaces
 	$rootNode = $xmlDoc.CreateElement("Macro")
 	$rootNode.SetAttribute("xmlns:xsi", "http://www.w3.org/2001/XMLSchema-instance")
 	$rootNode.SetAttribute("xmlns:xsd", "http://www.w3.org/2001/XMLSchema")
@@ -61,20 +53,16 @@ function GenerateXmlDocument($arrows, $filePath) {
 	$macroEventsNode = $xmlDoc.CreateElement("MacroEvents")
 	$rootNode.AppendChild($macroEventsNode)
 
-	macroLoop("&#x2191;")
-
 ###############################################################################################
 
 	foreach ($arrow in $arrowArray) {
-		$keyTemp = ConvertToKeyCode $arrow		
-		#$counter += 1
+		macroLoop($arrow)
 	}
 	
-	# Save the XML document to a file
 	$xmlDoc.Save("C:\Users\Duder5000\Desktop\file.xml")
 }
 
-# Usage example
+# Test Values
 $arrows = "&#x2191; &#x2193; &#x2192; &#x2190; &#x2191;"
 $filePath = "C:\Users\Duder5000\Desktop\GeneratedMacro.xml"
 GenerateXmlDocument $arrows $filePath
