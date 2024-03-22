@@ -63,12 +63,15 @@ function GenerateXmlDocument($arrows, $filePath, $macroName, $macroGuid) {
 	$macroFolderGuid.InnerText = $folderGuid
 	$rootNode.AppendChild($macroFolderGuid)
 	
-	$xmlDoc.Save("C:\Users\Duder5000\Desktop\file.xml")
+	$xmlFileName = "C:\Users\Duder5000\Desktop\" +  $macroName + ".xml"
+	$xmlDoc.Save($xmlFileName)
 }
 
-# Test Values
+#####Test Values#####
 $arrows = "&#x2191; &#x2193; &#x2192; &#x2190; &#x2191;"
-$filePath = "C:\Users\Duder5000\Desktop\GeneratedMacro.xml"
 $name = "xyz"
-$id = "47aba714-6bd7-4e42-921f-993337c218d9"
+#$id = "47aba714-6bd7-4e42-921f-993337c218d9"
+$id = "47aba714-0000-4e42-921f-993337c218d9"
+
+$filePath = "C:\Users\Duder5000\Desktop\GeneratedMacro.xml"
 GenerateXmlDocument $arrows $filePath $name $id
