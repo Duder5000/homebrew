@@ -4,6 +4,7 @@ function ConvertToKeyCode($arrow) {
         "&#x2190;" { return 17 }
         "&#x2193;" { return 31 }
         "&#x2192;" { return 32 }
+		"29" { return 29 }
         default { return $null }
     }
 }
@@ -50,6 +51,8 @@ function GenerateXmlDocument($arrows, $filePath, $macroName, $macroGuid) {
 	
 	$macroEventsNode = $xmlDoc.CreateElement("MacroEvents")
 	$rootNode.AppendChild($macroEventsNode)
+
+	macroLoop("29") #For Ctrl
 
 	foreach ($arrow in $arrowArray) {
 		macroLoop($arrow)
