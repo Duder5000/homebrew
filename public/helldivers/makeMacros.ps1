@@ -46,9 +46,11 @@ function GenerateXmlDocument($arrows, $filePath) {
 	$rootNode.AppendChild($macroEventsNode)
 
 	# Create nested child elements within the parent
-	$childNode3 = $xmlDoc.CreateElement("Child3")
-	$childNode3.InnerText = "Value3"
-	$macroEventsNode.AppendChild($childNode3)
+	$MacroEventSingleNode = $xmlDoc.CreateElement("Child3")
+	$MacroEventSingleNode.InnerText = "Value3"
+	$macroEventsNode.AppendChild($MacroEventSingleNode)
+
+###############################################################################################
 
 	foreach ($arrow in $arrowArray) {
 		$keyTemp = ConvertToKeyCode $arrow		
