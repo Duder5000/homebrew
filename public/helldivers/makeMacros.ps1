@@ -9,7 +9,7 @@ function ConvertToKeyCode($arrow) {
     }
 }
 
-function macroLoop($myArrow) { 
+function keyDown($myArrow) { 
     $MacroEventSingleNode = $xmlDoc.CreateElement("MacroEvent")
 	$macroEventsNode.AppendChild($MacroEventSingleNode)
 	
@@ -24,6 +24,27 @@ function macroLoop($myArrow) {
 	$MacroEventCode = $xmlDoc.CreateElement("Makecode")
 	$MacroEventCode.InnerText = $keyCodeId
 	$MacroEventKey.AppendChild($MacroEventCode)
+}
+
+function keyUp($myArrow) { 
+    $MacroEventSingleNode = $xmlDoc.CreateElement("MacroEvent")
+	$macroEventsNode.AppendChild($MacroEventSingleNode)
+	
+	$MacroEventType = $xmlDoc.CreateElement("Type")
+	$MacroEventType.InnerText = "1"
+	$MacroEventSingleNode.AppendChild($MacroEventType)
+	
+	$MacroEventKey = $xmlDoc.CreateElement("KeyEvent")
+	$MacroEventSingleNode.AppendChild($MacroEventKey)
+	
+	$keyCodeId = ConvertToKeyCode($myArrow)
+	$MacroEventCode = $xmlDoc.CreateElement("Makecode")
+	$MacroEventCode.InnerText = $keyCodeId
+	$MacroEventKey.AppendChild($MacroEventCode)
+	
+	$MacroState = $xmlDoc.CreateElement("State")
+	$MacroState.InnerText = "1"
+	$MacroEventKey.AppendChild($MacroState)
 }
 
 function GenerateXmlDocument($arrows, $filePath, $macroName, $macroGuid) {
@@ -52,11 +73,14 @@ function GenerateXmlDocument($arrows, $filePath, $macroName, $macroGuid) {
 	$macroEventsNode = $xmlDoc.CreateElement("MacroEvents")
 	$rootNode.AppendChild($macroEventsNode)
 
-	macroLoop("29") #For Ctrl
+	keyDown("29") #For Ctrl
 
 	foreach ($arrow in $arrowArray) {
-		macroLoop($arrow)
+		keyDown($arrow)
+		keyUp($arrow)
 	}
+	
+	keyUp("29") #For Ctrl
 	
 	$macroIsFolder = $xmlDoc.CreateElement("IsFolder")
 	$macroIsFolder.InnerText = "false"
@@ -72,7 +96,7 @@ function GenerateXmlDocument($arrows, $filePath, $macroName, $macroGuid) {
 
 #####Test Values#####
 $arrows = "&#x2191; &#x2193; &#x2192; &#x2190; &#x2191;"
-$name = "xyz"
+$name = "abc"
 #$id = "47aba714-6bd7-4e42-921f-993337c218d9"
 $id = "47aba714-0000-4e42-921f-993337c218d9"
 
