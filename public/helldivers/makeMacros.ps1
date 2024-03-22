@@ -29,6 +29,11 @@ function GenerateXmlDocument($arrows, $filePath) {
 	$delay = 50
     $arrowArray = $arrows -split " "
 	
+	$macroName = "500kg"
+	$childNode1 = $xmlDoc.CreateElement("Name")
+	$macroGuid = "47aba714-6bd7-4e42-921f-993337c218d9"
+	$folderGuid = "00000000-0000-0000-0000-000000000000"
+	
 	$xmlDoc = New-Object System.Xml.XmlDocument
 	
 	$xmlDeclaration = $xmlDoc.CreateXmlDeclaration("1.0", "utf-8", $null)
@@ -38,10 +43,6 @@ function GenerateXmlDocument($arrows, $filePath) {
 	$rootNode.SetAttribute("xmlns:xsi", "http://www.w3.org/2001/XMLSchema-instance")
 	$rootNode.SetAttribute("xmlns:xsd", "http://www.w3.org/2001/XMLSchema")
 	$xmlDoc.AppendChild($rootNode)
-
-	$macroName = "500kg"
-	$childNode1 = $xmlDoc.CreateElement("Name")
-	$macroGuid = "47aba714-6bd7-4e42-921f-993337c218d9"
 	
 	$childNode1.InnerText = $macroName
 	$rootNode.AppendChild($childNode1)
@@ -58,6 +59,14 @@ function GenerateXmlDocument($arrows, $filePath) {
 	foreach ($arrow in $arrowArray) {
 		macroLoop($arrow)
 	}
+	
+	$macroIsFolder = $xmlDoc.CreateElement("IsFolder")
+	$macroIsFolder.InnerText = "false"
+	$rootNode.AppendChild($macroIsFolder)
+	
+	$macroFolderGuid = $xmlDoc.CreateElement("FolderGuid")
+	$macroFolderGuid.InnerText = $folderGuid
+	$rootNode.AppendChild($macroFolderGuid)
 	
 	$xmlDoc.Save("C:\Users\Duder5000\Desktop\file.xml")
 }
