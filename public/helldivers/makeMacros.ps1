@@ -25,15 +25,11 @@ function macroLoop($myArrow) {
 	$MacroEventKey.AppendChild($MacroEventCode)
 }
 
-function GenerateXmlDocument($arrows, $filePath) {
+function GenerateXmlDocument($arrows, $filePath, $macroName, $macroGuid) {
 	$delay = 50
     $arrowArray = $arrows -split " "
-	
-	$macroName = "500kg"
-	$childNode1 = $xmlDoc.CreateElement("Name")
-	$macroGuid = "47aba714-6bd7-4e42-921f-993337c218d9"
 	$folderGuid = "00000000-0000-0000-0000-000000000000"
-	
+		
 	$xmlDoc = New-Object System.Xml.XmlDocument
 	
 	$xmlDeclaration = $xmlDoc.CreateXmlDeclaration("1.0", "utf-8", $null)
@@ -44,6 +40,7 @@ function GenerateXmlDocument($arrows, $filePath) {
 	$rootNode.SetAttribute("xmlns:xsd", "http://www.w3.org/2001/XMLSchema")
 	$xmlDoc.AppendChild($rootNode)
 	
+	$childNode1 = $xmlDoc.CreateElement("Name")
 	$childNode1.InnerText = $macroName
 	$rootNode.AppendChild($childNode1)
 
@@ -53,8 +50,6 @@ function GenerateXmlDocument($arrows, $filePath) {
 	
 	$macroEventsNode = $xmlDoc.CreateElement("MacroEvents")
 	$rootNode.AppendChild($macroEventsNode)
-
-###############################################################################################
 
 	foreach ($arrow in $arrowArray) {
 		macroLoop($arrow)
@@ -74,4 +69,6 @@ function GenerateXmlDocument($arrows, $filePath) {
 # Test Values
 $arrows = "&#x2191; &#x2193; &#x2192; &#x2190; &#x2191;"
 $filePath = "C:\Users\Duder5000\Desktop\GeneratedMacro.xml"
-GenerateXmlDocument $arrows $filePath
+$name = "xyz"
+$id = "47aba714-6bd7-4e42-921f-993337c218d9"
+GenerateXmlDocument $arrows $filePath $name $id
