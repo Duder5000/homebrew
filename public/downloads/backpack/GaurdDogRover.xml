@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Macro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>GaurdDogRover</Name>
-  <Guid>faa6917e-3f0f-4a36-96eb-6c60b0dcc200</Guid>
+  <Guid>16</Guid>
   <MacroEvents>
     <MacroEvent>
       <Type>1</Type>
+      <Delay>50</Delay>
       <KeyEvent>
         <Makecode>29</Makecode>
       </KeyEvent>
@@ -28,6 +29,36 @@
       <Type>1</Type>
       <Delay>50</Delay>
       <KeyEvent>
+        <Makecode>30</Makecode>
+      </KeyEvent>
+    </MacroEvent>
+    <MacroEvent>
+      <Type>1</Type>
+      <Delay>50</Delay>
+      <KeyEvent>
+        <Makecode>30</Makecode>
+        <State>1</State>
+      </KeyEvent>
+    </MacroEvent>
+    <MacroEvent>
+      <Type>1</Type>
+      <Delay>50</Delay>
+      <KeyEvent>
+        <Makecode>31</Makecode>
+      </KeyEvent>
+    </MacroEvent>
+    <MacroEvent>
+      <Type>1</Type>
+      <Delay>50</Delay>
+      <KeyEvent>
+        <Makecode>31</Makecode>
+        <State>1</State>
+      </KeyEvent>
+    </MacroEvent>
+    <MacroEvent>
+      <Type>1</Type>
+      <Delay>50</Delay>
+      <KeyEvent>
         <Makecode>17</Makecode>
       </KeyEvent>
     </MacroEvent>
@@ -58,14 +89,14 @@
       <Type>1</Type>
       <Delay>50</Delay>
       <KeyEvent>
-        <Makecode>17</Makecode>
+        <Makecode>31</Makecode>
       </KeyEvent>
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
       <Delay>50</Delay>
       <KeyEvent>
-        <Makecode>17</Makecode>
+        <Makecode>31</Makecode>
         <State>1</State>
       </KeyEvent>
     </MacroEvent>
@@ -73,14 +104,14 @@
       <Type>1</Type>
       <Delay>50</Delay>
       <KeyEvent>
-        <Makecode>32</Makecode>
+        <Makecode>31</Makecode>
       </KeyEvent>
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
       <Delay>50</Delay>
       <KeyEvent>
-        <Makecode>32</Makecode>
+        <Makecode>31</Makecode>
         <State>1</State>
       </KeyEvent>
     </MacroEvent>
@@ -88,14 +119,16 @@
       <Type>1</Type>
       <Delay>50</Delay>
       <KeyEvent>
-        <Makecode>32</Makecode>
+        <Makecode>
+        </Makecode>
       </KeyEvent>
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
       <Delay>50</Delay>
       <KeyEvent>
-        <Makecode>32</Makecode>
+        <Makecode>
+        </Makecode>
         <State>1</State>
       </KeyEvent>
     </MacroEvent>

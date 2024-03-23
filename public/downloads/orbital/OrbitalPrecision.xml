@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Macro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>OrbitalPrecision</Name>
-  <Guid>a55aa50c-5c5f-444c-832f-9a6bc8c6dcfc</Guid>
+  <Guid>21</Guid>
   <MacroEvents>
     <MacroEvent>
       <Type>1</Type>
+      <Delay>50</Delay>
       <KeyEvent>
         <Makecode>29</Makecode>
       </KeyEvent>
@@ -51,6 +52,23 @@
       <Delay>50</Delay>
       <KeyEvent>
         <Makecode>17</Makecode>
+        <State>1</State>
+      </KeyEvent>
+    </MacroEvent>
+    <MacroEvent>
+      <Type>1</Type>
+      <Delay>50</Delay>
+      <KeyEvent>
+        <Makecode>
+        </Makecode>
+      </KeyEvent>
+    </MacroEvent>
+    <MacroEvent>
+      <Type>1</Type>
+      <Delay>50</Delay>
+      <KeyEvent>
+        <Makecode>
+        </Makecode>
         <State>1</State>
       </KeyEvent>
     </MacroEvent>

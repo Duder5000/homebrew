@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Macro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>RecoillessRifle</Name>
-  <Guid>08b82d82-ad54-4878-a2af-f80546b33c62</Guid>
+  <Guid>7</Guid>
   <MacroEvents>
     <MacroEvent>
       <Type>1</Type>
+      <Delay>50</Delay>
       <KeyEvent>
         <Makecode>29</Makecode>
       </KeyEvent>
@@ -41,7 +42,7 @@
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>100</Delay>
+      <Delay>50</Delay>
       <KeyEvent>
         <Makecode>32</Makecode>
       </KeyEvent>
@@ -81,6 +82,23 @@
       <Delay>50</Delay>
       <KeyEvent>
         <Makecode>30</Makecode>
+        <State>1</State>
+      </KeyEvent>
+    </MacroEvent>
+    <MacroEvent>
+      <Type>1</Type>
+      <Delay>50</Delay>
+      <KeyEvent>
+        <Makecode>
+        </Makecode>
+      </KeyEvent>
+    </MacroEvent>
+    <MacroEvent>
+      <Type>1</Type>
+      <Delay>50</Delay>
+      <KeyEvent>
+        <Makecode>
+        </Makecode>
         <State>1</State>
       </KeyEvent>
     </MacroEvent>

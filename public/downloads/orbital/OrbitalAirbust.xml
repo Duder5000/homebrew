@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Macro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>OrbitalAirbust</Name>
-  <Guid>79f21a88-1635-4517-ae42-9157b1fa68c9</Guid>
+  <Guid>23</Guid>
   <MacroEvents>
     <MacroEvent>
       <Type>1</Type>
+      <Delay>50</Delay>
       <KeyEvent>
         <Makecode>29</Makecode>
       </KeyEvent>
@@ -51,6 +52,23 @@
       <Delay>50</Delay>
       <KeyEvent>
         <Makecode>32</Makecode>
+        <State>1</State>
+      </KeyEvent>
+    </MacroEvent>
+    <MacroEvent>
+      <Type>1</Type>
+      <Delay>50</Delay>
+      <KeyEvent>
+        <Makecode>
+        </Makecode>
+      </KeyEvent>
+    </MacroEvent>
+    <MacroEvent>
+      <Type>1</Type>
+      <Delay>50</Delay>
+      <KeyEvent>
+        <Makecode>
+        </Makecode>
         <State>1</State>
       </KeyEvent>
     </MacroEvent>

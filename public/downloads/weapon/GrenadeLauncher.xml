@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Macro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>GrenadeLauncher</Name>
-  <Guid>8f06bad1-66c4-4b44-9a91-312e55f96228</Guid>
+  <Guid>12</Guid>
   <MacroEvents>
     <MacroEvent>
       <Type>1</Type>
+      <Delay>50</Delay>
       <KeyEvent>
         <Makecode>29</Makecode>
       </KeyEvent>
@@ -111,6 +112,23 @@
       <Delay>50</Delay>
       <KeyEvent>
         <Makecode>31</Makecode>
+        <State>1</State>
+      </KeyEvent>
+    </MacroEvent>
+    <MacroEvent>
+      <Type>1</Type>
+      <Delay>50</Delay>
+      <KeyEvent>
+        <Makecode>
+        </Makecode>
+      </KeyEvent>
+    </MacroEvent>
+    <MacroEvent>
+      <Type>1</Type>
+      <Delay>50</Delay>
+      <KeyEvent>
+        <Makecode>
+        </Makecode>
         <State>1</State>
       </KeyEvent>
     </MacroEvent>

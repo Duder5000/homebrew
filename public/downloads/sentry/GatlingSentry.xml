@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Macro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>GatlingSentry</Name>
-  <Guid>08aef3ee-c39a-4fff-bb00-071865c4a893</Guid>
+  <Guid>40</Guid>
   <MacroEvents>
     <MacroEvent>
       <Type>1</Type>
+      <Delay>50</Delay>
       <KeyEvent>
         <Makecode>29</Makecode>
       </KeyEvent>
@@ -58,14 +59,16 @@
       <Type>1</Type>
       <Delay>50</Delay>
       <KeyEvent>
-        <Makecode>30</Makecode>
+        <Makecode>
+        </Makecode>
       </KeyEvent>
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
       <Delay>50</Delay>
       <KeyEvent>
-        <Makecode>30</Makecode>
+        <Makecode>
+        </Makecode>
         <State>1</State>
       </KeyEvent>
     </MacroEvent>
