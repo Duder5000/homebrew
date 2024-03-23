@@ -4,7 +4,6 @@ function makeId($num){
     return $myId
 }
 
-
 function ConvertToKeyCode($arrow) {
     switch ($arrow) {
         "&#x2190;" { return 30 }
@@ -100,6 +99,5 @@ foreach($line in $csv){
 	$arrows = $line.Code
 	$id = $counter
 	GenerateXmlDocument $arrows $name $id $path	
-	
 	$counter += 1
 }
