@@ -1,4 +1,4 @@
-function buildId($num){
+function makeId($num){
     $paddedNum = "{0:D4}" -f $num
     $myId = "47aba714-" + $paddedNum + "-4e42-921f-993337c218d9"    
     return $myId
@@ -90,11 +90,16 @@ function GenerateXmlDocument($arrows, $macroName, $macroGuid, $pathBase) {
 	$xmlDoc.Save($xmlFileName)
 }
 
-#####Test Values#####
-$name = "01TEST"
-$arrows = "&#x2190; &#x2192; &#x2191; &#x2193;"
+$path = "D:\homebrew\public\helldivers\converted\"
+$csvPath = "D:\homebrew\public\helldivers\stratagems.csv"
+$csv = Import-Csv -path $csvPath
+$counter = 0
 
-$id = buildId 0
-$path = "C:\Users\Duder\Desktop\"
-
-GenerateXmlDocument $arrows $name $id $path
+foreach($line in $csv){ 	
+	$name = $line.Stratagem
+	$arrows = $line.Code
+	$id = $counter
+	GenerateXmlDocument $arrows $name $id $path	
+	
+	$counter += 1
+}
