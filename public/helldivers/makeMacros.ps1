@@ -71,6 +71,7 @@ function GenerateXmlDocument($arrows, $macroName, $macroGuid, $pathBase) {
 	keys "29" "d" #For Ctrl
 
 	foreach ($arrow in $arrowArray) {
+		$arrow = $arrow.Trim()
 		keys $arrow "d"
 		keys $arrow "u"
 	}
@@ -86,6 +87,9 @@ function GenerateXmlDocument($arrows, $macroName, $macroGuid, $pathBase) {
 	$rootNode.AppendChild($macroFolderGuid)
 	
 	$xmlFileName = $pathBase +  $macroName + ".xml"
+	if (-not (Test-Path -Path $pathBase)) {
+        New-Item -ItemType Directory -Path $pathBase | Out-Null
+    }
 	$xmlDoc.Save($xmlFileName)
 }
 
@@ -97,7 +101,7 @@ $counter = 0
 foreach($line in $csv){ 	
 	$name = $line.Stratagem
 	$arrows = $line.Code
-	$id = $counter
+	$id = makeId $counter
 	GenerateXmlDocument $arrows $name $id $path	
 	$counter += 1
 }
