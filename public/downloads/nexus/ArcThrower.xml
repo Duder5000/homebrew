@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Macro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>Arc Thrower</Name>
+  <Name>ArcThrower</Name>
   <Guid>f4678c0c-bba1-486d-8ac0-593ca0243f60</Guid>
   <MacroEvents>
     <MacroEvent>

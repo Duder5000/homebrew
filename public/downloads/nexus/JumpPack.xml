@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Macro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>Jump Pack</Name>
+  <Name>JumpPack</Name>
   <Guid>48ef1b96-55b5-4026-947f-f5d803d0e41c</Guid>
   <MacroEvents>
     <MacroEvent>

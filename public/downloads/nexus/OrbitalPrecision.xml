@@ -1,33 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Macro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>OrbitalGasStrike</Name>
-  <Guid>d916b69e-b156-4b3f-9c69-9e61e8a1e71b</Guid>
+  <Name>OrbitalPrecision</Name>
+  <Guid>ac49452b-82e0-410a-a920-8255a0314027</Guid>
   <MacroEvents>
     <MacroEvent>
       <Type>1</Type>
       <KeyEvent>
-        <Makecode>29</Makecode>
-      </KeyEvent>
-    </MacroEvent>
-    <MacroEvent>
-      <Type>1</Type>
-      <Delay>91</Delay>
-      <KeyEvent>
-        <Makecode>29</Makecode>
-        <State>1</State>
-      </KeyEvent>
-    </MacroEvent>
-    <MacroEvent>
-      <Type>1</Type>
-      <Delay>402</Delay>
-      <KeyEvent>
         <Makecode>77</Makecode>
         <IsExtended>true</IsExtended>
       </KeyEvent>
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>83</Delay>
+      <Delay>77</Delay>
       <KeyEvent>
         <Makecode>77</Makecode>
         <State>1</State>
@@ -36,26 +21,9 @@
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>88</Delay>
+      <Delay>113</Delay>
       <KeyEvent>
         <Makecode>77</Makecode>
-        <IsExtended>true</IsExtended>
-      </KeyEvent>
-    </MacroEvent>
-    <MacroEvent>
-      <Type>1</Type>
-      <Delay>74</Delay>
-      <KeyEvent>
-        <Makecode>77</Makecode>
-        <State>1</State>
-        <IsExtended>true</IsExtended>
-      </KeyEvent>
-    </MacroEvent>
-    <MacroEvent>
-      <Type>1</Type>
-      <Delay>147</Delay>
-      <KeyEvent>
-        <Makecode>80</Makecode>
         <IsExtended>true</IsExtended>
       </KeyEvent>
     </MacroEvent>
@@ -63,24 +31,24 @@
       <Type>1</Type>
       <Delay>92</Delay>
       <KeyEvent>
-        <Makecode>80</Makecode>
+        <Makecode>77</Makecode>
         <State>1</State>
         <IsExtended>true</IsExtended>
       </KeyEvent>
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>114</Delay>
+      <Delay>176</Delay>
       <KeyEvent>
-        <Makecode>77</Makecode>
+        <Makecode>72</Makecode>
         <IsExtended>true</IsExtended>
       </KeyEvent>
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>85</Delay>
+      <Delay>60</Delay>
       <KeyEvent>
-        <Makecode>77</Makecode>
+        <Makecode>72</Makecode>
         <State>1</State>
         <IsExtended>true</IsExtended>
       </KeyEvent>

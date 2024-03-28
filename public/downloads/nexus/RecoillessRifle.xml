@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Macro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>Recoiled Rifle</Name>
+  <Name>RecoillessRifle</Name>
   <Guid>2b36df60-9d07-4b96-8616-e2a0f56d3b62</Guid>
   <MacroEvents>
     <MacroEvent>

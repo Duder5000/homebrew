@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Macro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>Incendiary Mines</Name>
+  <Name>IncendiaryMines</Name>
   <Guid>9ad9015f-bcfe-40ab-bbb6-060f9d1a8791</Guid>
   <MacroEvents>
     <MacroEvent>

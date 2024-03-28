@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Macro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>Grenade Launcher</Name>
+  <Name>GrenadeLauncher</Name>
   <Guid>e7e355de-a5bf-409a-8829-9cdb29dfc332</Guid>
   <MacroEvents>
     <MacroEvent>

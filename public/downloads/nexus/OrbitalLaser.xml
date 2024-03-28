@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Macro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>Orbital Laser</Name>
+  <Name>OrbitalLaser</Name>
   <Guid>77751018-2607-4e8a-8844-387cdef672a2</Guid>
   <MacroEvents>
     <MacroEvent>

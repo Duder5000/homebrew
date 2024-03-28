@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Macro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>OrbitalGatlingBarrage</Name>
-  <Guid>9026c4a2-f05c-496e-8a2f-1c8efa2687af</Guid>
+  <Name>OrbitalAirbust</Name>
+  <Guid>8dd4db28-237a-4979-b35c-c6047da53414</Guid>
   <MacroEvents>
     <MacroEvent>
       <Type>1</Type>
@@ -11,7 +11,7 @@
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>87</Delay>
+      <Delay>101</Delay>
       <KeyEvent>
         <Makecode>29</Makecode>
         <State>1</State>
@@ -19,9 +19,18 @@
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>279</Delay>
+      <Delay>223</Delay>
       <KeyEvent>
         <Makecode>77</Makecode>
+        <IsExtended>true</IsExtended>
+      </KeyEvent>
+    </MacroEvent>
+    <MacroEvent>
+      <Type>1</Type>
+      <Delay>58</Delay>
+      <KeyEvent>
+        <Makecode>77</Makecode>
+        <State>1</State>
         <IsExtended>true</IsExtended>
       </KeyEvent>
     </MacroEvent>
@@ -30,74 +39,31 @@
       <Delay>104</Delay>
       <KeyEvent>
         <Makecode>77</Makecode>
+        <IsExtended>true</IsExtended>
+      </KeyEvent>
+    </MacroEvent>
+    <MacroEvent>
+      <Type>1</Type>
+      <Delay>57</Delay>
+      <KeyEvent>
+        <Makecode>77</Makecode>
         <State>1</State>
         <IsExtended>true</IsExtended>
       </KeyEvent>
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>206</Delay>
+      <Delay>100</Delay>
       <KeyEvent>
-        <Makecode>80</Makecode>
+        <Makecode>77</Makecode>
         <IsExtended>true</IsExtended>
       </KeyEvent>
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>117</Delay>
+      <Delay>63</Delay>
       <KeyEvent>
-        <Makecode>80</Makecode>
-        <State>1</State>
-        <IsExtended>true</IsExtended>
-      </KeyEvent>
-    </MacroEvent>
-    <MacroEvent>
-      <Type>1</Type>
-      <Delay>192</Delay>
-      <KeyEvent>
-        <Makecode>75</Makecode>
-        <IsExtended>true</IsExtended>
-      </KeyEvent>
-    </MacroEvent>
-    <MacroEvent>
-      <Type>1</Type>
-      <Delay>67</Delay>
-      <KeyEvent>
-        <Makecode>75</Makecode>
-        <State>1</State>
-        <IsExtended>true</IsExtended>
-      </KeyEvent>
-    </MacroEvent>
-    <MacroEvent>
-      <Type>1</Type>
-      <Delay>236</Delay>
-      <KeyEvent>
-        <Makecode>72</Makecode>
-        <IsExtended>true</IsExtended>
-      </KeyEvent>
-    </MacroEvent>
-    <MacroEvent>
-      <Type>1</Type>
-      <Delay>67</Delay>
-      <KeyEvent>
-        <Makecode>72</Makecode>
-        <State>1</State>
-        <IsExtended>true</IsExtended>
-      </KeyEvent>
-    </MacroEvent>
-    <MacroEvent>
-      <Type>1</Type>
-      <Delay>224</Delay>
-      <KeyEvent>
-        <Makecode>72</Makecode>
-        <IsExtended>true</IsExtended>
-      </KeyEvent>
-    </MacroEvent>
-    <MacroEvent>
-      <Type>1</Type>
-      <Delay>64</Delay>
-      <KeyEvent>
-        <Makecode>72</Makecode>
+        <Makecode>77</Makecode>
         <State>1</State>
         <IsExtended>true</IsExtended>
       </KeyEvent>

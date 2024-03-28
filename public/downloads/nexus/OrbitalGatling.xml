@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Macro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>ShieldGeneratorPack</Name>
-  <Guid>166cd711-ccec-45da-8917-08cd581a2e5a</Guid>
+  <Name>OrbitalGatling</Name>
+  <Guid>9026c4a2-f05c-496e-8a2f-1c8efa2687af</Guid>
   <MacroEvents>
     <MacroEvent>
       <Type>1</Type>
@@ -11,7 +11,7 @@
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>95</Delay>
+      <Delay>87</Delay>
       <KeyEvent>
         <Makecode>29</Makecode>
         <State>1</State>
@@ -19,7 +19,24 @@
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>237</Delay>
+      <Delay>279</Delay>
+      <KeyEvent>
+        <Makecode>77</Makecode>
+        <IsExtended>true</IsExtended>
+      </KeyEvent>
+    </MacroEvent>
+    <MacroEvent>
+      <Type>1</Type>
+      <Delay>104</Delay>
+      <KeyEvent>
+        <Makecode>77</Makecode>
+        <State>1</State>
+        <IsExtended>true</IsExtended>
+      </KeyEvent>
+    </MacroEvent>
+    <MacroEvent>
+      <Type>1</Type>
+      <Delay>206</Delay>
       <KeyEvent>
         <Makecode>80</Makecode>
         <IsExtended>true</IsExtended>
@@ -27,7 +44,7 @@
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>76</Delay>
+      <Delay>117</Delay>
       <KeyEvent>
         <Makecode>80</Makecode>
         <State>1</State>
@@ -36,7 +53,24 @@
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>129</Delay>
+      <Delay>192</Delay>
+      <KeyEvent>
+        <Makecode>75</Makecode>
+        <IsExtended>true</IsExtended>
+      </KeyEvent>
+    </MacroEvent>
+    <MacroEvent>
+      <Type>1</Type>
+      <Delay>67</Delay>
+      <KeyEvent>
+        <Makecode>75</Makecode>
+        <State>1</State>
+        <IsExtended>true</IsExtended>
+      </KeyEvent>
+    </MacroEvent>
+    <MacroEvent>
+      <Type>1</Type>
+      <Delay>236</Delay>
       <KeyEvent>
         <Makecode>72</Makecode>
         <IsExtended>true</IsExtended>
@@ -44,7 +78,7 @@
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>93</Delay>
+      <Delay>67</Delay>
       <KeyEvent>
         <Makecode>72</Makecode>
         <State>1</State>
@@ -53,68 +87,17 @@
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>175</Delay>
+      <Delay>224</Delay>
       <KeyEvent>
-        <Makecode>75</Makecode>
+        <Makecode>72</Makecode>
         <IsExtended>true</IsExtended>
       </KeyEvent>
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>87</Delay>
+      <Delay>64</Delay>
       <KeyEvent>
-        <Makecode>77</Makecode>
-        <IsExtended>true</IsExtended>
-      </KeyEvent>
-    </MacroEvent>
-    <MacroEvent>
-      <Type>1</Type>
-      <Delay>46</Delay>
-      <KeyEvent>
-        <Makecode>75</Makecode>
-        <State>1</State>
-        <IsExtended>true</IsExtended>
-      </KeyEvent>
-    </MacroEvent>
-    <MacroEvent>
-      <Type>1</Type>
-      <Delay>36</Delay>
-      <KeyEvent>
-        <Makecode>77</Makecode>
-        <State>1</State>
-        <IsExtended>true</IsExtended>
-      </KeyEvent>
-    </MacroEvent>
-    <MacroEvent>
-      <Type>1</Type>
-      <Delay>180</Delay>
-      <KeyEvent>
-        <Makecode>75</Makecode>
-        <IsExtended>true</IsExtended>
-      </KeyEvent>
-    </MacroEvent>
-    <MacroEvent>
-      <Type>1</Type>
-      <Delay>53</Delay>
-      <KeyEvent>
-        <Makecode>77</Makecode>
-        <IsExtended>true</IsExtended>
-      </KeyEvent>
-    </MacroEvent>
-    <MacroEvent>
-      <Type>1</Type>
-      <Delay>48</Delay>
-      <KeyEvent>
-        <Makecode>75</Makecode>
-        <State>1</State>
-        <IsExtended>true</IsExtended>
-      </KeyEvent>
-    </MacroEvent>
-    <MacroEvent>
-      <Type>1</Type>
-      <Delay>49</Delay>
-      <KeyEvent>
-        <Makecode>77</Makecode>
+        <Makecode>72</Makecode>
         <State>1</State>
         <IsExtended>true</IsExtended>
       </KeyEvent>

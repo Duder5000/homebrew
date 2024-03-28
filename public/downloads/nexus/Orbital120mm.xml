@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Macro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>OrbitalSmokeStrike</Name>
-  <Guid>330ffd51-d3b7-4487-89fe-1a525d0d23fc</Guid>
+  <Name>Orbital120mm</Name>
+  <Guid>4a7a6c31-50d6-4815-874d-244852b686ef</Guid>
   <MacroEvents>
     <MacroEvent>
       <Type>1</Type>
@@ -11,7 +11,7 @@
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>114</Delay>
+      <Delay>98</Delay>
       <KeyEvent>
         <Makecode>29</Makecode>
         <State>1</State>
@@ -19,18 +19,9 @@
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>259</Delay>
+      <Delay>509</Delay>
       <KeyEvent>
         <Makecode>77</Makecode>
-        <IsExtended>true</IsExtended>
-      </KeyEvent>
-    </MacroEvent>
-    <MacroEvent>
-      <Type>1</Type>
-      <Delay>68</Delay>
-      <KeyEvent>
-        <Makecode>77</Makecode>
-        <State>1</State>
         <IsExtended>true</IsExtended>
       </KeyEvent>
     </MacroEvent>
@@ -39,12 +30,21 @@
       <Delay>88</Delay>
       <KeyEvent>
         <Makecode>77</Makecode>
+        <State>1</State>
         <IsExtended>true</IsExtended>
       </KeyEvent>
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>70</Delay>
+      <Delay>71</Delay>
+      <KeyEvent>
+        <Makecode>77</Makecode>
+        <IsExtended>true</IsExtended>
+      </KeyEvent>
+    </MacroEvent>
+    <MacroEvent>
+      <Type>1</Type>
+      <Delay>78</Delay>
       <KeyEvent>
         <Makecode>77</Makecode>
         <State>1</State>
@@ -53,7 +53,7 @@
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>159</Delay>
+      <Delay>95</Delay>
       <KeyEvent>
         <Makecode>80</Makecode>
         <IsExtended>true</IsExtended>
@@ -61,7 +61,7 @@
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>85</Delay>
+      <Delay>108</Delay>
       <KeyEvent>
         <Makecode>80</Makecode>
         <State>1</State>
@@ -70,17 +70,51 @@
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>168</Delay>
+      <Delay>155</Delay>
       <KeyEvent>
-        <Makecode>72</Makecode>
+        <Makecode>75</Makecode>
         <IsExtended>true</IsExtended>
       </KeyEvent>
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>74</Delay>
+      <Delay>125</Delay>
       <KeyEvent>
-        <Makecode>72</Makecode>
+        <Makecode>75</Makecode>
+        <State>1</State>
+        <IsExtended>true</IsExtended>
+      </KeyEvent>
+    </MacroEvent>
+    <MacroEvent>
+      <Type>1</Type>
+      <Delay>56</Delay>
+      <KeyEvent>
+        <Makecode>77</Makecode>
+        <IsExtended>true</IsExtended>
+      </KeyEvent>
+    </MacroEvent>
+    <MacroEvent>
+      <Type>1</Type>
+      <Delay>95</Delay>
+      <KeyEvent>
+        <Makecode>77</Makecode>
+        <State>1</State>
+        <IsExtended>true</IsExtended>
+      </KeyEvent>
+    </MacroEvent>
+    <MacroEvent>
+      <Type>1</Type>
+      <Delay>145</Delay>
+      <KeyEvent>
+        <Makecode>80</Makecode>
+        <IsExtended>true</IsExtended>
+      </KeyEvent>
+    </MacroEvent>
+    <MacroEvent>
+      <Type>1</Type>
+      <Delay>89</Delay>
+      <KeyEvent>
+        <Makecode>80</Makecode>
         <State>1</State>
         <IsExtended>true</IsExtended>
       </KeyEvent>

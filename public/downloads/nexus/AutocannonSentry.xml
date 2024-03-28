@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Macro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>Autocannon Sentry</Name>
+  <Name>AutocannonSentry</Name>
   <Guid>4eb2d11a-7fae-4fea-9501-05bf9d71e9bc</Guid>
   <MacroEvents>
     <MacroEvent>

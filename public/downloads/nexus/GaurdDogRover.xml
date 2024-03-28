@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Macro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>OrbitalWalkingBarrage</Name>
-  <Guid>9bf12625-1366-4c4b-8534-ba7d28d4445f</Guid>
+  <Name>GaurdDogRover</Name>
+  <Guid>cbc820dd-2845-4177-ba7b-9a77fd294557</Guid>
   <MacroEvents>
     <MacroEvent>
       <Type>1</Type>
@@ -11,7 +11,7 @@
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>112</Delay>
+      <Delay>103</Delay>
       <KeyEvent>
         <Makecode>29</Makecode>
         <State>1</State>
@@ -19,24 +19,7 @@
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>136</Delay>
-      <KeyEvent>
-        <Makecode>77</Makecode>
-        <IsExtended>true</IsExtended>
-      </KeyEvent>
-    </MacroEvent>
-    <MacroEvent>
-      <Type>1</Type>
-      <Delay>123</Delay>
-      <KeyEvent>
-        <Makecode>77</Makecode>
-        <State>1</State>
-        <IsExtended>true</IsExtended>
-      </KeyEvent>
-    </MacroEvent>
-    <MacroEvent>
-      <Type>1</Type>
-      <Delay>96</Delay>
+      <Delay>344</Delay>
       <KeyEvent>
         <Makecode>80</Makecode>
         <IsExtended>true</IsExtended>
@@ -44,7 +27,7 @@
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>137</Delay>
+      <Delay>99</Delay>
       <KeyEvent>
         <Makecode>80</Makecode>
         <State>1</State>
@@ -53,7 +36,58 @@
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>126</Delay>
+      <Delay>185</Delay>
+      <KeyEvent>
+        <Makecode>72</Makecode>
+        <IsExtended>true</IsExtended>
+      </KeyEvent>
+    </MacroEvent>
+    <MacroEvent>
+      <Type>1</Type>
+      <Delay>90</Delay>
+      <KeyEvent>
+        <Makecode>72</Makecode>
+        <State>1</State>
+        <IsExtended>true</IsExtended>
+      </KeyEvent>
+    </MacroEvent>
+    <MacroEvent>
+      <Type>1</Type>
+      <Delay>222</Delay>
+      <KeyEvent>
+        <Makecode>75</Makecode>
+        <IsExtended>true</IsExtended>
+      </KeyEvent>
+    </MacroEvent>
+    <MacroEvent>
+      <Type>1</Type>
+      <Delay>93</Delay>
+      <KeyEvent>
+        <Makecode>75</Makecode>
+        <State>1</State>
+        <IsExtended>true</IsExtended>
+      </KeyEvent>
+    </MacroEvent>
+    <MacroEvent>
+      <Type>1</Type>
+      <Delay>233</Delay>
+      <KeyEvent>
+        <Makecode>72</Makecode>
+        <IsExtended>true</IsExtended>
+      </KeyEvent>
+    </MacroEvent>
+    <MacroEvent>
+      <Type>1</Type>
+      <Delay>87</Delay>
+      <KeyEvent>
+        <Makecode>72</Makecode>
+        <State>1</State>
+        <IsExtended>true</IsExtended>
+      </KeyEvent>
+    </MacroEvent>
+    <MacroEvent>
+      <Type>1</Type>
+      <Delay>287</Delay>
       <KeyEvent>
         <Makecode>77</Makecode>
         <IsExtended>true</IsExtended>
@@ -61,7 +95,7 @@
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>89</Delay>
+      <Delay>75</Delay>
       <KeyEvent>
         <Makecode>77</Makecode>
         <State>1</State>
@@ -70,24 +104,7 @@
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>367</Delay>
-      <KeyEvent>
-        <Makecode>80</Makecode>
-        <IsExtended>true</IsExtended>
-      </KeyEvent>
-    </MacroEvent>
-    <MacroEvent>
-      <Type>1</Type>
-      <Delay>94</Delay>
-      <KeyEvent>
-        <Makecode>80</Makecode>
-        <State>1</State>
-        <IsExtended>true</IsExtended>
-      </KeyEvent>
-    </MacroEvent>
-    <MacroEvent>
-      <Type>1</Type>
-      <Delay>172</Delay>
+      <Delay>253</Delay>
       <KeyEvent>
         <Makecode>77</Makecode>
         <IsExtended>true</IsExtended>
@@ -95,26 +112,9 @@
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>101</Delay>
+      <Delay>84</Delay>
       <KeyEvent>
         <Makecode>77</Makecode>
-        <State>1</State>
-        <IsExtended>true</IsExtended>
-      </KeyEvent>
-    </MacroEvent>
-    <MacroEvent>
-      <Type>1</Type>
-      <Delay>232</Delay>
-      <KeyEvent>
-        <Makecode>80</Makecode>
-        <IsExtended>true</IsExtended>
-      </KeyEvent>
-    </MacroEvent>
-    <MacroEvent>
-      <Type>1</Type>
-      <Delay>72</Delay>
-      <KeyEvent>
-        <Makecode>80</Makecode>
         <State>1</State>
         <IsExtended>true</IsExtended>
       </KeyEvent>

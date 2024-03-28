@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Macro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>Guard Dog</Name>
+  <Name>GuardDog</Name>
   <Guid>2f786ffb-b79a-499b-b6bd-23c838579fad</Guid>
   <MacroEvents>
     <MacroEvent>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Macro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>Mortar Sentry</Name>
+  <Name>MortarSentry</Name>
   <Guid>f1d79f4d-d746-47d1-ad3a-ee2aa44ddbf2</Guid>
   <MacroEvents>
     <MacroEvent>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Macro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>Machine Gun</Name>
+  <Name>MachineGun</Name>
   <Guid>8de321e7-27c4-4dae-997c-02ce6acca653</Guid>
   <MacroEvents>
     <MacroEvent>

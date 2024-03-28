@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Macro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>EMS Mortar Sentry</Name>
+  <Name>EMSMortarSentry</Name>
   <Guid>20037723-f3a7-4873-948e-94577300d539</Guid>
   <MacroEvents>
     <MacroEvent>
