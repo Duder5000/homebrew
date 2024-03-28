@@ -1,7 +1,7 @@
 #https://www.nexusmods.com/helldivers2/mods/25?tab=files
 
 $sourceDirectory = "C:\Users\Duder5000\Downloads\Stratagem Macros for Razer Synapse 3"
-$destinationDirectory = "C:\Users\Duder5000\Downloads\Edited"
+$destinationDirectory = "C:\Users\Duder5000\Documents\homebrew\public\downloads\Edited"
 
 if (-not (Test-Path -Path $destinationDirectory)) {
     New-Item -ItemType Directory -Path $destinationDirectory | Out-Null
