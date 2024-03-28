@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Macro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>Reinforce</Name>
+  <Name>Reinforcements</Name>
   <Guid>7db2d515-0f0c-482b-9bbd-018853c22437</Guid>
   <MacroEvents>
     <MacroEvent>
