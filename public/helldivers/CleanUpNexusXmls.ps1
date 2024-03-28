@@ -61,22 +61,31 @@ Write-Host "File moving complete."
 
 #########################################################################
 
-$nameFixPath = $hd2Path
-$xmlFiles = Get-ChildItem -Path $nameFixPath -Filter *.xml
+function fixNames($xmlFiles){
+	foreach ($file in $xmlFiles) {
+		$xmlContent = Get-Content $file.FullName
+		$xml = [xml]$xmlContent
 
-foreach ($file in $xmlFiles) {
-    $xmlContent = Get-Content $file.FullName
-    $xml = [xml]$xmlContent
-
-    if ($xml.SelectSingleNode("//Name")) {
-        $nameTag = $xml.SelectSingleNode("//Name").InnerText
-        if ($nameTag -ne $file.BaseName) {
-            $xml.SelectSingleNode("//Name").InnerText = $file.BaseName
-            $xml.Save($file.FullName)
-            Write-Host "Updated '<Name>' tag in $($file.Name) to match the file name."
-        }
-    }
-    else {
-        Write-Host "No '<Name>' tag found in $($file.Name)."
-    }
+		if ($xml.SelectSingleNode("//Name")) {
+			$nameTag = $xml.SelectSingleNode("//Name").InnerText
+			if ($nameTag -ne $file.BaseName) {
+				$xml.SelectSingleNode("//Name").InnerText = $file.BaseName
+				$xml.Save($file.FullName)
+				Write-Host "Updated '<Name>' tag in $($file.Name) to match the file name."
+			}
+		}
+		else {
+			Write-Host "No '<Name>' tag found in $($file.Name)."
+		}
+	}
 }
+
+$xml01 = Get-ChildItem -Path $hd2Path -Filter *.xml
+$xml02 = Get-ChildItem -Path $nexusPath -Filter *.xml
+$xml03 = Get-ChildItem -Path $noMatchPath -Filter *.xml
+
+fixNames $xml01
+fixNames $xml02
+fixNames $xml03
+
+#########################################################################
