@@ -11,14 +11,14 @@
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>50</Delay>
+      <Delay>65</Delay>
       <KeyEvent>
         <Makecode>31</Makecode>
       </KeyEvent>
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>50</Delay>
+      <Delay>65</Delay>
       <KeyEvent>
         <Makecode>31</Makecode>
         <State>1</State>
@@ -26,14 +26,14 @@
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>50</Delay>
+      <Delay>65</Delay>
       <KeyEvent>
         <Makecode>17</Makecode>
       </KeyEvent>
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>50</Delay>
+      <Delay>65</Delay>
       <KeyEvent>
         <Makecode>17</Makecode>
         <State>1</State>
@@ -41,44 +41,14 @@
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>50</Delay>
+      <Delay>65</Delay>
       <KeyEvent>
         <Makecode>30</Makecode>
       </KeyEvent>
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>50</Delay>
-      <KeyEvent>
-        <Makecode>30</Makecode>
-        <State>1</State>
-      </KeyEvent>
-    </MacroEvent>
-    <MacroEvent>
-      <Type>1</Type>
-      <Delay>50</Delay>
-      <KeyEvent>
-        <Makecode>32</Makecode>
-      </KeyEvent>
-    </MacroEvent>
-    <MacroEvent>
-      <Type>1</Type>
-      <Delay>50</Delay>
-      <KeyEvent>
-        <Makecode>32</Makecode>
-        <State>1</State>
-      </KeyEvent>
-    </MacroEvent>
-    <MacroEvent>
-      <Type>1</Type>
-      <Delay>50</Delay>
-      <KeyEvent>
-        <Makecode>30</Makecode>
-      </KeyEvent>
-    </MacroEvent>
-    <MacroEvent>
-      <Type>1</Type>
-      <Delay>50</Delay>
+      <Delay>65</Delay>
       <KeyEvent>
         <Makecode>30</Makecode>
         <State>1</State>
@@ -86,14 +56,44 @@
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>50</Delay>
+      <Delay>65</Delay>
       <KeyEvent>
         <Makecode>32</Makecode>
       </KeyEvent>
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>50</Delay>
+      <Delay>65</Delay>
+      <KeyEvent>
+        <Makecode>32</Makecode>
+        <State>1</State>
+      </KeyEvent>
+    </MacroEvent>
+    <MacroEvent>
+      <Type>1</Type>
+      <Delay>65</Delay>
+      <KeyEvent>
+        <Makecode>30</Makecode>
+      </KeyEvent>
+    </MacroEvent>
+    <MacroEvent>
+      <Type>1</Type>
+      <Delay>65</Delay>
+      <KeyEvent>
+        <Makecode>30</Makecode>
+        <State>1</State>
+      </KeyEvent>
+    </MacroEvent>
+    <MacroEvent>
+      <Type>1</Type>
+      <Delay>65</Delay>
+      <KeyEvent>
+        <Makecode>32</Makecode>
+      </KeyEvent>
+    </MacroEvent>
+    <MacroEvent>
+      <Type>1</Type>
+      <Delay>65</Delay>
       <KeyEvent>
         <Makecode>32</Makecode>
         <State>1</State>
