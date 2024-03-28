@@ -1,3 +1,5 @@
+#https://www.nexusmods.com/helldivers2/mods/25?tab=files
+
 $sourceDirectory = "C:\Users\Duder5000\Downloads\Stratagem Macros for Razer Synapse 3"
 $destinationDirectory = "C:\Users\Duder5000\Downloads\Edited"
 
@@ -21,7 +23,6 @@ Write-Host "Replacement complete. Edited files are located in: $destinationDirec
 #########################################################################
 
 $folderPath = "C:\Users\Duder5000\Documents\homebrew\public\downloads\nexus"
-
 $xmlFiles = Get-ChildItem -Path $folderPath -Filter "*.xml"
 
 foreach ($file in $xmlFiles) {
@@ -31,3 +32,27 @@ foreach ($file in $xmlFiles) {
 }
 
 Write-Host "File renaming process complete."
+
+#########################################################################
+
+# Define the paths
+$nexusPath = "C:\Users\Duder5000\Documents\homebrew\public\downloads\nexus"
+$hd2Path = "C:\Users\Duder5000\Documents\homebrew\public\downloads\hd2"
+$noMatchPath = "C:\Users\Duder5000\Documents\homebrew\public\downloads\noMatch"
+
+if (-not (Test-Path -Path $noMatchPath)) {
+    New-Item -Path $noMatchPath -ItemType Directory | Out-Null
+}
+
+$xmlFiles = Get-ChildItem -Path $nexusPath -Filter "*.xml" -File
+
+foreach ($xmlFile in $xmlFiles) {
+    $matchingFile = Get-ChildItem -Path $hd2Path -Filter $xmlFile.Name -File
+
+    if (-not $matchingFile) {
+        Move-Item -Path $xmlFile.FullName -Destination $noMatchPath -Force
+        Write-Output "Moved $($xmlFile.Name) to $noMatchPath"
+    }
+}
+
+Write-Host "File moving complete."
