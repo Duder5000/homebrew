@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Macro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>Eagle Strafing Run</Name>
+  <Name>EagleStrafingRun</Name>
   <Guid>dcbf71b7-1289-4aea-bba8-832f9e7ce42b</Guid>
   <MacroEvents>
     <MacroEvent>

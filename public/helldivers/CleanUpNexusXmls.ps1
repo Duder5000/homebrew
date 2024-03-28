@@ -58,3 +58,25 @@ foreach ($xmlFile in $xmlFiles) {
 }
 
 Write-Host "File moving complete."
+
+#########################################################################
+
+$nameFixPath = $hd2Path
+$xmlFiles = Get-ChildItem -Path $nameFixPath -Filter *.xml
+
+foreach ($file in $xmlFiles) {
+    $xmlContent = Get-Content $file.FullName
+    $xml = [xml]$xmlContent
+
+    if ($xml.SelectSingleNode("//Name")) {
+        $nameTag = $xml.SelectSingleNode("//Name").InnerText
+        if ($nameTag -ne $file.BaseName) {
+            $xml.SelectSingleNode("//Name").InnerText = $file.BaseName
+            $xml.Save($file.FullName)
+            Write-Host "Updated '<Name>' tag in $($file.Name) to match the file name."
+        }
+    }
+    else {
+        Write-Host "No '<Name>' tag found in $($file.Name)."
+    }
+}

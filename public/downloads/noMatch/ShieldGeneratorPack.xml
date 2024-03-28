@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Macro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>Shield Generator Pack</Name>
+  <Name>ShieldGeneratorPack</Name>
   <Guid>166cd711-ccec-45da-8917-08cd581a2e5a</Guid>
   <MacroEvents>
     <MacroEvent>

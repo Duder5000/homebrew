@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Macro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>Orbital 120MM HE Barrage</Name>
+  <Name>Orbital120MMHEBarrage</Name>
   <Guid>4a7a6c31-50d6-4815-874d-244852b686ef</Guid>
   <MacroEvents>
     <MacroEvent>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Macro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>Orbital Precision Strikes</Name>
+  <Name>OrbitalPrecisionStrikes</Name>
   <Guid>ac49452b-82e0-410a-a920-8255a0314027</Guid>
   <MacroEvents>
     <MacroEvent>

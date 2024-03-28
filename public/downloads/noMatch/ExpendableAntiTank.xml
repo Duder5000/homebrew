@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Macro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>Expendable Anti-Tank</Name>
+  <Name>ExpendableAntiTank</Name>
   <Guid>2f1c9e91-c605-4eb1-865a-b51e69d0ee38</Guid>
   <MacroEvents>
     <MacroEvent>

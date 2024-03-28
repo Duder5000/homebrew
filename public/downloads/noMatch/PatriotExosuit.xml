@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Macro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>Patriot Exosuit</Name>
+  <Name>PatriotExosuit</Name>
   <Guid>3a5b86e4-7a91-4440-a55a-022d93ecba97</Guid>
   <MacroEvents>
     <MacroEvent>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Macro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>Guard Dog Rover Laser</Name>
+  <Name>GuardDogRoverLaser</Name>
   <Guid>cbc820dd-2845-4177-ba7b-9a77fd294557</Guid>
   <MacroEvents>
     <MacroEvent>

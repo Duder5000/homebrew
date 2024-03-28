@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Macro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>Shield Generation Relay</Name>
+  <Name>ShieldGenerationRelay</Name>
   <Guid>43a345b5-a9ab-4935-aad0-95a8b66d9492</Guid>
   <MacroEvents>
     <MacroEvent>

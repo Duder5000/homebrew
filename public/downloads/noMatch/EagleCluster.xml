@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Macro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>Eagle Napalm Airstrike</Name>
-  <Guid>3368f92a-4e94-4496-a58f-695ce7ca1724</Guid>
+  <Name>EagleCluster</Name>
+  <Guid>d74f8ee1-acd9-4d2c-a024-6ea855f979f6</Guid>
   <MacroEvents>
     <MacroEvent>
       <Type>1</Type>
@@ -11,7 +11,7 @@
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>103</Delay>
+      <Delay>90</Delay>
       <KeyEvent>
         <Makecode>29</Makecode>
         <State>1</State>
@@ -19,7 +19,7 @@
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>206</Delay>
+      <Delay>359</Delay>
       <KeyEvent>
         <Makecode>72</Makecode>
         <IsExtended>true</IsExtended>
@@ -27,7 +27,7 @@
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>105</Delay>
+      <Delay>104</Delay>
       <KeyEvent>
         <Makecode>72</Makecode>
         <State>1</State>
@@ -36,7 +36,7 @@
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>240</Delay>
+      <Delay>175</Delay>
       <KeyEvent>
         <Makecode>77</Makecode>
         <IsExtended>true</IsExtended>
@@ -44,7 +44,7 @@
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>89</Delay>
+      <Delay>108</Delay>
       <KeyEvent>
         <Makecode>77</Makecode>
         <State>1</State>
@@ -53,7 +53,7 @@
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>215</Delay>
+      <Delay>207</Delay>
       <KeyEvent>
         <Makecode>80</Makecode>
         <IsExtended>true</IsExtended>
@@ -61,7 +61,7 @@
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>86</Delay>
+      <Delay>73</Delay>
       <KeyEvent>
         <Makecode>80</Makecode>
         <State>1</State>
@@ -70,17 +70,34 @@
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>206</Delay>
+      <Delay>90</Delay>
       <KeyEvent>
-        <Makecode>72</Makecode>
+        <Makecode>80</Makecode>
         <IsExtended>true</IsExtended>
       </KeyEvent>
     </MacroEvent>
     <MacroEvent>
       <Type>1</Type>
-      <Delay>105</Delay>
+      <Delay>84</Delay>
       <KeyEvent>
-        <Makecode>72</Makecode>
+        <Makecode>80</Makecode>
+        <State>1</State>
+        <IsExtended>true</IsExtended>
+      </KeyEvent>
+    </MacroEvent>
+    <MacroEvent>
+      <Type>1</Type>
+      <Delay>182</Delay>
+      <KeyEvent>
+        <Makecode>77</Makecode>
+        <IsExtended>true</IsExtended>
+      </KeyEvent>
+    </MacroEvent>
+    <MacroEvent>
+      <Type>1</Type>
+      <Delay>66</Delay>
+      <KeyEvent>
+        <Makecode>77</Makecode>
         <State>1</State>
         <IsExtended>true</IsExtended>
       </KeyEvent>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Macro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>Prospecting Drill</Name>
+  <Name>ProspectingDrill</Name>
   <Guid>08bc7eb0-c841-480f-a771-9bc6a9fa689e</Guid>
   <MacroEvents>
     <MacroEvent>

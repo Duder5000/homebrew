@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Macro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>Orbital EMS Strike</Name>
+  <Name>OrbitalEMSStrike</Name>
   <Guid>8d191a77-0661-497e-92ca-66cb8f71cb99</Guid>
   <MacroEvents>
     <MacroEvent>
