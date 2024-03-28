@@ -17,3 +17,17 @@ foreach ($file in $xmlFiles) {
 }
 
 Write-Host "Replacement complete. Edited files are located in: $destinationDirectory"
+
+#########################################################################
+
+$folderPath = "C:\Users\Duder5000\Documents\homebrew\public\downloads\nexus"
+
+$xmlFiles = Get-ChildItem -Path $folderPath -Filter "*.xml"
+
+foreach ($file in $xmlFiles) {
+    $newFileName = $file.Name -replace '[^a-zA-Z0-9.]', ''
+    $newFilePath = Join-Path -Path $file.Directory.FullName -ChildPath $newFileName
+    Rename-Item -Path $file.FullName -NewName $newFileName -Force
+}
+
+Write-Host "File renaming process complete."
