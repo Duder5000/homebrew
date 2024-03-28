@@ -36,28 +36,25 @@ Write-Host "File renaming process complete."
 #########################################################################
 #https://github.com/SublimeText/PowerShell
 
-#$nexusPath = "C:\Users\Duder5000\Documents\homebrew\public\downloads\nexus"
-#$hd2Path = "C:\Users\Duder5000\Documents\homebrew\public\downloads\hd2"
-#$noMatchPath = "C:\Users\Duder5000\Documents\homebrew\public\downloads\noMatch"
-#$noMatchListFile = "C:\Users\Duder5000\Documents\homebrew\public\downloads\noMatchList.txt"
-#
-#if (-not (Test-Path -Path $noMatchPath)) {
-#    New-Item -Path $noMatchPath -ItemType Directory | Out-Null
-#}
-#
-#$xmlFiles = Get-ChildItem -Path $nexusPath -Filter "*.xml" -File
-#$noMatchFiles = @()
-#
-#foreach ($xmlFile in $xmlFiles) {
-#    $matchingFile = Get-ChildItem -Path $hd2Path -Filter $xmlFile.Name -File
-#
-#    if (-not $matchingFile) {
-#        Move-Item -Path $xmlFile.FullName -Destination $noMatchPath -Force
-#        Write-Output "Moved $($xmlFile.Name) to $noMatchPath"
-#        $noMatchFiles += $xmlFile.Name
-#    }
-#}
-#
-#$noMatchFiles | Out-File -FilePath $noMatchListFile -Force
-#
-#Write-Host "File moving complete."
+$nexusPath = "C:\Users\Duder5000\Documents\homebrew\public\downloads\nexus"
+$hd2Path = "C:\Users\Duder5000\Documents\homebrew\public\downloads\hd2"
+$noMatchPath = "C:\Users\Duder5000\Documents\homebrew\public\downloads\noMatch"
+
+if (-not (Test-Path -Path $noMatchPath)) {
+    New-Item -Path $noMatchPath -ItemType Directory | Out-Null
+}
+
+Get-ChildItem -Path $noMatchPath -File | Move-Item -Destination $nexusPath -Force
+
+$xmlFiles = Get-ChildItem -Path $nexusPath -Filter "*.xml" -File
+
+foreach ($xmlFile in $xmlFiles) {
+    $matchingFile = Get-ChildItem -Path $hd2Path -Filter $xmlFile.Name -File
+
+    if (-not $matchingFile) {
+        Move-Item -Path $xmlFile.FullName -Destination $noMatchPath -Force
+        Write-Output "Moved $($xmlFile.Name) to $noMatchPath"
+    }
+}
+
+Write-Host "File moving complete."
