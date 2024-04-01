@@ -1,7 +1,7 @@
 #https://www.nexusmods.com/helldivers2/mods/25?tab=files
 
-$sourceDirectory = "C:\Users\Duder5000\Downloads\Stratagem Macros for Razer Synapse 3"
-$destinationDirectory = "C:\Users\Duder5000\Documents\homebrew\public\downloads\Edited"
+$sourceDirectory = "D:\homebrew\public\downloads\Stratagem Macros for Razer Synapse 3"
+$destinationDirectory = "D:\homebrew\public\downloads\Edited"
 
 if (-not (Test-Path -Path $destinationDirectory)) {
     New-Item -ItemType Directory -Path $destinationDirectory | Out-Null
@@ -22,7 +22,7 @@ Write-Host "Replacement complete. Edited files are located in: $destinationDirec
 
 #########################################################################
 
-$folderPath = "C:\Users\Duder5000\Documents\homebrew\public\downloads\nexus"
+$folderPath = "D:\homebrew\public\downloads\nexus"
 $xmlFiles = Get-ChildItem -Path $folderPath -Filter "*.xml"
 
 foreach ($file in $xmlFiles) {
@@ -36,9 +36,9 @@ Write-Host "File renaming process complete."
 #########################################################################
 #https://github.com/SublimeText/PowerShell
 
-$nexusPath = "C:\Users\Duder5000\Documents\homebrew\public\downloads\nexus"
-$hd2Path = "C:\Users\Duder5000\Documents\homebrew\public\downloads\hd2"
-$noMatchPath = "C:\Users\Duder5000\Documents\homebrew\public\downloads\noMatch"
+$nexusPath = "D:\homebrew\public\downloads\nexus"
+$hd2Path = "D:\homebrew\public\downloads\hd2"
+$noMatchPath = "D:\homebrew\public\downloads\noMatch"
 
 if (-not (Test-Path -Path $noMatchPath)) {
     New-Item -Path $noMatchPath -ItemType Directory | Out-Null
@@ -87,5 +87,26 @@ $xml03 = Get-ChildItem -Path $noMatchPath -Filter *.xml
 fixNames $xml01
 fixNames $xml02
 fixNames $xml03
+
+#########################################################################
+
+$xmlFilesTxts = Get-ChildItem -Path $noMatchPath -Filter "*.xml"
+
+foreach ($xmlFile in $xmlFilesTxts) {
+    # Create a new text file with the same name as the XML file
+    $txtFileName = [System.IO.Path]::ChangeExtension($xmlFile.FullName, ".txt")
+    $txtFile = New-Item -Path $txtFileName -ItemType File -Force
+    
+    # Load the XML file
+    $xmlContent = Get-Content -Path $xmlFile.FullName
+    
+    # Find all Makecode values
+    $makecodeValues = $xmlContent | Select-String -Pattern "<Makecode>(.*?)</Makecode>" -AllMatches | ForEach-Object { $_.Matches.Groups[1].Value }
+    
+    # Write Makecode values to the text file
+    $makecodeValues | ForEach-Object {
+        Add-Content -Path $txtFile.FullName -Value $_
+    }
+}
 
 #########################################################################
