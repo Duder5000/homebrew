@@ -1,4 +1,7 @@
 #https://www.nexusmods.com/helldivers2/mods/25?tab=files
+#https://github.com/SublimeText/PowerShell
+
+#########################################################################
 
 $sourceDirectory = "D:\homebrew\public\downloads\Stratagem Macros for Razer Synapse 3"
 $destinationDirectory = "D:\homebrew\public\downloads\Edited"
@@ -9,6 +12,7 @@ if (-not (Test-Path -Path $destinationDirectory)) {
 
 $xmlFiles = Get-ChildItem -Path $sourceDirectory -Filter *.xml -Recurse
 
+#Replace the <Delay> vaues
 foreach ($file in $xmlFiles) {
     Write-Host "Processing file: $($file.FullName)"
 
@@ -25,6 +29,7 @@ Write-Host "Replacement complete. Edited files are located in: $destinationDirec
 $folderPath = "D:\homebrew\public\downloads\nexus"
 $xmlFiles = Get-ChildItem -Path $folderPath -Filter "*.xml"
 
+#Clean up xml files names
 foreach ($file in $xmlFiles) {
     $newFileName = $file.Name -replace '[^a-zA-Z0-9.]', ''
     $newFilePath = Join-Path -Path $file.Directory.FullName -ChildPath $newFileName
@@ -34,7 +39,6 @@ foreach ($file in $xmlFiles) {
 Write-Host "File renaming process complete."
 
 #########################################################################
-#https://github.com/SublimeText/PowerShell
 
 $nexusPath = "D:\homebrew\public\downloads\nexus"
 $hd2Path = "D:\homebrew\public\downloads\hd2"
@@ -48,6 +52,7 @@ Get-ChildItem -Path $noMatchPath -File | Move-Item -Destination $nexusPath -Forc
 
 $xmlFiles = Get-ChildItem -Path $nexusPath -Filter "*.xml" -File
 
+#Match & move files
 foreach ($xmlFile in $xmlFiles) {
     $matchingFile = Get-ChildItem -Path $hd2Path -Filter $xmlFile.Name -File
 
@@ -61,6 +66,7 @@ Write-Host "File moving complete."
 
 #########################################################################
 
+#Make <Name> match the files names
 function fixNames($xmlFiles){
 	foreach ($file in $xmlFiles) {
 		$xmlContent = Get-Content $file.FullName
@@ -92,18 +98,13 @@ fixNames $xml03
 
 $xmlFilesTxts = Get-ChildItem -Path $noMatchPath -Filter "*.xml"
 
+#Create txts with codes from $noMatchPath
 foreach ($xmlFile in $xmlFilesTxts) {
-    # Create a new text file with the same name as the XML file
     $txtFileName = [System.IO.Path]::ChangeExtension($xmlFile.FullName, ".txt")
     $txtFile = New-Item -Path $txtFileName -ItemType File -Force
-    
-    # Load the XML file
-    $xmlContent = Get-Content -Path $xmlFile.FullName
-    
-    # Find all Makecode values
+    $xmlContent = Get-Content -Path $xmlFile.FullName    
     $makecodeValues = $xmlContent | Select-String -Pattern "<Makecode>(.*?)</Makecode>" -AllMatches | ForEach-Object { $_.Matches.Groups[1].Value }
     
-    # Write Makecode values to the text file
     $makecodeValues | ForEach-Object {
         Add-Content -Path $txtFile.FullName -Value $_
     }
