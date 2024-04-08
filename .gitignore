@@ -67,3 +67,7 @@ node_modules/
 
 #Shortcuts
 *.lnk
+
+#Zips
+*.zip
+*.7z
