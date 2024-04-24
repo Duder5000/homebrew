@@ -71,3 +71,6 @@ node_modules/
 #Zips
 *.zip
 *.7z
+
+#Folder
+public/iat336/
