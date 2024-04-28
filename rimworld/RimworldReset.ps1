@@ -4,9 +4,23 @@ $rimworldWorkshopPath = "E:\steamSSD\steamapps\workshop\content\294100"
 $prefsSourcePath = "F:\GDrive\Misc\Rimworld\Shortcuts\Prefs.xml"
 $prefsDestinationPath = "$configFolderPath\Prefs.xml"
 
+#$localModsPath = "E:\steamSSD\steamapps\common\RimWorld\Mods"
+#$localModsBackUpPath = "D:\rimworldLocalModsBackUp"
+
 ##################################################################################
 
-#Invoke-Expression -Command "F:\GDrive\Misc\Rimworld\PowerShell\RimworldSaveBackUp.ps1"
+#if (-not (Test-Path $localModsBackUpPath)) {
+#	New-Item -ItemType Directory -Path $localModsBackUpPath -Force
+#}
+
+#Copy-Item -Path $localModsPath\* -Destination $localModsBackUpPath -Force -Verbose -Recurse
+
+#$savesFilesCount = (Get-ChildItem -Path "$rimworldLocalLowPath\Saves" | Measure-Object).Count
+
+#Invoke-Expression -Command "D:\homebrew\rimworld\RimworldSaveBackUp.ps1"
+
+#Write-Host "Sleep time: $savesFilesCount"
+#Start-Sleep -Seconds $savesFilesCount
 
 ##################################################################################
 
