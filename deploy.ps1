@@ -1,4 +1,4 @@
-$folder = "F:\homebrew"
+$folder = "D:\homebrew"
 D:
 cd $folder
 firebase deploy
