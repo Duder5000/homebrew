@@ -31,10 +31,31 @@ Copy-Item -Path $rimPyModListsSourcePath\* -Destination $rimPyModListsDestinatio
 
 Remove-Item -Path "$savesSourcePath" -Force -Verbose -Recurse
 
-$newestFiles = Get-ChildItem -Path $savesDestinationPath | Sort-Object -Property CreationTime -Descending | Select-Object -First 10
+if (-not (Test-Path $savesSourcePath)) {
+	New-Item -ItemType Directory -Path $savesSourcePath -Force
+}
+
+$newestFiles = Get-ChildItem -Path $savesDestinationPath -Filter *.rws | Sort-Object -Property CreationTime -Descending | Select-Object -First 10
 foreach ($file in $newestFiles) {
     Copy-Item -Path $file.FullName -Destination $savesSourcePath
 }
+
+##################################################################################
+
+Get-ChildItem -Path "$savesDestinationPath" -Filter *.txt | Remove-Item
+
+$currentDateTime = Get-Date
+$formattedDateTimeName = $currentDateTime.ToString("yyyy-MM-dd")
+$formattedDateTimeContent = $currentDateTime.ToString("yyyy-MM-dd at HH:mm:ss")
+
+$fileName = "_Last Ran $formattedDateTimeName.txt"
+$content = "Current date and time: $formattedDateTimeContent"
+
+$filePath = Join-Path -Path $savesDestinationPath -ChildPath $fileName
+$content | Out-File -FilePath $filePath
+
+Write-Host "File '$fileName' created with content:"
+Get-Content $filePath
 
 ##################################################################################
 
