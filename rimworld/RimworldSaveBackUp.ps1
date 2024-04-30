@@ -29,16 +29,16 @@ Copy-Item -Path $rimPyModListsSourcePath\* -Destination $rimPyModListsDestinatio
 
 ##################################################################################
 
-Remove-Item -Path "$savesSourcePath" -Force -Verbose -Recurse
+#Remove-Item -Path "$savesSourcePath" -Force -Verbose -Recurse
 
 if (-not (Test-Path $savesSourcePath)) {
 	New-Item -ItemType Directory -Path $savesSourcePath -Force
 }
 
-$newestFiles = Get-ChildItem -Path $savesDestinationPath -Filter *.rws | Sort-Object -Property CreationTime -Descending | Select-Object -First 10
-foreach ($file in $newestFiles) {
-    Copy-Item -Path $file.FullName -Destination $savesSourcePath
-}
+#$newestFiles = Get-ChildItem -Path $savesDestinationPath -Filter *.rws | Sort-Object -Property CreationTime -Descending | Select-Object -First 10
+#foreach ($file in $newestFiles) {
+#	Copy-Item -Path $file.FullName -Destination $savesSourcePath
+#}
 
 ##################################################################################
 
@@ -46,7 +46,7 @@ Get-ChildItem -Path "$savesDestinationPath" -Filter *.txt | Remove-Item
 
 $currentDateTime = Get-Date
 $formattedDateTimeName = $currentDateTime.ToString("yyyy-MM-dd")
-$formattedDateTimeContent = $currentDateTime.ToString("yyyy-MM-dd at HH:mm:ss")
+$formattedDateTimeContent = $currentDateTime.ToString("yyyy-MM-dd, HH:mm:ss")
 
 $fileName = "_Last Ran $formattedDateTimeName.txt"
 $content = "Current date and time: $formattedDateTimeContent"
