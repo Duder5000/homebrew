@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <BodyDef>
+    <defName>LTS_Isopod</defName>
+    <label>mechanical isopod</label>
+    <corePart>
+      <def>MechanicalCentipedeBodyFirstRing</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>MechanicalHead</def>
+          <coverage>0.15</coverage>
+          <height>Top</height>
+          <groups>
+            <li>HeadAttackTool</li>
+          </groups>
+          <parts>
+            <li>
+              <def>ArtificialBrain</def>
+              <coverage>0.05</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>SightSensor</def>
+              <customLabel>sight sensor</customLabel>
+              <coverage>0.08</coverage>
+            </li>
+            <li>
+              <def>HearingSensor</def>
+              <customLabel>left hearing sensor</customLabel>
+              <coverage>0.08</coverage>
+            </li>
+            <li>
+              <def>HearingSensor</def>
+              <customLabel>right hearing sensor</customLabel>
+              <coverage>0.08</coverage>
+            </li>
+            <li>
+              <def>SmellSensor</def>
+              <coverage>0.08</coverage>
+            </li>
+			<!--<li>
+              <def>Blade</def>
+              <customLabel>mandibles</customLabel>
+              <coverage>0.08</coverage>
+			  <groups>
+                <li>Mandibles</li>
+              </groups>
+            </li>-->
+          </parts>
+        </li>
+        <li>
+          <def>MechanicalCentipedeBodySecondRing</def>
+          <coverage>0.71</coverage>
+          <parts>
+            <li>
+              <def>Reactor</def>
+              <coverage>0.05</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>MechanicalCentipedeBodyThirdRing</def>
+              <coverage>0.8</coverage>
+              <parts>
+                <li>
+                  <def>FluidReprocessor</def>
+                  <coverage>0.05</coverage>
+                  <depth>Inside</depth>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+</Defs>
