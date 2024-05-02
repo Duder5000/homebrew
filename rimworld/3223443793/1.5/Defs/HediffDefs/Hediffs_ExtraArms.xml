@@ -1,0 +1,1347 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--Archotech arm-->
+  
+  <HediffDef ParentName="ImplantHediffBase">
+    <defName>LeftExtraArchotechArm</defName>
+    <label>extra archotech arm (left)</label>
+    <labelNoun>an extra archotech arm (left)</labelNoun>
+    <description>An installed extra archotech arm. It's strong enough to crush a thick hardwood branch in its hand, and precise enough to write a sonnet on a grain of rice. It looks and feels like natural flesh, but it's harder to damage than plasteel. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+    <descriptionHyperlinks><ThingDef>ArchotechArm</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>ArchotechArm</spawnThingOnRemoved>
+    <stages>
+	  <li>
+		<statFactors>
+		  <MeleeCooldownFactor>0.8</MeleeCooldownFactor>
+		</statFactors>
+		<capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.5</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+	<comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>fist</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>14</power>
+            <cooldownTime>2</cooldownTime>
+            <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+            <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+          </li>
+        </tools>
+      </li>
+    </comps>
+	<duplicationAllowed>false</duplicationAllowed>
+	<tags><li>ExtraLeftArm</li></tags>
+  </HediffDef>
+
+  <RecipeDef ParentName="SurgeryInstallImplantBase">
+    <defName>InstallLeftExtraArchotechArm</defName>
+    <label>install extra archotech arm (left)</label>
+    <description>Install an extra archotech arm (left).</description>
+    <descriptionHyperlinks>
+      <ThingDef>ArchotechArm</ThingDef>
+      <HediffDef>LeftExtraArchotechArm</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing extra archotech arm (left).</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ArchotechArm</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ArchotechArm</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>LeftExtraArchotechArm</addsHediff>
+	<incompatibleWithHediffTags><li>ExtraLeftArm</li></incompatibleWithHediffTags>
+	<researchPrerequisite>I_ExtraArms</researchPrerequisite>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="SurgeryRemoveImplantBase">
+    <defName>RemoveLeftExtraArchotechArm</defName>
+    <label>remove extra archotech arm (left)</label>
+    <description>Remove extra archotech arm (left).</description>
+    <descriptionHyperlinks>
+      <ThingDef>ArchotechArm</ThingDef>
+      <HediffDef>LeftExtraArchotechArm</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Removing extra archotech arm (left).</jobString>
+    <removesHediff>LeftExtraArchotechArm</removesHediff>
+  </RecipeDef>
+  
+  <!--right-->
+  
+  <HediffDef ParentName="ImplantHediffBase">
+    <defName>RightExtraArchotechArm</defName>
+    <label>extra archotech arm (right)</label>
+    <labelNoun>an extra archotech arm (right)</labelNoun>
+    <description>An installed extra archotech arm. It's strong enough to crush a thick hardwood branch in its hand, and precise enough to write a sonnet on a grain of rice. It looks and feels like natural flesh, but it's harder to damage than plasteel. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+    <descriptionHyperlinks><ThingDef>ArchotechArm</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>ArchotechArm</spawnThingOnRemoved>
+    <stages>
+	  <li>
+		<statFactors>
+		  <MeleeCooldownFactor>0.8</MeleeCooldownFactor>
+		</statFactors>
+		<capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.5</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+	<comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>fist</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>14</power>
+            <cooldownTime>2</cooldownTime>
+            <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+            <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+          </li>
+        </tools>
+      </li>
+    </comps>
+	<duplicationAllowed>false</duplicationAllowed>
+	<tags><li>ExtraRightArm</li></tags>
+  </HediffDef>
+
+  <RecipeDef ParentName="SurgeryInstallImplantBase">
+    <defName>InstallRightExtraArchotechArm</defName>
+    <label>install extra archotech arm (right)</label>
+    <description>Install an extra archotech arm (right).</description>
+    <descriptionHyperlinks>
+      <ThingDef>ArchotechArm</ThingDef>
+      <HediffDef>RightExtraArchotechArm</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing extra archotech arm (right).</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ArchotechArm</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ArchotechArm</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>RightExtraArchotechArm</addsHediff>
+	<incompatibleWithHediffTags><li>ExtraRightArm</li></incompatibleWithHediffTags>
+	<researchPrerequisite>I_ExtraArms</researchPrerequisite>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="SurgeryRemoveImplantBase">
+    <defName>RemoveRightExtraArchotechArm</defName>
+    <label>remove extra archotech arm (right)</label>
+    <description>Remove extra archotech arm (right).</description>
+    <descriptionHyperlinks>
+      <ThingDef>ArchotechArm</ThingDef>
+      <HediffDef>RightExtraArchotechArm</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Removing extra archotech arm (right).</jobString>
+    <removesHediff>RightExtraArchotechArm</removesHediff>
+  </RecipeDef>
+  
+  <!--bases-->
+  
+  <HediffDef Name="ImplantAdaptableHediffBase" ParentName="ImplantHediffBase" Abstract="True">
+	<minSeverity>0.001</minSeverity>
+	<maxSeverity>1</maxSeverity>
+    <initialSeverity>0.001</initialSeverity>
+	<comps>
+	  <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>0.017</severityPerDay> <!--max at 1 year-->
+		<!--<severityPerDay>10</severityPerDay>-->
+      </li>
+	</comps>
+    <duplicationAllowed>false</duplicationAllowed>
+  </HediffDef>
+  
+  <!--bionic arm-->
+  
+  <HediffDef ParentName="ImplantAdaptableHediffBase">
+    <defName>LeftExtraBionicArm</defName>
+    <label>extra bionic arm (left)</label>
+    <labelNoun>an extra bionic arm (left)</labelNoun>
+    <description>An installed extra bionic arm. Silenced mini-servos give great strength, while the biogel nerve-link gives exquisite control. A lattice-dust healing system allows it to recover from damage. It is better than a biological arm in almost every way.\n\nAs humans tend to lack experience using more than 2 arms, extra limbs start off as more of a hinderence than anything. They will incrementally improve over time. It takes up to a year to fully master them.</description>
+    <descriptionHyperlinks><ThingDef>BionicArm</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>BionicArm</spawnThingOnRemoved>
+	<stages>
+	  <li>
+        <label>unwieldy</label>
+        <statFactors>
+		  <MeleeCooldownFactor>1.15</MeleeCooldownFactor>
+		</statFactors>
+		<capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.2</offset>
+          </li>
+        </capMods>
+      </li>
+	  <li>
+	    <minSeverity>0.333</minSeverity>
+        <label>inconvenient</label>
+        <statFactors>
+		  <MeleeCooldownFactor>1.05</MeleeCooldownFactor>
+		</statFactors>
+		<capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.05</offset>
+          </li>
+        </capMods>
+      </li>
+	  <li>
+	    <minSeverity>0.666</minSeverity>
+        <label>acclimatised</label>
+        <statFactors>
+		  <MeleeCooldownFactor>0.95</MeleeCooldownFactor>
+		</statFactors>
+		<capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.10</offset>
+          </li>
+        </capMods>
+      </li>
+	  <li>
+	    <minSeverity>1</minSeverity>
+        <label>mastered</label>
+        <statFactors>
+		  <MeleeCooldownFactor>0.85</MeleeCooldownFactor>
+		</statFactors>
+		<capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.25</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+	<comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>fist</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>12</power>
+            <cooldownTime>2</cooldownTime>
+            <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+            <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+          </li>
+        </tools>
+      </li>
+    </comps>
+	<tags><li>ExtraLeftArm</li></tags>
+  </HediffDef>
+  
+  <RecipeDef ParentName="SurgeryInstallImplantBase">
+    <defName>InstallLeftExtraBionicArm</defName>
+    <label>install extra bionic arm (left)</label>
+    <description>Install an extra bionic arm (left).</description>
+    <descriptionHyperlinks>
+      <ThingDef>BionicArm</ThingDef>
+      <HediffDef>LeftExtraBionicArm</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing extra bionic arm (left).</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>BionicArm</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>BionicArm</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>LeftExtraBionicArm</addsHediff>
+	<incompatibleWithHediffTags><li>ExtraLeftArm</li></incompatibleWithHediffTags>
+	<researchPrerequisite>I_ExtraArms</researchPrerequisite>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="SurgeryRemoveImplantBase">
+    <defName>RemoveLeftExtraBionicArm</defName>
+    <label>remove extra bionic arm (left)</label>
+    <description>Remove extra bionic arm (left).</description>
+    <descriptionHyperlinks>
+      <ThingDef>BionicArm</ThingDef>
+      <HediffDef>LeftExtraBionicArm</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Removing extra bionic arm (left).</jobString>
+    <removesHediff>LeftExtraBionicArm</removesHediff>
+  </RecipeDef>
+  
+  <!--right-->
+  
+  <HediffDef ParentName="ImplantAdaptableHediffBase">
+    <defName>RightExtraBionicArm</defName>
+    <label>extra bionic arm (right)</label>
+    <labelNoun>an extra bionic arm (right)</labelNoun>
+    <description>An installed extra bionic arm. Silenced mini-servos give great strength, while the biogel nerve-link gives exquisite control. A lattice-dust healing system allows it to recover from damage. It is better than a biological arm in almost every way.\n\nAs humans tend to lack experience using more than 2 arms, extra limbs start off as more of a hinderence than anything. They will incrementally improve over time. It takes up to a year to fully master them.</description>
+    <descriptionHyperlinks><ThingDef>BionicArm</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>BionicArm</spawnThingOnRemoved>
+	<stages>
+	  <li>
+        <label>unwieldy</label>
+        <statFactors>
+		  <MeleeCooldownFactor>1.15</MeleeCooldownFactor>
+		</statFactors>
+		<capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.2</offset>
+          </li>
+        </capMods>
+      </li>
+	  <li>
+	    <minSeverity>0.333</minSeverity>
+        <label>inconvenient</label>
+        <statFactors>
+		  <MeleeCooldownFactor>1.05</MeleeCooldownFactor>
+		</statFactors>
+		<capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.05</offset>
+          </li>
+        </capMods>
+      </li>
+	  <li>
+	    <minSeverity>0.666</minSeverity>
+        <label>acclimatised</label>
+        <statFactors>
+		  <MeleeCooldownFactor>0.95</MeleeCooldownFactor>
+		</statFactors>
+		<capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.10</offset>
+          </li>
+        </capMods>
+      </li>
+	  <li>
+	    <minSeverity>1</minSeverity>
+        <label>mastered</label>
+        <statFactors>
+		  <MeleeCooldownFactor>0.85</MeleeCooldownFactor>
+		</statFactors>
+		<capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.25</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+	<comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>fist</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>12</power>
+            <cooldownTime>2</cooldownTime>
+            <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+            <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+          </li>
+        </tools>
+      </li>
+    </comps>
+	<tags><li>ExtraRightArm</li></tags>
+  </HediffDef>
+  
+  <RecipeDef ParentName="SurgeryInstallImplantBase">
+    <defName>InstallRightExtraBionicArm</defName>
+    <label>install extra bionic arm (right)</label>
+    <description>Install an extra bionic arm (right).</description>
+    <descriptionHyperlinks>
+      <ThingDef>BionicArm</ThingDef>
+      <HediffDef>RightExtraBionicArm</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing extra bionic arm (right).</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>BionicArm</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>BionicArm</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>RightExtraBionicArm</addsHediff>
+	<incompatibleWithHediffTags><li>ExtraRightArm</li></incompatibleWithHediffTags>
+	<researchPrerequisite>I_ExtraArms</researchPrerequisite>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="SurgeryRemoveImplantBase">
+    <defName>RemoveRightExtraBionicArm</defName>
+    <label>remove extra bionic arm (right)</label>
+    <description>Remove extra bionic arm (right).</description>
+    <descriptionHyperlinks>
+      <ThingDef>BionicArm</ThingDef>
+      <HediffDef>RightExtraBionicArm</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Removing extra bionic arm (right).</jobString>
+    <removesHediff>RightExtraBionicArm</removesHediff>
+  </RecipeDef>
+  
+  <!--Power claw-->
+  
+  <HediffDef ParentName="ImplantAdaptableHediffBase">
+    <defName>LeftExtraPowerClaw</defName>
+    <label>extra power claw (left)</label>
+    <labelNoun>an extra power claw (left)</labelNoun>
+    <description>An installed extra power claw consisting of a mechanical hand with a hooked claw on each finger. It cuts deep, and it is strong enough to crush a skull like a hand crushes an egg. The claws can be retracted, making it as useful as a natural hand for non-combat tasks, however its overall ungainliness slows down movement slightly.\n\nAs humans tend to lack experience using more than 2 arms, extra limbs start off as more of a hinderence than anything. They will incrementally improve over time. It takes up to a year to fully master them.</description>
+    <descriptionHyperlinks><ThingDef>PowerClaw</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>PowerClaw</spawnThingOnRemoved>
+	<stages>
+	  <li>
+        <label>unwieldy</label>
+        <statFactors>
+		  <MeleeCooldownFactor>1.2</MeleeCooldownFactor>
+		</statFactors>
+		<capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.25</offset>
+          </li>
+		  <li>
+            <capacity>Moving</capacity>
+            <offset>-0.08</offset>
+          </li>
+        </capMods>
+      </li>
+	  <li>
+	    <minSeverity>0.333</minSeverity>
+        <label>inconvenient</label>
+        <statFactors>
+		  <MeleeCooldownFactor>1.1</MeleeCooldownFactor>
+		</statFactors>
+		<capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.1</offset>
+          </li>
+		  <li>
+            <capacity>Moving</capacity>
+            <offset>-0.08</offset>
+          </li>
+        </capMods>
+      </li>
+	  <li>
+	    <minSeverity>0.666</minSeverity>
+        <label>acclimatised</label>
+        <statFactors>
+		  <MeleeCooldownFactor>1</MeleeCooldownFactor>
+		</statFactors>
+		<capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.5</offset>
+          </li>
+		  <li>
+            <capacity>Moving</capacity>
+            <offset>-0.08</offset>
+          </li>
+        </capMods>
+      </li>
+	  <li>
+	    <minSeverity>1</minSeverity>
+        <label>mastered</label>
+        <statFactors>
+		  <MeleeCooldownFactor>0.9</MeleeCooldownFactor>
+		</statFactors>
+		<capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.20</offset>
+          </li>
+		  <li>
+            <capacity>Moving</capacity>
+            <offset>-0.08</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+	<comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>fist</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>12</power>
+            <cooldownTime>2</cooldownTime>
+            <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+            <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+          </li>
+        </tools>
+      </li>
+    </comps>
+	<tags><li>ExtraLeftArm</li></tags>
+  </HediffDef>
+  
+  <RecipeDef ParentName="SurgeryInstallImplantBase">
+    <defName>InstallLeftExtraPowerClaw</defName>
+    <label>install extra power claw (left)</label>
+    <description>Install an extra power claw (left).</description>
+    <descriptionHyperlinks>
+      <ThingDef>PowerClaw</ThingDef>
+      <HediffDef>LeftExtraPowerClaw</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing extra power claw (left).</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PowerClaw</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PowerClaw</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>LeftExtraPowerClaw</addsHediff>
+	<incompatibleWithHediffTags><li>ExtraLeftArm</li></incompatibleWithHediffTags>
+	<researchPrerequisite>I_ExtraArms</researchPrerequisite>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="SurgeryRemoveImplantBase">
+    <defName>RemoveLeftExtraPowerClaw</defName>
+    <label>remove extra power claw (left)</label>
+    <description>Remove extra power claw (left).</description>
+    <descriptionHyperlinks>
+      <ThingDef>PowerClaw</ThingDef>
+      <HediffDef>LeftExtraPowerClaw</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Removing extra power claw (left).</jobString>
+    <removesHediff>LeftExtraPowerClaw</removesHediff>
+  </RecipeDef>
+  
+  <!--right-->
+  
+  <HediffDef ParentName="ImplantAdaptableHediffBase">
+    <defName>RightExtraPowerClaw</defName>
+    <label>extra power claw (right)</label>
+    <labelNoun>an extra power claw (right)</labelNoun>
+    <description>An installed extra power claw consisting of a mechanical hand with a hooked claw on each finger. It cuts deep, and it is strong enough to crush a skull like a hand crushes an egg. The claws can be retracted, making it as useful as a natural hand for non-combat tasks, however its overall ungainliness slows down movement slightly.\n\nAs humans tend to lack experience using more than 2 arms, extra limbs start off as more of a hinderence than anything. They will incrementally improve over time. It takes up to a year to fully master them.</description>
+    <descriptionHyperlinks><ThingDef>PowerClaw</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>PowerClaw</spawnThingOnRemoved>
+	<stages>
+	  <li>
+        <label>unwieldy</label>
+        <statFactors>
+		  <MeleeCooldownFactor>1.2</MeleeCooldownFactor>
+		</statFactors>
+		<capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.25</offset>
+          </li>
+		  <li>
+            <capacity>Moving</capacity>
+            <offset>-0.08</offset>
+          </li>
+        </capMods>
+      </li>
+	  <li>
+	    <minSeverity>0.333</minSeverity>
+        <label>inconvenient</label>
+        <statFactors>
+		  <MeleeCooldownFactor>1.1</MeleeCooldownFactor>
+		</statFactors>
+		<capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.1</offset>
+          </li>
+		  <li>
+            <capacity>Moving</capacity>
+            <offset>-0.08</offset>
+          </li>
+        </capMods>
+      </li>
+	  <li>
+	    <minSeverity>0.666</minSeverity>
+        <label>acclimatised</label>
+        <statFactors>
+		  <MeleeCooldownFactor>1</MeleeCooldownFactor>
+		</statFactors>
+		<capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.5</offset>
+          </li>
+		  <li>
+            <capacity>Moving</capacity>
+            <offset>-0.08</offset>
+          </li>
+        </capMods>
+      </li>
+	  <li>
+	    <minSeverity>1</minSeverity>
+        <label>mastered</label>
+        <statFactors>
+		  <MeleeCooldownFactor>0.9</MeleeCooldownFactor>
+		</statFactors>
+		<capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.20</offset>
+          </li>
+		  <li>
+            <capacity>Moving</capacity>
+            <offset>-0.08</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+	<comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>fist</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>12</power>
+            <cooldownTime>2</cooldownTime>
+            <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+            <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+          </li>
+        </tools>
+      </li>
+    </comps>
+	<tags><li>ExtraRightArm</li></tags>
+  </HediffDef>
+  
+  <RecipeDef ParentName="SurgeryInstallImplantBase">
+    <defName>InstallRightExtraPowerClaw</defName>
+    <label>install extra power claw (right)</label>
+    <description>Install an extra power claw (right).</description>
+    <descriptionHyperlinks>
+      <ThingDef>PowerClaw</ThingDef>
+      <HediffDef>RightExtraPowerClaw</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing extra power claw (right).</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PowerClaw</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PowerClaw</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>RightExtraPowerClaw</addsHediff>
+	<incompatibleWithHediffTags><li>ExtraRightArm</li></incompatibleWithHediffTags>
+	<researchPrerequisite>I_ExtraArms</researchPrerequisite>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="SurgeryRemoveImplantBase">
+    <defName>RemoveRightExtraPowerClaw</defName>
+    <label>remove extra power claw (right)</label>
+    <description>Remove extra power claw (right).</description>
+    <descriptionHyperlinks>
+      <ThingDef>PowerClaw</ThingDef>
+      <HediffDef>RightExtraPowerClaw</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Removing extra power claw (right).</jobString>
+    <removesHediff>RightExtraPowerClaw</removesHediff>
+  </RecipeDef>
+  
+  <!--Drill arm-->
+
+  <HediffDef ParentName="ImplantAdaptableHediffBase" MayRequire="ludeon.rimworld.royalty">
+    <defName>LeftExtraDrillArm</defName>
+    <label>extra drill arm (left)</label>
+    <labelNoun>an extra drill arm (left)</labelNoun>
+    <description>An installed extra drill arm. Allows the miner to rapidly find and exploit weak lines in the rock. It also has a general-purpose manipulator. It is somewhat ungainly, which slows down movement slightly.\n\nAs humans tend to lack experience using more than 2 arms, extra limbs start off as more of a hinderence than anything. They will incrementally improve over time. It takes up to a year to fully master them.</description>
+    <descriptionHyperlinks><ThingDef>DrillArm</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>DrillArm</spawnThingOnRemoved>
+	<stages>
+	  <li>
+        <label>unwieldy</label>
+        <statFactors>
+		  <MeleeCooldownFactor>1.2</MeleeCooldownFactor>
+		</statFactors>
+		<statOffsets>
+          <MiningSpeed>1.60</MiningSpeed>
+          <DeepDrillingSpeed>0.7</DeepDrillingSpeed>
+        </statOffsets>
+		<capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.25</offset>
+          </li>
+		  <li>
+            <capacity>Moving</capacity>
+            <offset>-0.08</offset>
+          </li>
+        </capMods>
+      </li>
+	  <li>
+	    <minSeverity>0.333</minSeverity>
+        <label>inconvenient</label>
+        <statFactors>
+		  <MeleeCooldownFactor>1.1</MeleeCooldownFactor>
+		</statFactors>
+		<statOffsets>
+          <MiningSpeed>1.60</MiningSpeed>
+          <DeepDrillingSpeed>0.7</DeepDrillingSpeed>
+        </statOffsets>
+		<capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.1</offset>
+          </li>
+		  <li>
+            <capacity>Moving</capacity>
+            <offset>-0.08</offset>
+          </li>
+        </capMods>
+      </li>
+	  <li>
+	    <minSeverity>0.666</minSeverity>
+        <label>acclimatised</label>
+        <statFactors>
+		  <MeleeCooldownFactor>1</MeleeCooldownFactor>
+		</statFactors>
+		<statOffsets>
+          <MiningSpeed>1.60</MiningSpeed>
+          <DeepDrillingSpeed>0.7</DeepDrillingSpeed>
+        </statOffsets>
+		<capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.5</offset>
+          </li>
+		  <li>
+            <capacity>Moving</capacity>
+            <offset>-0.08</offset>
+          </li>
+        </capMods>
+      </li>
+	  <li>
+	    <minSeverity>1</minSeverity>
+        <label>mastered</label>
+        <statFactors>
+		  <MeleeCooldownFactor>0.9</MeleeCooldownFactor>
+		</statFactors>
+		<statOffsets>
+          <MiningSpeed>1.60</MiningSpeed>
+          <DeepDrillingSpeed>0.7</DeepDrillingSpeed>
+        </statOffsets>
+		<capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.20</offset>
+          </li>
+		  <li>
+            <capacity>Moving</capacity>
+            <offset>-0.08</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+	<comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>drill</label>
+            <capacities>
+              <li>Stab</li>
+            </capacities>
+            <power>13</power>
+            <cooldownTime>2</cooldownTime>
+            <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+            <soundMeleeHit>MeleeHit_DrillArm</soundMeleeHit>
+            <soundMeleeMiss>MeleeMiss_DrillArm</soundMeleeMiss>
+          </li>
+        </tools>
+      </li>
+    </comps>
+	<tags><li>ExtraLeftArm</li></tags>
+  </HediffDef>
+  
+  <RecipeDef ParentName="SurgeryInstallImplantBase">
+    <defName>InstallLeftExtraDrillArm</defName>
+    <label>install extra drill arm (left)</label>
+    <description>Install an extra drill arm (left).</description>
+    <descriptionHyperlinks>
+      <ThingDef>DrillArm</ThingDef>
+      <HediffDef>LeftExtraDrillArm</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing extra drill arm (left).</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>DrillArm</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>DrillArm</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>LeftExtraDrillArm</addsHediff>
+	<incompatibleWithHediffTags><li>ExtraLeftArm</li></incompatibleWithHediffTags>
+	<researchPrerequisite>I_ExtraArms</researchPrerequisite>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="SurgeryRemoveImplantBase">
+    <defName>RemoveLeftExtraDrillArm</defName>
+    <label>remove extra drill arm (left)</label>
+    <description>Remove extra drill arm (left).</description>
+    <descriptionHyperlinks>
+      <ThingDef>DrillArm</ThingDef>
+      <HediffDef>LeftExtraDrillArm</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Removing extra drill arm (left).</jobString>
+    <removesHediff>LeftExtraDrillArm</removesHediff>
+  </RecipeDef>
+  
+  <!--Right-->
+  
+  <HediffDef ParentName="ImplantAdaptableHediffBase" MayRequire="ludeon.rimworld.royalty">
+    <defName>RightExtraDrillArm</defName>
+    <label>extra drill arm (right)</label>
+    <labelNoun>an extra drill arm (right)</labelNoun>
+    <description>An installed extra drill arm. Allows the miner to rapidly find and exploit weak lines in the rock. It also has a general-purpose manipulator. It is somewhat ungainly, which slows down movement slightly.\n\nAs humans tend to lack experience using more than 2 arms, extra limbs start off as more of a hinderence than anything. They will incrementally improve over time. It takes up to a year to fully master them.</description>
+    <descriptionHyperlinks><ThingDef>DrillArm</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>DrillArm</spawnThingOnRemoved>
+	<stages>
+	  <li>
+        <label>unwieldy</label>
+        <statFactors>
+		  <MeleeCooldownFactor>1.2</MeleeCooldownFactor>
+		</statFactors>
+		<statOffsets>
+          <MiningSpeed>1.60</MiningSpeed>
+          <DeepDrillingSpeed>0.7</DeepDrillingSpeed>
+        </statOffsets>
+		<capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.25</offset>
+          </li>
+		  <li>
+            <capacity>Moving</capacity>
+            <offset>-0.08</offset>
+          </li>
+        </capMods>
+      </li>
+	  <li>
+	    <minSeverity>0.333</minSeverity>
+        <label>inconvenient</label>
+        <statFactors>
+		  <MeleeCooldownFactor>1.1</MeleeCooldownFactor>
+		</statFactors>
+		<statOffsets>
+          <MiningSpeed>1.60</MiningSpeed>
+          <DeepDrillingSpeed>0.7</DeepDrillingSpeed>
+        </statOffsets>
+		<capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.1</offset>
+          </li>
+		  <li>
+            <capacity>Moving</capacity>
+            <offset>-0.08</offset>
+          </li>
+        </capMods>
+      </li>
+	  <li>
+	    <minSeverity>0.666</minSeverity>
+        <label>acclimatised</label>
+        <statFactors>
+		  <MeleeCooldownFactor>1</MeleeCooldownFactor>
+		</statFactors>
+		<statOffsets>
+          <MiningSpeed>1.60</MiningSpeed>
+          <DeepDrillingSpeed>0.7</DeepDrillingSpeed>
+        </statOffsets>
+		<capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.5</offset>
+          </li>
+		  <li>
+            <capacity>Moving</capacity>
+            <offset>-0.08</offset>
+          </li>
+        </capMods>
+      </li>
+	  <li>
+	    <minSeverity>1</minSeverity>
+        <label>mastered</label>
+        <statFactors>
+		  <MeleeCooldownFactor>0.9</MeleeCooldownFactor>
+		</statFactors>
+		<statOffsets>
+          <MiningSpeed>1.60</MiningSpeed>
+          <DeepDrillingSpeed>0.7</DeepDrillingSpeed>
+        </statOffsets>
+		<capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.20</offset>
+          </li>
+		  <li>
+            <capacity>Moving</capacity>
+            <offset>-0.08</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+	<comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>drill</label>
+            <capacities>
+              <li>Stab</li>
+            </capacities>
+            <power>13</power>
+            <cooldownTime>2</cooldownTime>
+            <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+            <soundMeleeHit>MeleeHit_DrillArm</soundMeleeHit>
+            <soundMeleeMiss>MeleeMiss_DrillArm</soundMeleeMiss>
+          </li>
+        </tools>
+      </li>
+    </comps>
+	<tags><li>ExtraRightArm</li></tags>
+  </HediffDef>
+  
+  <RecipeDef ParentName="SurgeryInstallImplantBase">
+    <defName>InstallRightExtraDrillArm</defName>
+    <label>install extra drill arm (right)</label>
+    <description>Install an extra drill arm (right).</description>
+    <descriptionHyperlinks>
+      <ThingDef>DrillArm</ThingDef>
+      <HediffDef>RightExtraDrillArm</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing extra drill arm (right).</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>DrillArm</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>DrillArm</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>RightExtraDrillArm</addsHediff>
+	<incompatibleWithHediffTags><li>ExtraLeftArm</li></incompatibleWithHediffTags>
+	<researchPrerequisite>I_ExtraArms</researchPrerequisite>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="SurgeryRemoveImplantBase">
+    <defName>RemoveRightExtraDrillArm</defName>
+    <label>remove extra drill arm (right)</label>
+    <description>Remove extra drill arm (right).</description>
+    <descriptionHyperlinks>
+      <ThingDef>DrillArm</ThingDef>
+      <HediffDef>RightExtraDrillArm</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Removing extra drill arm (right).</jobString>
+    <removesHediff>RightExtraDrillArm</removesHediff>
+  </RecipeDef>
+  
+  <!--Field hand-->
+  
+  <HediffDef ParentName="ImplantAdaptableHediffBase" MayRequire="ludeon.rimworld.royalty">
+    <defName>LeftExtraFieldHand</defName>
+    <label>extra field hand (left)</label>
+    <labelNoun>an extra field hand (left)</labelNoun>
+    <description>An installed extra field hand. Made to speed up the sowing and harvesting tasks of a farmer. Multiple telescoping finger-like protrusions can simultaneously harvest from several points on the same plant, or precisely sow several holes at once. It also has a general-purpose manipulator. It is somewhat ungainly, which slows down movement slightly.\n\nAs humans tend to lack experience using more than 2 arms, extra limbs start off as more of a hinderence than anything. They will incrementally improve over time. It takes up to a year to fully master them.</description>
+    <descriptionHyperlinks><ThingDef>FieldHand</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>FieldHand</spawnThingOnRemoved>
+	<stages>
+	  <li>
+        <label>unwieldy</label>
+        <statFactors>
+		  <MeleeCooldownFactor>1.2</MeleeCooldownFactor>
+		</statFactors>
+		<statOffsets>
+          <PlantWorkSpeed>1.60</PlantWorkSpeed>
+        </statOffsets>
+		<capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.25</offset>
+          </li>
+		  <li>
+            <capacity>Moving</capacity>
+            <offset>-0.08</offset>
+          </li>
+        </capMods>
+      </li>
+	  <li>
+	    <minSeverity>0.333</minSeverity>
+        <label>inconvenient</label>
+        <statFactors>
+		  <MeleeCooldownFactor>1.1</MeleeCooldownFactor>
+		</statFactors>
+		<statOffsets>
+          <PlantWorkSpeed>1.60</PlantWorkSpeed>
+        </statOffsets>
+		<capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.1</offset>
+          </li>
+		  <li>
+            <capacity>Moving</capacity>
+            <offset>-0.08</offset>
+          </li>
+        </capMods>
+      </li>
+	  <li>
+	    <minSeverity>0.666</minSeverity>
+        <label>acclimatised</label>
+        <statFactors>
+		  <MeleeCooldownFactor>1</MeleeCooldownFactor>
+		</statFactors>
+		<statOffsets>
+          <PlantWorkSpeed>1.60</PlantWorkSpeed>
+        </statOffsets>
+		<capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.5</offset>
+          </li>
+		  <li>
+            <capacity>Moving</capacity>
+            <offset>-0.08</offset>
+          </li>
+        </capMods>
+      </li>
+	  <li>
+	    <minSeverity>1</minSeverity>
+        <label>mastered</label>
+        <statFactors>
+		  <MeleeCooldownFactor>0.9</MeleeCooldownFactor>
+		</statFactors>
+		<statOffsets>
+          <PlantWorkSpeed>1.60</PlantWorkSpeed>
+        </statOffsets>
+		<capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.20</offset>
+          </li>
+		  <li>
+            <capacity>Moving</capacity>
+            <offset>-0.08</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+	<comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>knuckle</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>9</power>
+            <cooldownTime>2</cooldownTime>
+            <alwaysTreatAsWeapon>false</alwaysTreatAsWeapon>
+            <soundMeleeHit>MeleeHit_FieldHand</soundMeleeHit>
+            <soundMeleeMiss>MeleeMiss_FieldHand</soundMeleeMiss>
+          </li>
+        </tools>
+      </li>
+    </comps>
+	<tags><li>ExtraLeftArm</li></tags>
+  </HediffDef>
+  
+  <RecipeDef ParentName="SurgeryInstallImplantBase">
+    <defName>InstallLeftExtraFieldHand</defName>
+    <label>install extra field hand (left)</label>
+    <description>Install an extra field hand (left).</description>
+    <descriptionHyperlinks>
+      <ThingDef>FieldHand</ThingDef>
+      <HediffDef>LeftExtraFieldHand</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing extra field hand (left).</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>FieldHand</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>FieldHand</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>LeftExtraFieldHand</addsHediff>
+	<incompatibleWithHediffTags><li>ExtraLeftArm</li></incompatibleWithHediffTags>
+	<researchPrerequisite>I_ExtraArms</researchPrerequisite>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="SurgeryRemoveImplantBase">
+    <defName>RemoveLeftExtraFieldHand</defName>
+    <label>remove extra field hand (left)</label>
+    <description>Remove extra field hand (left).</description>
+    <descriptionHyperlinks>
+      <ThingDef>FieldHand</ThingDef>
+      <HediffDef>LeftExtraFieldHand</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Removing extra field hand (left).</jobString>
+    <removesHediff>LeftExtraFieldHand</removesHediff>
+  </RecipeDef>
+  
+  <!--Right-->
+  
+  <HediffDef ParentName="ImplantAdaptableHediffBase" MayRequire="ludeon.rimworld.royalty">
+    <defName>RightExtraFieldHand</defName>
+    <label>extra field hand (right)</label>
+    <labelNoun>an extra field hand (right)</labelNoun>
+    <description>An installed extra field hand. Made to speed up the sowing and harvesting tasks of a farmer. Multiple telescoping finger-like protrusions can simultaneously harvest from several points on the same plant, or precisely sow several holes at once. It also has a general-purpose manipulator. It is somewhat ungainly, which slows down movement slightly.\n\nAs humans tend to lack experience using more than 2 arms, extra limbs start off as more of a hinderence than anything. They will incrementally improve over time. It takes up to a year to fully master them.</description>
+    <descriptionHyperlinks><ThingDef>FieldHand</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>FieldHand</spawnThingOnRemoved>
+	<stages>
+	  <li>
+        <label>unwieldy</label>
+        <statFactors>
+		  <MeleeCooldownFactor>1.2</MeleeCooldownFactor>
+		</statFactors>
+		<statOffsets>
+          <PlantWorkSpeed>1.60</PlantWorkSpeed>
+        </statOffsets>
+		<capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.25</offset>
+          </li>
+		  <li>
+            <capacity>Moving</capacity>
+            <offset>-0.08</offset>
+          </li>
+        </capMods>
+      </li>
+	  <li>
+	    <minSeverity>0.333</minSeverity>
+        <label>inconvenient</label>
+        <statFactors>
+		  <MeleeCooldownFactor>1.1</MeleeCooldownFactor>
+		</statFactors>
+		<statOffsets>
+          <PlantWorkSpeed>1.60</PlantWorkSpeed>
+        </statOffsets>
+		<capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.1</offset>
+          </li>
+		  <li>
+            <capacity>Moving</capacity>
+            <offset>-0.08</offset>
+          </li>
+        </capMods>
+      </li>
+	  <li>
+	    <minSeverity>0.666</minSeverity>
+        <label>acclimatised</label>
+        <statFactors>
+		  <MeleeCooldownFactor>1</MeleeCooldownFactor>
+		</statFactors>
+		<statOffsets>
+          <PlantWorkSpeed>1.60</PlantWorkSpeed>
+        </statOffsets>
+		<capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.5</offset>
+          </li>
+		  <li>
+            <capacity>Moving</capacity>
+            <offset>-0.08</offset>
+          </li>
+        </capMods>
+      </li>
+	  <li>
+	    <minSeverity>1</minSeverity>
+        <label>mastered</label>
+        <statFactors>
+		  <MeleeCooldownFactor>0.9</MeleeCooldownFactor>
+		</statFactors>
+		<statOffsets>
+          <PlantWorkSpeed>1.60</PlantWorkSpeed>
+        </statOffsets>
+		<capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.20</offset>
+          </li>
+		  <li>
+            <capacity>Moving</capacity>
+            <offset>-0.08</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+	<comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>knuckle</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>9</power>
+            <cooldownTime>2</cooldownTime>
+            <alwaysTreatAsWeapon>false</alwaysTreatAsWeapon>
+            <soundMeleeHit>MeleeHit_FieldHand</soundMeleeHit>
+            <soundMeleeMiss>MeleeMiss_FieldHand</soundMeleeMiss>
+          </li>
+        </tools>
+      </li>
+    </comps>
+	<tags><li>ExtraRightArm</li></tags>
+  </HediffDef>
+  
+  <RecipeDef ParentName="SurgeryInstallImplantBase">
+    <defName>InstallRightExtraFieldHand</defName>
+    <label>install extra field hand (right)</label>
+    <description>Install an extra field hand (right).</description>
+    <descriptionHyperlinks>
+      <ThingDef>FieldHand</ThingDef>
+      <HediffDef>RightExtraFieldHand</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing extra field hand (right).</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>FieldHand</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>FieldHand</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>RightExtraFieldHand</addsHediff>
+	<incompatibleWithHediffTags><li>ExtraRightArm</li></incompatibleWithHediffTags>
+	<researchPrerequisite>I_ExtraArms</researchPrerequisite>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="SurgeryRemoveImplantBase">
+    <defName>RemoveRightExtraFieldHand</defName>
+    <label>remove extra field hand (right)</label>
+    <description>Remove extra field hand (right).</description>
+    <descriptionHyperlinks>
+      <ThingDef>FieldHand</ThingDef>
+      <HediffDef>RightExtraFieldHand</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Removing extra field hand (right).</jobString>
+    <removesHediff>RightExtraFieldHand</removesHediff>
+  </RecipeDef>
+  
+</Defs>

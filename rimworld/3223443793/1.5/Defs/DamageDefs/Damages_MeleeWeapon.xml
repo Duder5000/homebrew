@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <DamageDef ParentName="Bite">
+    <defName>HemoBite</defName>
+    <label>hemo bite</label>
+	<!--<workerClass>LTS_Implants.DamageWorker_HemoBite</workerClass>-->
+    <!--<additionalHediffs>
+      <li>
+        <hediff>BloodLoss</hediff>
+        <severityPerDamageDealt>0.015</severityPerDamageDealt>
+
+        <victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
+		
+      </li>
+    </additionalHediffs>-->
+	<makesBlood>true</makesBlood>
+    <applyAdditionalHediffsIfHuntingForFood>false</applyAdditionalHediffsIfHuntingForFood>
+    <damageEffecter>Damage_HitFlesh</damageEffecter>
+	<modExtensions>
+      <li Class="LTS_Implants.LTS_IModExtension"> <!--We're going to hande bloodloss adding here because there doesn't seem to be a way to check ifthe target can bleed with additionalHediffs -->
+		<LTS_Hediff>BloodLoss</LTS_Hediff>
+		<LTS_Severity>0.2</LTS_Severity>
+		<LTS_Gene>Hemogenic</LTS_Gene>
+	  </li>
+    </modExtensions>
+  </DamageDef>
+
+</Defs>

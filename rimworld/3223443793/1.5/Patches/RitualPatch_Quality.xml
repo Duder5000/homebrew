@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath MayRequire="ludeon.rimworld.biotech">/Defs/RitualOutcomeEffectDef[defName="ChildBirth"]/comps</xpath>
+		<value>
+			<li Class="LTS_Implants.RitualOutcomeComp_PawnHasHediff">
+				<hediff>Synthwomb</hediff>
+				<labelMet>Synthwomb</labelMet>
+				<labelNotMet>synthwomb absent (not that this message should show up)</labelNotMet>
+				<role>mother</role>
+				<qualityOffset>0.1</qualityOffset>
+			</li>
+			<li Class="LTS_Implants.RitualOutcomeComp_PawnHasHediff">
+				<hediff>Archowomb</hediff>
+				<labelMet>Archowomb</labelMet>
+				<labelNotMet>archowomb absent (not that this message should show up)</labelNotMet>
+				<role>mother</role>
+				<qualityOffset>0</qualityOffset>
+				<specialMessage>Forces Healthy</specialMessage>
+				<tipMessage>Child will be born healthy, regardless of quality.</tipMessage>
+			</li>
+		</value>
+	</Operation>
+</Patch>

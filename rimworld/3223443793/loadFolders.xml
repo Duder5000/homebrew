@@ -1,0 +1,10 @@
+<loadFolders>
+	
+	<v1.5>
+		<li>/</li>
+		<li>1.5</li>
+		<li IfModActive="vanillaracesexpanded.sanguophage">1.5/Mods/VanillaRacesExpandedSanguophage</li>
+	</v1.5>
+</loadFolders>
+
+

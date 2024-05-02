@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ======= Basic quality thoughts ========= -->
+
+  <ThoughtDef>
+    <defName>AteMealWithGourmandTongue</defName>
+    <durationDays>1</durationDays>
+	<stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>ate meal with gourmand tongue</label>
+        <description>I experienced all of the greatest qualities of my meal.</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  
+
+</Defs>
