@@ -1,8 +1,0 @@
-C:\Users\44745\Desktop\stuff\rimworld mods\mods storage\Implants\Common\Assemblies\Implants\obj\Debug\Implants.csproj.AssemblyReference.cache
-C:\Users\44745\Desktop\stuff\rimworld mods\mods storage\Implants\Common\Assemblies\Implants\obj\Debug\Implants.csproj.CoreCompileInputs.cache
-C:\Users\44745\Desktop\stuff\rimworld mods\mods storage\Implants\Common\Assemblies\Implants\obj\Debug\Implants.dll
-C:\Users\44745\Desktop\stuff\rimworld mods\mods storage\Implants\Common\Assemblies\Implants.dll
-C:\Users\44745\Desktop\stuff\rimworld mods\mods storage\Implants\1.5\Assemblies\Implants\obj\Debug\Implants.csproj.AssemblyReference.cache
-C:\Users\44745\Desktop\stuff\rimworld mods\mods storage\Implants\1.5\Assemblies\Implants\obj\Debug\Implants.csproj.CoreCompileInputs.cache
-C:\Users\44745\Desktop\stuff\rimworld mods\mods storage\Implants\1.5\Assemblies\Implants\obj\Debug\Implants.dll
-C:\Users\44745\Desktop\stuff\rimworld mods\mods storage\Implants\1.5\Assemblies\Implants.dll
