@@ -1,0 +1,12 @@
+.ex-img{
+	width: 90%;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+.link-fix{
+	text-decoration-style: dotted;
+	font-style: italic;
+	color: #99AAB5;
+}
