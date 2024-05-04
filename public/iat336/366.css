@@ -5,6 +5,13 @@
 	border: 0;
 }
 
+.l-img{
+	width: 50%;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
 .link-fix{
 	text-decoration-style: dotted;
 	font-style: italic;
