@@ -1,5 +1,8 @@
 $folder = "D:\homebrew"
 D:
+
 cd $folder
 firebase deploy
-exit
+
+Start-Sleep -Seconds 1
+#exit
