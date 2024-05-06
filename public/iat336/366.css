@@ -12,6 +12,13 @@
 	border: 0;
 }
 
+.id-img{
+	width: 33%;
+	padding: 0.2em;
+	margin: 0;
+	border: 0;
+}
+
 .link-fix{
 	text-decoration-style: dotted;
 	font-style: italic;
