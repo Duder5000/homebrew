@@ -1,0 +1,49 @@
+**Rifle**
+	2d6 Piercing
+	Ammunition (80/240), reload (30), Two-handed
+
+**Loading**
+	Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make.
+
+-------------------------
+
+**Bolt-Action Rifle**
+	2d10 Piercing
+	Ammunition, Loading, Reload (5), Range (300/1200), Two-Handed
+
+**Häyhä / The White Death (requires attunement)**
++1 Bolt-Action Rifle
+Resistance to Cold damage.
+Whenever you're in snowy terrrain, you become invisable.
+This weapon's critical range is increased by 2.
+As a Bonus Action while Prone, you can give yourself advantage on your next attack roll on the current turn.
+Whenever you reduce a creature to 0 HP with this weapon, all creatures friendly to it within 15ft must make a DC 15 Wisdom saving throw or become Frightened of you for 1 minute.
+
+-------------------------
+
+**Curse Well (requires attunement)**
+	https://drive.google.com/file/d/1wtCQhoUbRKMkgA-fhDM03bH9SU2abJ-m/view?usp=sharing
+
+	As a Bonus Action, you can spend up to as many Hit Die as you have. Roll the dice, reovering CE eqauk the number rolled, not including your Con.
+
+-------------------------
+
+**Demon's Claw (requires attunement)**
+	https://drive.google.com/file/d/1wpBXk1fhXBSqEbZIiLLjCey2xs78vaCg/view?usp=sharing
+
+	This magic item is normally a ring.
+	As a Bonus Action, you can transform the arm that the ring is on into that of a demon. This transformation lasts for 1 minute & can be done once per Long Rest.
+	While it is transformed you can:
+		You gain a special temporary pool of Cursed Energy. This pool is eqaul to 3 + your CE mod.
+		This specail CE pool can be used on anything you'd normally use CE for. However, any technique cast with this CE pool deals an additioanl 2d8 Fire damage.
+		You gain a +1 you tour Unarmed Strikes's attack & damage rolls. Additoanlly, they deal 1d4 Slashing damage (unless it is already higher) and 1d8 Fire damage.
+		You have Advantage on Grapple checks made with this hand.
+		As a Reaction when you would take Fire damage you can spend CE from this item's special pool to gain Resistance (1 CE) or Immunity (3 CE) until the start of your next turn.
+
+-------------------------
+
+**Incense Blade (requires attunement)**
+	https://drive.google.com/file/d/1whJBnFn7ZPB3giC_9bg4ib6Yslto9h1E/view?usp=sharing
+	
+	Shortsword
+	This weapon takes the form of an incense censer & a sword hilt.

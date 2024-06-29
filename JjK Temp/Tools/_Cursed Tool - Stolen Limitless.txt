@@ -1,0 +1,17 @@
+**Stolen Blue (Rare / 2nd Grade)**
+*Requires Attunement*
+*Brass Knuckles*
+These hand wraps were once used by a user of the Gojo clan's famous Limitless technique. From years of channeling their Lapse Blue through these, they have been imbuded with the technique.
+Once per turn, when you make an attack with this Cursed Tool, by spending as much CE as you choose (X), you make a target suffer the effects of Lapse Blue on a hit. 
+For this attack you can use your CE modifier for attack rolls. 
+When you use Blue, you gain Advantage on that attack roll as your technique attracts the target. On a hit, it deals X+2d8 Force damage. 
+You can't use a Maximum Output via this Cursed Tool.
+
+**Stolen Red (Very Rare / 1st Grade)**
+*Requires Attunement*
+*Revolver*
+The revolver was once used by a user of the Gojo clan's famous Limitless technique. From years of channeling their Reversal Red through this, it has been imbuded with the technique.
+Once per turn, when you make an attack with this Cursed Tool, by spending as much CE as you choose in multiples of 2 (X), you make a targer suffer the effects of Reversal Red on a hit.
+For this attack you can use your CE modifier for attack rolls. 
+On a hit, the target is pushed X*10ft dealing X+4d8 Force damage. If the creature impacts a substance made of material at least as strong as steel they instead take damage as if they were falling (1d6 Bludgeoning damage for every 10ft.
+You can't use a Maximum Output via this Cursed Tool.
