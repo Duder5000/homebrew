@@ -65,10 +65,10 @@ Mirror
 	Mirror clones
 	Domain similar to Haku's ice mirror dome thing.
 Curse Grafter CT 
-	When a Cursed Spirit reaches 0 HP, you can use your Reaction to stabilized them, temporarily preventing them from being exercised. You can only have 1 Cursed Spirit stabilized at a time.
+	When a Cursed Spirit reaches 0 HP, you can use your Reaction to stabilized them, temporarily preventing them from being exorcised. You can only have 1 Cursed Spirit stabilized at a time.
 	You can harvest a body part from a stabilized creature over the course of 10 minutes.
 	The piece is determined by the DM based on the ability you're attempting to take. 
-	You can't only have 1 grafted part per Body Area (1 part can take up more than 1 area). If you have more than your PB (later PB +CE mod) parts grafted, whenever you roll initiative, you must make a CE Saving Throw (10 + # parts) or lose control of your body to the remaining fragment of 1 of the Cursed Spirits grafted to you (if the DM's choice), your character is under the DM's control until the part is removed or until you retake control. At the end of each of your turns you can attempt the saving throw again.
+	You can't only have 1 grafted part per Body Area (1 part can take up more than 1 area). If you have more than your PB (later PB + CE mod) parts grafted, whenever you roll initiative, you must make a CE Saving Throw (10 + # parts) or lose control of your body to the remaining fragment of 1 of the Cursed Spirits grafted to you (if the DM's choice), your character is under the DM's control until the part is removed or until you retake control. At the end of each of your turns you can attempt the saving throw again.
 	A creature can make an Arcana check to identify which grafted part has taken control. Then cut it off using the limb damage table or using Action requiring a check to remove it.
 
 ----------\/ From June 28th \/----------
