@@ -49,6 +49,27 @@ Warp Corvus Corax / Hawks / Feather Manipulation
 	warhammer40k.fandom.com/wiki/Corvus_Corax
 	myheroacademia.fandom.com/wiki/Keigo_Takami
 Anti-Gravity
+Photo Edit (Phone)
+Mirror
+	naruto.fandom.com/wiki/Demonic_Mirroring_Ice_Crystals
+	naruto.fandom.com/wiki/Water_Release:_Water_Mirror_Technique
+	drive.google.com/file/d/1B98p7j8GCK2cCqwQp92Io9nnAYB3GOYI
+	Immune: Psychic
+	Resistance: All damage except Bludgeoning (magical or non-magical) & Force 
+	When not in the caster's sight, the mirrors have Vulnerability to all damage besides Psychic.
+	- Reflect damage
+	- 'Portal' attacks, objects, or creatures from 1 mirror to another
+	Mirrors start of stationary & must be placed on the ground. Later can be moved as a BA & can Hover.
+	Shattered mirrors can be reformed, but are either half as effective and/or half have as much HP.
+	If the caster can see a mirror, they have the 'vision' of the mirror (see around corners via reflections). 
+	Mirror clones
+	Domain similar to Haku's ice mirror dome thing.
+Curse Grafter CT 
+	When a Cursed Spirit reaches 0 HP, you can use your Reaction to stabilized them, temporarily preventing them from being exercised. You can only have 1 Cursed Spirit stabilized at a time.
+	You can harvest a body part from a stabilized creature over the course of 10 minutes.
+	The piece is determined by the DM based on the ability you're attempting to take. 
+	You can't only have 1 grafted part per Body Area (1 part can take up more than 1 area). If you have more than your PB (later PB +CE mod) parts grafted, whenever you roll initiative, you must make a CE Saving Throw (10 + # parts) or lose control of your body to the remaining fragment of 1 of the Cursed Spirits grafted to you (if the DM's choice), your character is under the DM's control until the part is removed or until you retake control. At the end of each of your turns you can attempt the saving throw again.
+	A creature can make an Arcana check to identify which grafted part has taken control. Then cut it off using the limb damage table or using Action requiring a check to remove it.
 
 ----------\/ From June 28th \/----------
 

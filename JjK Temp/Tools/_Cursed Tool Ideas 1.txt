@@ -14,3 +14,6 @@
 	+2 Any Ranged Weapons
 	When you hit with a ranged attack roll using this weapon, the target takes an extra 1d6 Radiant damage. If you load no ammunition in the weapon, it produces its own, automatically creating one piece of magic ammunition when you make a ranged attack with it. The ammunition created by the weapon vanishes the instant after it hits or misses a target.
 	While wielding this magic weapon, you can use a Bonus Action to enter a semi-incorporeal state until the start of your next turn. While semi-incorporeal, you have Resistance to Bludgeoning, Piercing, and Slashing damage. Once this Bonus Action is used, it can’t be used again until you complete a Long Rest.	
+	
+Exo-Spine 
+Feather Blade (Hawks)
