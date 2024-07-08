@@ -336,3 +336,21 @@ li.list-opts2{
 	color: #EC2127;
 	font-weight: bold;
 }
+
+.sublist{
+	padding-bottom: 0;
+	margin-bottom: 0;
+	border-bottom: 0;
+	padding-top: 0;
+	margin-top: 0;
+	border-top: 0;
+
+	margin-left: 0.5em;
+
+	font-size: 0.9em;
+}
+
+.not-bold{
+/*	font-weight: 500;*/
+	font-style: italic;
+}
