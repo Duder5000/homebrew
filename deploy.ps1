@@ -4,5 +4,5 @@ D:
 cd $folder
 firebase deploy
 
-Start-Sleep -Seconds 15
+Start-Sleep -Seconds 3
 exit
