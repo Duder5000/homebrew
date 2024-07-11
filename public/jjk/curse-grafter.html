@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Curse Grafter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/w3.css">
+    <link rel="stylesheet" href="../css/darkmode.css">
+    <link rel="icon" href="../img/duder-logo.png">
+  </head>
+
+  <body>
+    <div class="w3-content" style="max-width:1400px">
+
+      <header class="w3-container w3-center"> 
+        <h1><a href="../index.html" class="home-link">Duder5000's Homebrew</a></h1>
+      </header>
+
+      <h1 id="wires" class="w3-margin-left secondary h-inline"><b>Curse Grafter</b></h1>
+
+      <div class="w3-row">
+
+      <div class="w3-col l8 s12">
+
+      <div class="w3-card-4 w3-margin card">
+        <div class="w3-container">
+          <h2 id="pause-exorcism">Pause Exorcism</h2>
+          <p>
+            <em>1st-level Curse Grafter feature</em></br>
+            As a Reaction when a Cursed Spirit within 5ft reaches 0 HP, you can temporarily prevent it from being exorcized. The spirit is stabilized & Unconscious for PB x 5 minutes. If the spirit has a regeneration effect or another creature attempts to heal it, they must roll a CE Skill Check against your CE Save DC for the healing to take effect. You can only have 1 spirit paused in this way at a time. The spirit is exorcized at the end of this effect.<br/>
+            15ft at 3rd level, 30ft at 6th level, 60ft at 11th level, 120ft at 18th level.
+          </p>
+        </div>
+      </div>
+
+      <div class="w3-card-4 w3-margin card">
+        <div class="w3-container">
+          <h2 id="harvest">Harvest</h2>
+          <p>
+            <em>1st-level Curse Grafter feature</em></br>
+            You can remove & stabilize part of a Cursed Spirit, to later graft it onto your body or the body of another with this CT. This process takes 10 minutes. Once complete, the part of the spirit remains stabilized for PB days, after this time if it hasn’t been grafted it is exorcized.
+            The body part to be harvested is determined by the DM based on which of the spirit’s abilities you are attempting to take. Any given body part can only have 1 ability. 
+          </p>
+        </div>
+      </div>
+
+      <div class="w3-card-4 w3-margin card">
+        <div class="w3-container">
+          <h2 id="graft">Graft</h2>
+          <p>
+            <em>1st-level Curse Grafter feature</em></br>
+            Over the course of a Long Rest you can add or remove 1 graft from your body or the body of another with this CT. Some of these grafts will require you to remove the corresponding body part on your body. You can’t have more than your PB grafts applied to your body without risking losing control.
+          </p>
+          <ul class="list-opts">
+              <li class="list-opts">If you have more grafted parts than your limit, each time you roll initiative, you must make a CE Saving Throw (DC = 10 + 2 x number of parts currently grafted) or lose control. If you fail, the fragment of the spirit contained in 1 of your grafts takes control. Which graft takes control is determined by the DM (<em>suggestions: random, highest CR, most recent graft</em>). You can repeat this save at the end of each of your turns.</li>
+              <li class="list-opts">If a graft takes over, the DM has control of your character until the graft is removed or you succeed on the saving throw.</li>
+              <li class="list-opts">A creature can attempt to identify which graft is in control as an Action with either an Investigation or Perception skill check with the same DC as rolled at initiative.</li>
+              <li class="list-opts">A graft can be removed with the same rules as the <a href="#chart">Limb Table</a> or as an Action with an Arcana skill check. Once removed the graft is exorcized unless a use of this CT uses their Reaction to stabilize it, using the <a href="#pause-exorcism">Pause Exorcism</a>.
+</li>
+            </ul>
+        </div>
+      </div>
+
+      <div class="w3-card-4 w3-margin card">
+        <div class="w3-container">
+          <h2 id="efficient-graft">Efficient Graft</h2>
+          <p>
+            <em>3rd-level Curse Grafter feature</em></br>
+            You can reduce the cost of an ability that costs CE by -1 (minimum 1), PB times per Long Rest.
+          </p>
+        </div>
+      </div>
+
+      <div class="w3-card-4 w3-margin card">
+        <div class="w3-container">
+          <h2 id="grafted-body">Grafted Body</h2>
+          <p>
+            <em>6th-level Curse Grafter feature</em></br>
+            Your graft limit increases to your PB + CE mod. Additionally, you can graft twice as many of any body part as your normal body has (<em>Ex: If your body normally has 2 arms, you can now graft up to 4 arms, on/replacing your original arms plus 2 additional</em>), these count against your limit as normal.
+          </p>
+        </div>
+      </div>
+
+      <div class="w3-card-4 w3-margin card">
+        <div class="w3-container">
+          <h2 id="longterm-storage">Long Term Storage</h2>
+          <p>
+            <em>11th-level Curse Grafter feature</em></br>
+            Harvested body parts now remain stabilized indefinitely as long as it isn’t more than 60ft away from you for more than 24 hours.
+          </p>
+        </div>
+      </div>
+
+      <div class="w3-card-4 w3-margin card">
+        <div class="w3-container">
+          <h2 id="quick-graft">Quick Graft</h2>
+          <p>
+            <em>11th-level Curse Grafter feature</em></br>
+            You can now graft parts you have stabilized as an Action (you can also remove a graft as part of this Action if they occupy the same area). However, the human body can’t handle such rapid change. When you do so you must make a CE Saving Throw (DC = 10 + 2 x number of parts currently grafted), on a failure the you gain 1 point of Exhaustion (the graft completes either way).
+          </p>
+        </div>
+      </div>
+
+      <div class="w3-card-4 w3-margin card">
+        <div class="w3-container">
+          <h2 id="domain">Domain Expansion: Frankenstein's Lab</h2>
+          <p>
+            <em>18th-level Curse Grafter feature</em></br>
+            <ul class="list-opts">
+              <li class="list-opts">This is a Lethal Domain.</li>
+              <li class="list-opts">While in your domain, grafts that cost CE, cost half their normal CE cost (<a href="#efficient-graft">Efficient Graft</a> can stack with this).</li>
+              <li class="list-opts">
+                Each round at initiative 20, you can choose 1 graft that you have ever created and add it to your body, you can go beyond your normal limit without requiring a Saving Throw.
+                This includes grafts that have been exorcized. Additionally, if you have previously created a graft of a left body part you can change it to a right body part as part of this action, or vice versa. 
+              </li>
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="w3-card-4 w3-margin card">
+        <div class="w3-container">
+          <h2 id="chart">Part Area Chart</h2>
+          <p>
+            <table class="spell-desc">
+
+            <tr>
+              <th>Level</th>
+              <th>Areas</th>
+            </tr>
+
+            <tr>
+              <th>1st Level</th>
+              <th>Finger, Hand, Forearm, Upper Arm, Thigh, Lower Leg, Foot, Toe, Top of Head</th>
+            </tr>
+
+            <tr>
+              <th>6th Level</th>
+              <th>Back, Chest, Abdomen, Pelvis</th>
+            </tr>
+
+            <tr>
+              <th>11th Level</th>
+              <th>Eyes, Ears, Nose, Mouth, Jaw, Neck</th>
+            </tr>
+
+            <tr>
+              <th>18th Level</th>
+              <th>Heart, Lung, Stomach, Liver, Kidney, Spine, Rib Cage</th>
+            </tr>
+
+          </table>
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+    <div class="w3-col l4">
+      <div class="w3-card w3-margin-left w3-margin-top">
+        <div class="w3-container card">
+          <h3>Subclass Features</h3>
+          <ul>
+            <li class="sidebar"><a href="#pause-exorcism">Pause Exorcism</a></li>
+            <li class="sidebar"><a href="#harvest">Harvest</a></li>
+            <li class="sidebar"><a href="#graft">Graft</a></li>
+            <li class="sidebar"><a href="#efficient-graft">Efficient Graft</a></li>
+            <li class="sidebar"><a href="#grafted-body">Grafted Body</a></li>
+            <li class="sidebar"><a href="#longterm-storage">Long Term Storag</a></li>
+            <li class="sidebar"><a href="#quick-graft">Quick Graft</a></li>
+            <li class="sidebar"><a href="#domain"></a></li>
+            <li class="sidebar"><a href="#chart">Part Area Chart</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>  
+
+    <div class="w3-col l4">      
+      <div class="w3-card w3-margin-left w3-margin-top">
+        <div class="w3-container card">
+
+          <h3 id="glossary">Site Inventory</h3>
+          <ul>
+            <li class="sidebar"><a href="index.html">JjK Home</a></li>
+            <li class="sidebar"><a href="../">D&D 5e Homebrew</a></li>
+            <li class="sidebar"><a href="../cyberpunk">Cyberpunk: RED</a></li>
+            <li class="sidebar"><a href="calc">Calculator</a></li>
+          </ul>
+          
+        </div>
+      </div>
+    </div>  
+
+    <div class="w3-col l4 img-card">
+          <a href="../index.html"><img src="../img/duder-logo.png" class="side-img"></a>
+    </div>
+
+  </body>
+</html>
