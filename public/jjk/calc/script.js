@@ -1,8 +1,11 @@
 function calculateHP() {
     const level = parseInt(document.getElementById('level').value) || 1;
-    const conMod = parseInt(document.getElementById('conMod').value) || 0;
+    const conMod  = parseInt(document.getElementById('conMod').value) || 0;
     const hitDie = parseInt(document.getElementById('hitDie').value) || 8;
     const hasTough = document.getElementById('tough').checked;
+
+    const hpPerLevel = parseInt(document.getElementById('hpPerLevel').value) || 0;
+    const hpFlat = parseInt(document.getElementById('hpFlat').value) || 0;
 
     let baseHP = hitDie + conMod; // Initial HP at level 1
     let additionalHP = (level - 1) * ((hitDie / 2) + 1 + conMod); // Average roll for additional levels
@@ -11,7 +14,7 @@ function calculateHP() {
         baseHP += 2 * level; // Tough feat adds 2 HP per level
     }
 
-    const totalHP = baseHP + additionalHP;
+    const totalHP = baseHP + additionalHP + (hpPerLevel*level) + hpFlat;
 
     document.getElementById('result1').innerText = "HP: " + totalHP;
 }
@@ -22,6 +25,9 @@ function calculateCE() {
     const ceMod = parseInt(document.getElementById('ceMod').value) || 0;
     const hasBottomless = document.getElementById('bottomless').checked;
     const hasImmense = document.getElementById('immense').checked;
+
+    const cePerLevel = parseInt(document.getElementById('cePerLevel').value) || 0;
+    const ceFlat = parseInt(document.getElementById('ceFlat').value) || 0;
 
     const pb = Math.ceil(1 + (level/4));
 
@@ -47,6 +53,8 @@ function calculateCE() {
             tempName = "Warrior";
             ceVal = level + ceMod;
         }
+
+        ceVal = ceVal + (cePerLevel*2) + ceFlat;
         document.getElementById('result2').innerText = "CE: "+  ceVal;
     } else {
         document.getElementById('result2').innerText = "CE: n/a";
@@ -83,6 +91,22 @@ document.getElementById('bottomless').addEventListener('change', () => {
     calculateCE();
 });
 document.getElementById('immense').addEventListener('change', () => {
+    calculateHP();
+    calculateCE();
+});
+document.getElementById('hpPerLevel').addEventListener('change', () => {
+    calculateHP();
+    calculateCE();
+});
+document.getElementById('hpFlat').addEventListener('change', () => {
+    calculateHP();
+    calculateCE();
+});
+document.getElementById('cePerLevel').addEventListener('change', () => {
+    calculateHP();
+    calculateCE();
+});
+document.getElementById('ceFlat').addEventListener('change', () => {
     calculateHP();
     calculateCE();
 });
