@@ -1,11 +1,28 @@
 function calculateHP() {
     const level = parseInt(document.getElementById('level').value) || 1;
     const conMod  = parseInt(document.getElementById('conMod').value) || 0;
-    const hitDie = parseInt(document.getElementById('hitDie').value) || 8;
+    // const hitDie = parseInt(document.getElementById('hitDie').value) || 8;
+    const className = document.getElementById('class').value;
     const hasTough = document.getElementById('tough').checked;
 
     const hpPerLevel = parseInt(document.getElementById('hpPerLevel').value) || 0;
     const hpFlat = parseInt(document.getElementById('hpFlat').value) || 0;
+
+    hitDie = 0;
+
+    if(className == "jug"){
+        hitDie = 12;
+    }else if(className == "scout"){
+        hitDie = 8;
+    }else if(className == "strat"){
+        hitDie = 6;
+    }else if(className == "shikigami"){
+        hitDie = 8;
+    }else if(className == "support"){
+        hitDie = 6;
+    }else if(className == "warrior"){
+        hitDie = 10;
+    }
 
     let baseHP = hitDie + conMod; // Initial HP at level 1
     let additionalHP = (level - 1) * ((hitDie / 2) + 1 + conMod); // Average roll for additional levels
@@ -55,6 +72,15 @@ function calculateCE() {
         }
 
         ceVal = ceVal + (cePerLevel*2) + ceFlat;
+
+        if(hasImmense){
+            ceVal += ceMod;
+        }
+
+        if(hasBottomless){
+            ceVal += level * 2;
+        }
+
         document.getElementById('result2').innerText = "CE: "+  ceVal;
     } else {
         document.getElementById('result2').innerText = "CE: n/a";
