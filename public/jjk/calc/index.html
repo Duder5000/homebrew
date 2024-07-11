@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JjK 5e Calculator</title>
+    </head>
+
+    <body>
+        <h1>JjK 5e Calculator</h1>
+        <form id="hpCalcForm">
+            <label for="level">Level:</label>
+            <input type="number" id="level" name="level" min="1" required>
+
+            <label for="hitDie" style="display: none;">Class:</label>
+            <select id="hitDie" name="hitDie" style="display: none;">
+                <option value="12">Juggernaut</option>
+                <option value="8">Scout</option>
+                <option value="6">Strategist</option>
+                <option value="8">Shikigami User</option>
+                <option value="6">Support</option>
+                <option value="10">Warrior</option>
+            </select>
+
+            <label for="class">Class:</label>
+            <select id="class" name="class" required>
+                <option value="jug">Juggernaut</option>
+                <option value="scout">Scout</option>
+                <option value="strat">Strategist</option>
+                <option value="shikigami">Shikigami User</option>
+                <option value="support">Support</option>
+                <option value="warrior">Warrior</option>
+            </select>
+            <br/>
+            
+            <label for="conMod">Con Mod:</label>
+            <input type="number" id="conMod" name="conMod" required>
+            
+            <label for="cceMod">CE Mod:</label>
+            <input type="number" id="ceMod" name="ceMod" required>
+            <br/>
+
+            <h3 style="display: inline;">Feats</h3>
+
+            <label for="tough">Tough:</label>
+            <input type="checkbox" id="tough" name="tough">
+
+            <label for="bottomless">Bottomless CE:</label>
+            <input type="checkbox" id="bottomless" name="bottomless">
+
+            <label for="immense">Immense CE:</label>
+            <input type="checkbox" id="immense" name="immense">
+
+        </form>
+
+        <h2 id="result1">HP: </h2>
+        <h2 id="result2">CE: </h2>
+
+        <script src="script.js"></script>
+    </body>
+</html>
