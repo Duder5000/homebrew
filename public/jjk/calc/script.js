@@ -59,7 +59,7 @@ function calculateHP() {
     const hpFlat = parseInt(document.getElementById('hpFlat').value) || 0;
 
     const has2ndClass = document.getElementById('secondClassCheck').checked;
-    const level2 = parseInt(document.getElementById('level2').value) || 1;
+    const level2 = parseInt(document.getElementById('level2').value) || 0;
     const className2 = document.getElementById('class2').value;
 
     // hitDie = 0;
@@ -109,6 +109,8 @@ function calculateCE() {
     const ceFlat = parseInt(document.getElementById('ceFlat').value) || 0;
 
     const has2ndClass = document.getElementById('secondClassCheck').checked;
+    const level2 = parseInt(document.getElementById('level2').value) || 0;
+    const className2 = document.getElementById('class2').value;
 
     const pb = Math.ceil(1 + (level/4));
 
@@ -137,7 +139,12 @@ function calculateCE() {
 
         ceVal = baseCE(className, level, ceMod, pb);
 
-        ceVal = ceVal + (cePerLevel*2) + ceFlat;
+        ceVal = ceVal + (cePerLevel*level) + ceFlat;
+
+        ceVal2 = 0;
+        if(has2ndClass){
+            ceVal2 = baseCE(className2, level2, ceMod, pb);
+        }
 
         if(hasImmense){
             ceVal += ceMod;
@@ -147,7 +154,7 @@ function calculateCE() {
             ceVal += level * 2;
         }
 
-        document.getElementById('result2').innerText = "CE: "+  ceVal;
+        document.getElementById('result2').innerText = "CE: "+  ceVal + ", " + ceVal2;
     } else {
         document.getElementById('result2').innerText = "CE: n/a";
     }
