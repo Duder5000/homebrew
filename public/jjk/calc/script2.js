@@ -20,29 +20,21 @@ function getHitDie(className) {
 
 function baseCE(className, level, ceMod, pb, classNum, firstClass) {
     let ceVal;
-    // let tempName;
 
     if(classNum <= 1){
         if (className === "jug") {
-            // tempName = "Juggernaut";
             ceVal = level;
         } else if (className === "scout") {
-            // tempName = "Scout";
             ceVal = level + ceMod;
         } else if (className === "strat") {
-            // tempName = "Strategist";
             ceVal = (level * 2) + ceMod;
         } else if (className === "shikigami") {
-            // tempName = "Shikigami User";
             ceVal = level + ceMod;
         } else if (className === "support") {
-            // tempName = "Support";
             ceVal = level + ceMod + pb;
         } else if (className === "warrior") {
-            // tempName = "Warrior";
             ceVal = level + ceMod;
         } else {
-            // tempName = "Unknown";
             ceVal = level; 
         }
     }
@@ -120,21 +112,6 @@ function calculateHP() {
     const level2 = parseInt(document.getElementById('level2').value) || 0;
     const className2 = document.getElementById('class2').value;
 
-    // hitDie = 0;
-    // if(className == "jug"){
-    //     hitDie = 12;
-    // }else if(className == "scout"){
-    //     hitDie = 8;
-    // }else if(className == "strat"){
-    //     hitDie = 6;
-    // }else if(className == "shikigami"){
-    //     hitDie = 8;
-    // }else if(className == "support"){
-    //     hitDie = 6;
-    // }else if(className == "warrior"){
-    //     hitDie = 10;
-    // }
-
     hitDie = getHitDie(className);
 
     hitDie2 = 0;
@@ -173,27 +150,6 @@ function calculateCE() {
     const pb = Math.ceil(1 + (level/4));
 
     if (className != "na") {
-        
-        // ceVal = 0;
-        // if(className == "jug"){
-        //     tempName = "Juggernaut";
-        //     ceVal = level;
-        // }else if(className == "scout"){
-        //     tempName = "Scout";
-        //     ceVal = level + ceMod;
-        // }else if(className == "strat"){
-        //     tempName = "Strategist";
-        //     ceVal = (level*2) + ceMod;
-        // }else if(className == "shikigami"){
-        //     tempName = "Shikigami User";
-        //     ceVal = level + ceMod;
-        // }else if(className == "support"){
-        //     tempName = "Support";
-        //     ceVal = level + ceMod + pb;
-        // }else if(className == "warrior"){
-        //     tempName = "Warrior";
-        //     ceVal = level + ceMod;
-        // }
 
         ceVal = baseCE(className, level, ceMod, pb, 1, "na");
 
@@ -235,10 +191,6 @@ document.getElementById('ceMod').addEventListener('input', () => {
     calculateHP();
     calculateCE();
 });
-// document.getElementById('hitDie').addEventListener('change', () => {
-//     calculateHP();
-//     calculateCE();
-// });
 document.getElementById('class').addEventListener('change', () => {
     calculateHP();
     calculateCE();
