@@ -58,6 +58,10 @@ function calculateHP() {
     const hpPerLevel = parseInt(document.getElementById('hpPerLevel').value) || 0;
     const hpFlat = parseInt(document.getElementById('hpFlat').value) || 0;
 
+    const has2ndClass = document.getElementById('secondClassCheck').checked;
+    const level2 = parseInt(document.getElementById('level2').value) || 1;
+    const className2 = document.getElementById('class2').value;
+
     // hitDie = 0;
     // if(className == "jug"){
     //     hitDie = 12;
@@ -75,6 +79,13 @@ function calculateHP() {
 
     hitDie = getHitDie(className);
 
+    hitDie2 = 0;
+    additionalHP2 = 0;
+    if(has2ndClass){
+        hitDie2 = getHitDie(className2);
+        additionalHP2 = level2 * ((hitDie2 / 2) + 1 + conMod); // Average roll for additional levels
+    }
+
     let baseHP = hitDie + conMod; // Initial HP at level 1
     let additionalHP = (level - 1) * ((hitDie / 2) + 1 + conMod); // Average roll for additional levels
 
@@ -82,7 +93,7 @@ function calculateHP() {
         baseHP += 2 * level; // Tough feat adds 2 HP per level
     }
 
-    const totalHP = baseHP + additionalHP + (hpPerLevel*level) + hpFlat;
+    const totalHP = baseHP + additionalHP + (hpPerLevel*level) + hpFlat + additionalHP2;
 
     document.getElementById('result1').innerText = "HP: " + totalHP;
 }
@@ -96,6 +107,8 @@ function calculateCE() {
 
     const cePerLevel = parseInt(document.getElementById('cePerLevel').value) || 0;
     const ceFlat = parseInt(document.getElementById('ceFlat').value) || 0;
+
+    const has2ndClass = document.getElementById('secondClassCheck').checked;
 
     const pb = Math.ceil(1 + (level/4));
 
@@ -145,6 +158,10 @@ document.getElementById('level').addEventListener('input', () => {
     calculateHP();
     calculateCE();
 });
+document.getElementById('level2').addEventListener('input', () => {
+    calculateHP();
+    calculateCE();
+});
 document.getElementById('conMod').addEventListener('input', () => {
     calculateHP();
     calculateCE();
@@ -158,6 +175,10 @@ document.getElementById('ceMod').addEventListener('input', () => {
 //     calculateCE();
 // });
 document.getElementById('class').addEventListener('change', () => {
+    calculateHP();
+    calculateCE();
+});
+document.getElementById('class2').addEventListener('change', () => {
     calculateHP();
     calculateCE();
 });
