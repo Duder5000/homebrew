@@ -84,7 +84,7 @@ function baseCE(className, level, ceMod, pb, classNum, firstClass) {
             if (firstClass === "jug") {
                 ceVal = level + ceMod + pb;
             } else if (firstClass === "scout" || firstClass === "shikigami" || firstClass === "warrior") {
-                ceVal = level;
+                ceVal = level + pb;
             } else if (firstClass === "strat") {
                 ceVal = (level * 2);
             }
@@ -212,7 +212,7 @@ function calculateCE() {
             ceVal += level * 2;
         }
 
-        document.getElementById('result2').innerText = "CE: "+  ceVal + ", " + ceVal2;
+        document.getElementById('result2').innerText = "CE: " +  (ceVal + ceVal2) + " (" + ceVal + ", " + ceVal2 + ")";
     } else {
         document.getElementById('result2').innerText = "CE: n/a";
     }
