@@ -36,7 +36,30 @@
                 <option value="warrior">Warrior</option>
             </select>
             <br/>
+
+    <!-- Multiclass 1 / Second Class -->
+
+            <label for="secondClassCheck">Multiclass (1):</label>
+            <input type="checkbox" id="secondClassCheck" name="secondClassCheck">
+            <br/>
+
+            <div id="secondClassDiv">
+                <label for="level2">Level:</label>
+                <input type="number" id="level2" name="level2" min="1" size="5">
+
+                <label for="class2">Class:</label>
+                <select id="class2" name="class2" required>
+                    <option value="jug">Juggernaut</option>
+                    <option value="scout">Scout</option>
+                    <option value="strat">Strategist</option>
+                    <option value="shikigami">Shikigami User</option>
+                    <option value="support">Support</option>
+                    <option value="warrior">Warrior</option>
+                </select>
+            </div>
             
+    <!-- Multiclass 1 -->
+
             <label for="conMod">Con Mod:</label>
             <input type="number" id="conMod" name="conMod" size="5" required>
             

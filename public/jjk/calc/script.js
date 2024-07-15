@@ -189,7 +189,24 @@ document.getElementById('ceFlat').addEventListener('change', () => {
     calculateHP();
     calculateCE();
 });
+document.getElementById('secondClassCheck').addEventListener('change', () => {
+    calculateHP();
+    calculateCE();
+});
+
+// ---------------------------
+
+secondClassDiv.style.display = 'none';
 
 // Initial calculation to display default value
 calculateHP();
 calculateCE();
+
+document.getElementById('secondClassCheck').addEventListener('change', function() {
+    var secondClassDiv = document.getElementById('secondClassDiv');
+    if (this.checked) {
+        secondClassDiv.style.display = 'block';
+    } else {
+        secondClassDiv.style.display = 'none';
+    }
+});
