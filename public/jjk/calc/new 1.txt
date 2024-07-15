@@ -1,0 +1,25 @@
+1. Juggernaut Scout			- Jug level + Scout level + CE Mod
+2. Juggernaut Strat			- Jug level + (Strat level * 2) + CE Mod
+3. Juggernaut Shikigami		- Jug level + Shikigami level + CE Mod
+4. Juggernaut Support		- Jug level + Support level + CE Mod + PB
+5. Juggernaut Warrior		- Jug level + Warrior level + CE Mod
+6. Scout Strat				- Scout level + CE Mod + (Strat level + 2)
+7. Scout Shikigami			- Scout level + CE Mod + Shikigami level
+8. Scout Support			- Scout level + CE Mod + Support level + PB
+9. Scout Warrior			- Scout level + CE Mod + Warrior level
+10. Strat Shikigami			- (Strat level * 2) + CE Mod + Shikigami level
+11. Strat Support			- (Strat level * 2) + CE Mod + Support level + PB
+12. Strat Warrior			- (Strat level * 2) + CE Mod + Warrior level
+13. Shikigami Support		- Shikigami level + CE Mod + Support level + PB
+14. Shikigami Warrior		- Shikigami level + CE Mod + Warrior level
+15. Support Warrior			- Support level + CE Mod + PB + Warrior level
+
+if (firstClass === "jug") {
+
+} else if (firstClass === "scout" || firstClass === "shikigami" || firstClass === "warrior") {
+
+} else if (firstClass === "strat") {
+
+}else if (firstClass === "support") {
+
+}
