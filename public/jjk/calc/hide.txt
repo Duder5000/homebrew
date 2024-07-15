@@ -1,0 +1,12 @@
+// ---------------------------
+
+multi2ndDiv.style.display = 'none';
+
+document.getElementById('multi2nd').addEventListener('change', function() {
+    var multi2ndDiv = document.getElementById('multi2ndDiv');
+    if (this.checked) {
+        multi2ndDiv.style.display = 'block';
+    } else {
+        multi2ndDiv.style.display = 'none';
+    }
+});

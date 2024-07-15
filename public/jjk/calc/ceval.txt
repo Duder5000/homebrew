@@ -1,0 +1,22 @@
+		// ceVal = 0;
+        // if(className == "jug"){
+        //     tempName = "Juggernaut";
+        //     ceVal = level;
+        // }else if(className == "scout"){
+        //     tempName = "Scout";
+        //     ceVal = level + ceMod;
+        // }else if(className == "strat"){
+        //     tempName = "Strategist";
+        //     ceVal = (level*2) + ceMod;
+        // }else if(className == "shikigami"){
+        //     tempName = "Shikigami User";
+        //     ceVal = level + ceMod;
+        // }else if(className == "support"){
+        //     tempName = "Support";
+        //     ceVal = level + ceMod + pb;
+        // }else if(className == "warrior"){
+        //     tempName = "Warrior";
+        //     ceVal = level + ceMod;
+        // }
+
+        ceVal = baseCE(className2, level, ceMod, pb);
