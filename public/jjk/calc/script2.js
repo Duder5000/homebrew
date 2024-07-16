@@ -168,7 +168,14 @@ function calculateCE() {
             ceVal += level * 2;
         }
 
-        document.getElementById('result2').innerText = "CE: " +  (ceVal + ceVal2) + " (" + ceVal + ", " + ceVal2 + ")";
+        drawText = "CE: " +  (ceVal + ceVal2);
+
+        if(has2ndClass){
+            drawText += " (" + ceVal + ", " + ceVal2 + ")";
+        }
+
+        // document.getElementById('result2').innerText = "CE: " +  (ceVal + ceVal2) + " (" + ceVal + ", " + ceVal2 + ")";
+        document.getElementById('result2').innerText = drawText;
     } else {
         document.getElementById('result2').innerText = "CE: n/a";
     }
