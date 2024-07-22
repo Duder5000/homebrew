@@ -354,3 +354,22 @@ li.list-opts2{
 /*	font-weight: 500;*/
 	font-style: italic;
 }
+
+.h2tab{
+	margin-left: 0.5em;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	border-bottom: 0;
+}
+
+.remove-top{
+	padding-top: 0;
+	margin-top: 0;
+	border-top: 0;
+}
+
+.remove-bottom{
+	padding-bottom: 0.25em;
+	margin-bottom: 0;
+	border-bottom: 0;
+}
