@@ -1,0 +1,20 @@
+**Grenade Launcher:** $20,000 | 1d8 Bludgeoning, GL, Loading, Range (60/240), Reload (1), Attatchments (1)
+**Multiple Grenade Launcher:** $35,000 | 1d8 Bludgeoning, GL, Heavy, Loading, Range (60/240), Reload (6), Two-Handed, Attatchments (2)
+
+**40mm Grenade (Standard):** $1500 | Hit or miss, each creature within 5 feet of that point must succeed on a Dexterity Saving Throw vs your Grenade Save DC or take 2d6 Fire damage.
+**40mm Grenade (HE):** $3000 | Hit or miss, each creature within 5 feet of that point must succeed on a Dexterity Saving Throw vs your Grenade Save DC or take 4d6 Force damage.
+**40mm Grenade (Smoke):** $1000 | Hit or miss, 15 feet within the target becomes heavly obscured by smoke.
+**40mm Grenade (Teargass):** $2000 | Hit or miss, each creature within 10 feet must make a Constutution Saving Throw vs your Grenade Save DC or be afflicted by the Blinded condtion for 10 minutes. At the end of each of their turns they can attempt the Saving Throw again.
+**40mm Grenade (Flashbang):** $2000 | Hit or miss, each creature within 10 feet must make a Constutution Saving Throw vs your Grenade Save DC or be afflicted by the Stunned condtion until the end of their next turn.
+
+**Grenade Save DC** = 8 + Dexterity Modifier + Your Proficiency Bonus
+**GL (40mm Grenade):** The damage / effect of this weapon is deturmine by the grenade loaded. 
+
+Any Grenade can be bought as either a Thrown version or a GL version.
+
+**Bayonet:** $500 | A weapon equipt with this attachment also functions as a spear. This attachment can only be added to Two-Handed firearms.
+**Extended Magazine:** $1000 | A weapon's Reload number is doubled.
+**Drum Magazine:** $2000 | A weapon's Reload number increases by 50%.
+**Underbarrel Shotgun (Pump):** $7500 | You have a noraml shotgun under the barrel of another weapon, but with no attachment slots & its reload becomes *Reload-Shotgun (4)*. You can use this shotgun without needing to switch weapons. This attachment can only be added to Two-Handed firearms.
+**Underbarrel Shotgun (Semi):** $15,00 |  You have a noraml shotgun under the barrel of another weapon, but with no attachment slots & its reload becomes *Reload-Shotgun (4)*. You can use this shotgun without needing to switch weapons. This attachment can only be added to Two-Handed firearms.
+**Underbarrel Grenade Launcher:** $30,000 | You have a noraml grenade launcher under the barrel of another weapon, but with no attachment slots. You can use this shotgun without needing to switch weapons. This attachment can only be added to Two-Handed firearms.
