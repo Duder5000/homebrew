@@ -37,10 +37,10 @@ Copy-Item -Path "$configBackup\*" -Destination "$appDataRimworld" -Recurse -Forc
 
 Write-Host "Deleting and copying complete"
 
-Start-Sleep -Seconds 3
+#Start-Sleep -Seconds 3
 
 # Steam validation requires manual initiation or SteamCMD, so we're skipping automated validation for now.
-Write-Host "Please manually validate the RimWorld game files through the Steam client."
+Write-Host "Manually validate the RimWorld game files through the Steam client."
 # Uncomment the following line if using SteamCMD for validation, or manually validate:
 # Start-Process -FilePath $steamPath -ArgumentList "://validate/$appID" (not valid)
 
