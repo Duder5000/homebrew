@@ -3,9 +3,9 @@ $folderPath = "F:\GDrive"
 $logFile = "F:\GDrive\duplicate_files_g.log"
 
 # Define exclusions
-$excludedExtensions = @('.gdoc', '.gsheet', '.gslides', '.lnk', '.xml', '.css', '.ttf', '.eot', '.woff', '.woff2')
+$excludedExtensions = @('.gdoc', '.gsheet', '.gslides', '.lnk', '.xml', '.css', '.ttf', '.eot', '.woff', '.woff2', '.mb')
 $excludedFileNames = @('preview.png', 'PublishedFileId.txt', 'google-analytics_analytics.js', 'google-analytics_analytics_002.js', 'index.html')
-$excludedSubfolder = "F:\GDrive\Misc v2\SFU_Archive\Terms\2019-spring\iat334\A3\copy-of-shared"
+$excludedSubfolder = "F:\GDrive\Misc v2\SFU_Archive\Terms\2019-spring"
 
 Write-Output "Scanning folder: $folderPath..."
 

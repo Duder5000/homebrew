@@ -1,9 +1,9 @@
 # Define folder and log file paths
 $folderPath = "F:\GDrive"
-$logFile = "F:\GDrive\duplicate_files_o.log"
+$logFile = "F:\GDrive\duplicate_files_old.log"
 
 # Define excluded extensions
-$excludedExtensions = @('.gdoc', '.gsheet', '.gslides', '.lnk', '.xml', '.css', '.ttf', '.eot', '.woff', '.woff2')
+$excludedExtensions = @('.gdoc', '.gsheet', '.gslides', '.lnk', '.xml', '.css')
 
 # Get all files recursively, excluding certain file types
 Write-Output "Scanning folder: $folderPath..."
@@ -51,7 +51,7 @@ if ($groupedFiles) {
         $progress = [math]::Round(($counter / $groupedFiles.Count) * 100)
         Write-Progress -Activity "Recording duplicates" -Status "Processing group $counter of $($groupedFiles.Count)" -PercentComplete $progress
 
-        "nFile Name: $($group.Name)" | Add-Content -Path $logFile -Encoding UTF8
+        "`nFile Name: $($group.Name)" | Add-Content -Path $logFile -Encoding UTF8
         
         # Compute hashes to check for true duplicates
         $hashes = @{ }
