@@ -2,36 +2,27 @@
 $folderPath = "F:\GDrive"
 $logFile = "F:\GDrive\duplicate_files.log"
 
-# Define excluded
-$excludedExtensions = @('.gdoc', '.gsheet', '.gslides', '.lnk', '.xml', '.css')
-$excludedFileNames = @('preview.png', 'PublishedFileId.txt')
+# Define exclusions
+$excludedExtensions = @('.gdoc', '.gsheet', '.gslides', '.lnk', '.xml', '.css', '.ttf')
+$excludedFileNames = @('preview.png', 'PublishedFileId.txt', 'google-analytics_analytics.js', 'google-analytics_analytics_002.js', 'index.html')
 $excludedSubfolder = "F:\GDrive\Misc v2\SFU_Archive\Terms\2019-spring\iat334\A3\copy-of-shared"
 
-# Get all files recursively, excluding certain file types
 Write-Output "Scanning folder: $folderPath..."
+
+# Get all files recursively, excluding extensions, file names, and specific subfolder
 $files = Get-ChildItem -Path $folderPath -Recurse -File | Where-Object { 
     $_.Extension -notin $excludedExtensions -and 
-    $_.Name -notin $excludedFileNames -and  # Exclude specific file names
-    $_.FullName -notlike "$excludedSubfolder*"  # Exclude specific subfolder
+    $_.Name -notin $excludedFileNames -and  
+    $_.FullName -notmatch "^$([regex]::Escape($excludedSubfolder))\\.*"  # More reliable subfolder exclusion
 }
 
 $totalFiles = $files.Count
 Write-Output "Total files scanned: $totalFiles"
 
-# Check if there are files to process
 if ($totalFiles -eq 0) {
     Write-Output "No files found. Exiting."
     exit
 }
-
-# Initialize progress bar
-$counter = 0
-foreach ($file in $files) {
-    $counter++
-    $progress = [math]::Round(($counter / $totalFiles) * 100)
-    Write-Progress -Activity "Scanning files" -Status "Processing file $counter of $totalFiles" -PercentComplete $progress
-}
-Write-Progress -Activity "Scanning files" -Status "Complete" -Completed
 
 # Group by file name (including extension)
 Write-Output "Grouping files by name..."
@@ -41,12 +32,10 @@ $groupedFiles = $files | Group-Object -Property Name | Where-Object { $_.Count -
 if (Test-Path $logFile) { Remove-Item -Path $logFile -Force }
 New-Item -Path $logFile -ItemType File -Force | Out-Null
 
-# Initialize progress bar for duplicates
-$counter = 0
-
 # Record duplicate file names and their paths
 if ($groupedFiles) {
     "Duplicate files found:" | Add-Content -Path $logFile -Encoding UTF8
+    $counter = 0
     foreach ($group in $groupedFiles) {
         $counter++
         $progress = [math]::Round(($counter / $groupedFiles.Count) * 100)
@@ -55,17 +44,12 @@ if ($groupedFiles) {
         "`nFile Name: $($group.Name)" | Add-Content -Path $logFile -Encoding UTF8
         
         # Compute hashes to check for true duplicates
-        $hashes = @{ }
+        $hashes = @{}
         foreach ($file in $group.Group) {
             try {
                 $hash = Get-FileHash -Path $file.FullName -Algorithm SHA256 -ErrorAction Stop
                 "    $($file.FullName) (Hash: $($hash.Hash))" | Add-Content -Path $logFile -Encoding UTF8
-                
-                if ($hashes.ContainsKey($hash.Hash)) {
-                    $hashes[$hash.Hash] += @($file.FullName)
-                } else {
-                    $hashes[$hash.Hash] = @($file.FullName)
-                }
+                $hashes[$hash.Hash] += @($file.FullName)  # Directly append to the dictionary
             } catch {
                 Write-Host "    Error processing file: $($file.FullName) - $_" -ForegroundColor Red
                 continue
@@ -73,13 +57,9 @@ if ($groupedFiles) {
         }
         
         # Log true duplicates
-        foreach ($hash in $hashes.Keys) {
-            if ($hashes[$hash].Count -gt 1) {
-                "    True duplicate files (identical content):" | Add-Content -Path $logFile -Encoding UTF8
-                foreach ($filePath in $hashes[$hash]) {
-                    "        $filePath" | Add-Content -Path $logFile -Encoding UTF8
-                }
-            }
+        foreach ($hash in $hashes.Keys | Where-Object { $hashes[$_].Count -gt 1 }) {
+            "    True duplicate files (identical content):" | Add-Content -Path $logFile -Encoding UTF8
+            $hashes[$hash] | ForEach-Object { "        $_" | Add-Content -Path $logFile -Encoding UTF8 }
         }
     }
     Write-Progress -Activity "Recording duplicates" -Status "Complete" -Completed
