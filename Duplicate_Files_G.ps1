@@ -3,9 +3,9 @@ $folderPath = "F:\GDrive"
 $logFile = "F:\GDrive\duplicate_files.log"
 
 # Define exclusions
-$excludedExtensions = @('.gdoc', '.gsheet', '.gslides', '.lnk', '.xml', '.css', '.ttf')
+$excludedExtensions = @('.gdoc', '.gsheet', '.gslides', '.lnk', '.xml', '.css', '.ttf', '.eot', '.woff', '.woff2')
 $excludedFileNames = @('preview.png', 'PublishedFileId.txt', 'google-analytics_analytics.js', 'google-analytics_analytics_002.js', 'index.html')
-$excludedSubfolder = "F:\GDrive\Misc v2\SFU_Archive\Terms\2019-spring\iat334\A3\copy-of-shared"
+$excludedSubfolder = "F:\GDrive\Misc v2\SFU_Archive\Terms"
 
 Write-Output "Scanning folder: $folderPath..."
 
@@ -13,7 +13,7 @@ Write-Output "Scanning folder: $folderPath..."
 $files = Get-ChildItem -Path $folderPath -Recurse -File | Where-Object { 
     $_.Extension -notin $excludedExtensions -and 
     $_.Name -notin $excludedFileNames -and  
-    $_.FullName -notmatch "^$([regex]::Escape($excludedSubfolder))\\.*"  # More reliable subfolder exclusion
+    $_.FullName -notmatch "^$([regex]::Escape($excludedSubfolder))\\.*"
 }
 
 $totalFiles = $files.Count
