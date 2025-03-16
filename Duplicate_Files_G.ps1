@@ -3,12 +3,11 @@ $folderPath = "F:\GDrive"
 $logFile = "F:\GDrive\duplicate_files_g.log"
 
 # Define exclusions
-$excludedExtensions = @('.gitignore', '.gdoc', '.gsheet', '.gslides', '.lnk', '.xml', '.css', '.ttf', '.eot', '.woff', '.woff2', '.mb', '.md', '.gradle', '.properties', '.twb')
-$excludedFileNames = @('preview.png', 'PublishedFileId.txt', 'google-analytics_analytics.js', 'google-analytics_analytics_002.js', 'index.html', 'index.php')
-$excludedSubfolder = "F:\GDrive\Misc v2\SFU_Archive\Terms\2021-fall"
+$excludedExtensions = @('.gitignore')
+$excludedFileNames = @('app.css', 'base.css', 'css.css', 'About.xml', 'PublishedFileId.txt', 'preview.png')
+$excludedSubfolder = "F:\GDrive\Notes"
 
 Write-Output "Scanning folder: $folderPath..."
-
 # Get all files recursively, excluding extensions, file names, and specific subfolder
 $files = Get-ChildItem -Path $folderPath -Recurse -File | Where-Object { 
     $_.Extension -notin $excludedExtensions -and 
