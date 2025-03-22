@@ -3,9 +3,9 @@ $folderPath = "F:\GDrive"
 $logFile = "F:\GDrive\duplicate_files_g.log"
 
 # Define exclusions
-$excludedExtensions = @('.gitignore')
+$excludedExtensions = @('.gitignore', '.lnk')
 $excludedFileNames = @('app.css', 'base.css', 'css.css', 'About.xml', 'PublishedFileId.txt', 'preview.png')
-$excludedSubfolder = "F:\GDrive\Notes"
+$excludedSubfolder = "F:\GDrive\Notes\DND_TEMP"
 
 Write-Output "Scanning folder: $folderPath..."
 # Get all files recursively, excluding extensions, file names, and specific subfolder
