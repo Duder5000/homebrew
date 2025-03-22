@@ -71,6 +71,3 @@ node_modules/
 # Zips
 *.zip
 *.7z
-
-# Misc Files
-*.pdf
