@@ -36,6 +36,16 @@ a.dnd-book{
 	font-size: 0.75em;
 }
 
+a.sentLink{
+	text-decoration-line: none;
+	font-style: italic;
+	color: #99AAB5;
+}
+
+a.sentLink:hover{
+	font-style: normal;
+}
+
 a.dnd-book:hover{
 	/*font-size: 0.8em;*/
 	font-style: normal;
