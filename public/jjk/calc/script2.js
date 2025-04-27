@@ -1,6 +1,10 @@
 function getHitDie(className) {
     let hitDie;
 
+    if(className == "shinobi"){
+        className = "scout";
+    }
+
     if(className == "jug"){
         hitDie = 12;
     }else if(className == "scout"){
@@ -20,6 +24,10 @@ function getHitDie(className) {
 
 function baseCE(className, level, ceMod, pb, classNum, firstClass) {
     let ceVal;
+
+    if(className == "shinobi"){
+        className = "scout";
+    }
 
     if(classNum <= 1){
         if (className === "jug") {
