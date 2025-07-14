@@ -5,6 +5,18 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "redirects": [
+      {
+        "source": "/kingmaker{,/**}",
+        "destination": "https://kingmaker5000.moltenhosting.com",
+        "type": 301
+      },
+      {
+        "source": "redirect{,/**}",
+        "destination": "https://www.labnol.org/code/firebase-json-file-generator-201123",
+        "type": 302
+      }
     ]
   }
 }
