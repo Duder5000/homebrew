@@ -13,6 +13,21 @@
         "type": 301
       },
       {
+        "source": "/eberron{,/**}",
+        "destination": "https://kingmaker5000.moltenhosting.com",
+        "type": 301
+      },
+      {
+        "source": "/foundry{,/**}",
+        "destination": "https://kingmaker5000.moltenhosting.com",
+        "type": 301
+      },
+      {
+        "source": "/void{,/**}",
+        "destination": "https://forge-vtt.com/invite/bipolar-saturdayafternoon/6790dc88-16fe-4ad6-834c-e9d32d036feb",
+        "type": 301
+      },
+      {
         "source": "redirect{,/**}",
         "destination": "https://www.labnol.org/code/firebase-json-file-generator-201123",
         "type": 302

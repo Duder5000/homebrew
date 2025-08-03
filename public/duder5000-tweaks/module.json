@@ -1,0 +1,13 @@
+{
+  "name": "duder5000-tweaks",
+  "title": "Duder5000's Pf2e Tweaks",
+  "description": "Pathfinder 2e tweaks by Duder5000.",
+  "version": "1.0.0",
+  "author": "Duder5000",
+  "minimumCoreVersion": "11",
+  "compatibleCoreVersion": "11",
+  "systems": ["pf2e"],
+  "scripts": ["scripts/heal-on-rest.js"],
+  "manifest": "https://duder5000.com/duder5000-tweaks/module.json",
+  "download": "https://duder5000.com/duder5000-tweaks/duder5000-tweaks.zip"
+}
