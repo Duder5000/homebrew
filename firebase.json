@@ -28,6 +28,11 @@
         "type": 301
       },
       {
+        "source": "/ip**",
+        "destination": "https://duder5000.com/downloads/cpr-ip.png",
+        "type": 301
+      },
+      {
         "source": "/redirect**",
         "destination": "https://www.labnol.org/code/firebase-json-file-generator-201123",
         "type": 302
