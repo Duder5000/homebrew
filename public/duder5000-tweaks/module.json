@@ -1,35 +1,33 @@
 {
-    "id": "duder5000-tweaks",
-    "title": "Duder5000's Pf2e Tweaks",
-    "description": "Pathfinder 2e tweaks by Duder5000.",
-    "authors": [
-        {
-            "name": "Duder5000",
-            "discord": "Duder5000"
-        }
-    ],
-    "esmodules": [
-        "scripts/heal-on-rest.js"
-    ],
-    "compatibility": {
-        "minimum": "12",
-        "verified": "13",
-        "maximum": "13"
-    },
-    "socket": true,
-    "version": "1.0.77",
-    "manifest": "https://duder5000.com/duder5000-tweaks/module.json",
-    "download": "https://duder5000.com/duder5000-tweaks/duder5000-tweaks.zip",
-    "relationships": {
-        "systems": [
-            {
-                "id": "pf2e",
-                "type": "system",
-                "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
-                "compatibility": {
-                    "minimum": "6"
-                }
-            }
-        ]
+  "id": "duder5000-tweaks",
+  "title": "Duder5000's Pf2e Tweaks",
+  "description": "DO NOT SURE RIGHT NOW - Pathfinder 2e tweaks by Duder5000.",
+  "authors": [
+    {
+      "name": "Duder5000",
+      "discord": "Duder5000"
     }
+  ],
+  "esmodules": ["scripts/heal-on-rest.js"],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13",
+    "maximum": "13"
+  },
+  "socket": true,
+  "version": "1.1.0",
+  "manifest": "https://duder5000.com/duder5000-tweaks/module.json",
+  "download": "https://duder5000.com/duder5000-tweaks/duder5000-tweaks.zip",
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+        "compatibility": {
+          "minimum": "6"
+        }
+      }
+    ]
+  }
 }

@@ -5,10 +5,9 @@ Hooks.once("init", () => {
     scope: "world",
     config: true,
     default: true,
-    type: Boolean
+    type: Boolean,
   });
 });
-
 
 Hooks.on("pf2e.restForTheNight", async (actor) => {
   const conModifier = actor.system.abilities.con.mod;
@@ -18,8 +17,9 @@ Hooks.on("pf2e.restForTheNight", async (actor) => {
 
   const current = actor.system.attributes.hp.value;
   const max = actor.system.attributes.hp.max;
-  
-  const normMaxRestored = Math.max(conModifier, 1) * level * recoveryMultiplier + recoveryAddend;
+
+  const normMaxRestored =
+    Math.max(conModifier, 1) * level * recoveryMultiplier + recoveryAddend;
 
   const delta = max - current + normMaxRestored;
 
@@ -29,12 +29,13 @@ Hooks.on("pf2e.restForTheNight", async (actor) => {
   if (current < max) {
     await actor.update({ "system.attributes.hp.value": max });
 
-    await new Promise(resolve => setTimeout(resolve, 100));
+    await new Promise((resolve) => setTimeout(resolve, 100));
 
     const lastMessage = [...game.messages]
       .reverse()
-      .find(msg => msg.speaker?.actor === actor.id);
+      .find((msg) => msg.speaker?.actor === actor.id);
 
+    /*
     if (
       lastMessage &&
       (lastMessage.isOwner || game.user.isGM) &&
@@ -42,11 +43,12 @@ Hooks.on("pf2e.restForTheNight", async (actor) => {
     ) {
       await lastMessage.delete();
     }
+    */
 
     ChatMessage.create({
       speaker: ChatMessage.getSpeaker({ actor }),
-      // content: `<p><strong>${actor.name}</strong> fully recovers to <strong>${max} HP</strong> after resting for the night.</p>`
-      content: `<p><strong>${actor.name}</strong> rested for the night, recovering <strong>${delta} HP</strong>.</p>`
+      content: `<p><strong>${actor.name}</strong> fully recovers to <strong>${max} HP</strong> after resting for the night.</p>`,
+      // content: `<p><strong>${actor.name}</strong> rested for the night, recovering <strong>${delta} HP</strong>.</p>`,
     });
   }
 });
