@@ -1,24 +1,10 @@
 {
   "hosting": {
     "public": "public",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "redirects": [
       {
         "source": "/kingmaker**",
-        "destination": "https://kingmaker5000.moltenhosting.com",
-        "type": 301
-      },
-      {
-        "source": "/eberron**",
-        "destination": "https://kingmaker5000.moltenhosting.com",
-        "type": 301
-      },
-      {
-        "source": "/foundry**",
         "destination": "https://kingmaker5000.moltenhosting.com",
         "type": 301
       },
@@ -30,6 +16,11 @@
       {
         "source": "/ip**",
         "destination": "https://duder5000.com/downloads/cpr-ip.png",
+        "type": 301
+      },
+      {
+        "source": "/finn**",
+        "destination": "https://jjk-thrusday.moltenhosting.com/?s=efcdab8cf9",
         "type": 301
       },
       {

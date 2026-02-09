@@ -1,20 +1,32 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
     <head>
-        <meta charset="UTF-8">
+        <meta charset="UTF-8" />
         <title>JjK 5e Calculator</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous">
-        <link rel="stylesheet" href="../../css/w3.css">
-        <link rel="stylesheet" href="../../css/darkmode.css">
-        <link rel="icon" href="../../img/duder-logo.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+            integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="../../css/w3.css" />
+        <link rel="stylesheet" href="../../css/darkmode.css" />
+        <link rel="icon" href="../../img/duder-logo.png" />
     </head>
 
     <body>
-        <h1>Jujutsu Kaisen 5e Calculator</h1>
+        <h1>Jujutsu Kaisen 5e (v3) Calculator</h1>
         <form id="hpCalcForm">
             <label for="level">Level:</label>
-            <input type="number" id="level" name="level" min="1" size="5" required>
+            <input
+                type="number"
+                id="level"
+                name="level"
+                min="1"
+                size="5"
+                required
+            />
 
             <label for="class">Class:</label>
             <select id="class" name="class" required>
@@ -26,17 +38,27 @@
                 <option value="warrior">Warrior</option>
                 <option value="shinobi">Shinobi</option>
             </select>
-            <br/>
+            <br />
 
-    <!-- Multiclass 1 / Second Class -->
+            <!-- Multiclass 1 / Second Class -->
 
             <label for="secondClassCheck">Multiclass:</label>
-            <input type="checkbox" id="secondClassCheck" name="secondClassCheck">
-            <br/>
+            <input
+                type="checkbox"
+                id="secondClassCheck"
+                name="secondClassCheck"
+            />
+            <br />
 
             <div id="secondClassDiv">
                 <label for="level2">Level:</label>
-                <input type="number" id="level2" name="level2" min="1" size="5">
+                <input
+                    type="number"
+                    id="level2"
+                    name="level2"
+                    min="1"
+                    size="5"
+                />
 
                 <label for="class2">Class:</label>
                 <select id="class2" name="class2" required>
@@ -49,46 +71,57 @@
                     <option value="shinobi">Shinobi</option>
                 </select>
             </div>
-            
-    <!-- Multiclass 1 -->
+
+            <!-- Multiclass 1 -->
 
             <label for="conMod">Con Mod:</label>
-            <input type="number" id="conMod" name="conMod" size="5" required>
-            
-            <label for="cceMod">CE Mod:</label>
-            <input type="number" id="ceMod" name="ceMod" size="5" required>
-            <br/>
+            <input type="number" id="conMod" name="conMod" size="5" required />
 
-            <h3 style="display: inline;">Feats</h3>
+            <label for="cceMod">CE Mod:</label>
+            <input type="number" id="ceMod" name="ceMod" size="5" required />
+            <br />
+
+            <h3 style="display: inline">Feats</h3>
 
             <label for="tough">Tough:</label>
-            <input type="checkbox" id="tough" name="tough">
+            <input type="checkbox" id="tough" name="tough" />
 
             <label for="bottomless">Bottomless CE:</label>
-            <input type="checkbox" id="bottomless" name="bottomless">
+            <input type="checkbox" id="bottomless" name="bottomless" />
 
             <label for="immense">Immense CE:</label>
-            <input type="checkbox" id="immense" name="immense">
-            <br/>
+            <input type="checkbox" id="immense" name="immense" />
+            <br />
 
-            <h3 style="display: inline;">Extras</h3>
+            <h3 style="display: inline">Extras</h3>
 
             <label for="hpFlat">HP / Level:</label>
-            <input type="number" id="hpPerLevel" name="hpPerLevel" size="5" required>
-            
+            <input
+                type="number"
+                id="hpPerLevel"
+                name="hpPerLevel"
+                size="5"
+                required
+            />
+
             <label for="hpPerLevel">HP Flat:</label>
-            <input type="number" id="hpFlat" name="hpFlat" size="5" required>
+            <input type="number" id="hpFlat" name="hpFlat" size="5" required />
 
             <label for="ceFlat">CE / Level:</label>
-            <input type="number" id="cePerLevel" name="cePerLevel" size="5" required>
-            
-            <label for="cePerLevel">CE Flat:</label>
-            <input type="number" id="ceFlat" name="ceFlat" size="5" required>
+            <input
+                type="number"
+                id="cePerLevel"
+                name="cePerLevel"
+                size="5"
+                required
+            />
 
+            <label for="cePerLevel">CE Flat:</label>
+            <input type="number" id="ceFlat" name="ceFlat" size="5" required />
         </form>
 
-        <h2 id="result1">HP: </h2>
-        <h2 id="result2">CE: </h2>
+        <h2 id="result1">HP:</h2>
+        <h2 id="result2">CE:</h2>
 
         <p><a href="../">Back to JjK 5e Page</a></p>
 
