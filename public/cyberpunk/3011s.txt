@@ -1,0 +1,7 @@
+## > Ivan's Long Boi 3011
+**Cost:** 500eb
+**Slots:** 1
+
+A Standard Quality Heavy Pistol with a 7-round capacity. It is fired with the Shoulder Arms Skill.
+Comes equipped with an installed a Pistol Long Barrel (IRv5 112) and a Sniping Scope.
+*Incompatible with all magazine attachments.*
